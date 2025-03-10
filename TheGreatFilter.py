@@ -24,9 +24,9 @@ def fetch_and_extract_text(url):
     # todo: add h1,h2,div,header, pic's alts...
     paragraphs = soup.find_all("p")
     text_list = [
-         p.get_text(strip=True)
-         for p in paragraphs
-         if p.get_text(strip=True, separator=" ")
+        p.get_text(strip=True)
+        for p in paragraphs
+        if p.get_text(strip=True, separator=" ")
      ]
 
     # Fallback: if no paragraphs, use all visible text
