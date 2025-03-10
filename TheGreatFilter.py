@@ -1,11 +1,12 @@
 import requests
-from bs4 import BeautifulSoup
 import re
 import numpy as np
+from bs4 import BeautifulSoup
 from sklearn.cluster import DBSCAN
 from sentence_transformers import SentenceTransformer
 
 
+# todo: Factor out most of the functions
 def fetch_and_extract_text(url):
     response = requests.get(url)
     if response.status_code != 200:
@@ -20,7 +21,7 @@ def fetch_and_extract_text(url):
     # First, try to extract text from <p> tags (usually main content)
     # todo: add h1,h2,div,header, pic's alts...
     paragraphs = soup.find_all("p")
-    text_list = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
+    text_list = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True, separator=" ")]
 
     # Fallback: if no paragraphs, use all visible text
     if not text_list:
@@ -60,7 +61,7 @@ def perform_dbscan(embeddings, eps=0.5, min_samples=2):
     return clustering.labels_
 
 
-def get_largest_cluster_texts(texts, labels):
+def get_largest_cluster(texts, labels):
     # Filter out noise (-1 label)
     cluster_ids = [label for label in labels if label != -1]
     if not cluster_ids:
@@ -76,7 +77,7 @@ def get_largest_cluster_texts(texts, labels):
     return selected_texts
 
 
-def extract_main_news_content(url):
+def extract_main_news(url):
     texts = fetch_and_extract_text(url)
     if not texts:
         raise Exception("No text content extracted from the page.")
@@ -88,17 +89,5 @@ def extract_main_news_content(url):
     labels = perform_dbscan(embeddings, eps=0.5, min_samples=2)
 
     # Get the texts in the largest cluster
-    largest_cluster_texts = get_largest_cluster_texts(texts, labels)
+    largest_cluster_texts = get_largest_cluster(texts, labels)
     return largest_cluster_texts
-
-
-if __name__ == "__main__":
-    url = "https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes"
-    try:
-        main_content = extract_main_news_content(url)
-        print("Extracted Main News Content:\n")
-        for i in main_content:
-            print(i)
-            test = input("Wait : ")
-    except Exception as e:
-        print("Error:", e)
