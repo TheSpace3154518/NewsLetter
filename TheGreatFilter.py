@@ -1,9 +1,11 @@
+import re
+
+import numpy as np
 import requests
 import re
-import numpy as np
 from bs4 import BeautifulSoup
-from sklearn.cluster import DBSCAN
 from sentence_transformers import SentenceTransformer
+from sklearn.cluster import DBSCAN
 
 
 # todo: Factor out most of the functions
@@ -21,7 +23,11 @@ def fetch_and_extract_text(url):
     # First, try to extract text from <p> tags (usually main content)
     # todo: add h1,h2,div,header, pic's alts...
     paragraphs = soup.find_all("p")
-    text_list = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True, separator=" ")]
+    text_list = [
+         p.get_text(strip=True)
+         for p in paragraphs
+         if p.get_text(strip=True, separator=" ")
+     ]
 
     # Fallback: if no paragraphs, use all visible text
     if not text_list:

@@ -9,7 +9,7 @@ with open("Tests/Al-Jazeera.txt", "r") as file:
     for line in predictedLines:
         if line in newsLines:
             correct += 1
-        else : 
+        else: 
             falsePositives += 1
             print(f"[Falsely Included] : {line}")
     print(f"Inlucding News Accuracy  : {(correct/len(newsLines)) * 100:.2f}% ")
