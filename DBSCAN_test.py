@@ -11,7 +11,6 @@ def fetch_and_extract_text(url):
     if response.status_code != 200:
         raise Exception(f"Failed to fetch page, status code {response.status_code}")
 
-
     soup = BeautifulSoup(response.text, "html.parser")
 
     # Remove script and style elements
@@ -19,29 +18,29 @@ def fetch_and_extract_text(url):
         element.extract()
 
     # First, try to extract text from <p> tags (usually main content)
-    #todo: add h1,h2,div,header, pic's alts...
+    # todo: add h1,h2,div,header, pic's alts...
     paragraphs = soup.find_all("p")
     text_list = [p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)]
-
 
     # Fallback: if no paragraphs, use all visible text
     if not text_list:
         texts = soup.find_all(text=True)
-        
+
+
         def is_visible(text):
             if text.parent.name in [
                 "style",
-                "script", 
-                "head", 
-                "title", 
-                "meta", 
+                "script",
+                "head",
+                "title",
+                "meta",
                 "[document]"
             ]:
                 return False
             if re.match("<!--.*-->", str(text)):
                 return False
             return True
-        
+
         visible_texts = filter(is_visible, texts)
         text_list = [text.strip() for text in visible_texts if text.strip()]
 
@@ -56,7 +55,9 @@ def compute_embeddings(texts, model_name="all-MiniLM-L6-v2"):
 
 def perform_dbscan(embeddings, eps=0.5, min_samples=2):
     # DBSCAN with cosine metric (note: sklearn’s DBSCAN expects a distance, so cosine similarity is transformed)
-    clustering = DBSCAN(eps=eps, min_samples=min_samples, metric="cosine").fit(embeddings)
+    clustering = DBSCAN(eps=eps, min_samples=min_samples, metric="cosine").fit(
+        embeddings
+    )
     return clustering.labels_
 
 
