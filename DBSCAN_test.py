@@ -26,7 +26,6 @@ def fetch_and_extract_text(url):
     if not text_list:
         texts = soup.find_all(text=True)
 
-
         def is_visible(text):
             if text.parent.name in [
                 "style",
@@ -34,7 +33,7 @@ def fetch_and_extract_text(url):
                 "head",
                 "title",
                 "meta",
-                "[document]"
+                "[document]",
             ]:
                 return False
             if re.match("<!--.*-->", str(text)):
