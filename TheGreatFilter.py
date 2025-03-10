@@ -2,7 +2,6 @@ import re
 
 import numpy as np
 import requests
-import re
 from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
@@ -27,7 +26,7 @@ def fetch_and_extract_text(url):
         p.get_text(strip=True)
         for p in paragraphs
         if p.get_text(strip=True, separator=" ")
-     ]
+    ]
 
     # Fallback: if no paragraphs, use all visible text
     if not text_list:
