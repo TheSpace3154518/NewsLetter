@@ -26,7 +26,7 @@ def fetch_and_extract_text(url):
     tags = soup.find_all(text_headers)
     text_list = [text.get_text().strip() for text in tags if text.get_text().strip()]
     for img in soup.find_all("img"):
-        alt_text = img.get("alt", "nothing") 
+        alt_text = img.get("alt", "nothing")
         text_list.append("Picture describing " + alt_text)
 
     return list(set(text_list))

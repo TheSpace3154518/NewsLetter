@@ -1,7 +1,7 @@
 from TheGreatFilter import extract_main_news
 
 
-# Test Model against a file 
+# Test Model against a file
 def TestModel(filePath, eps, samples, metric):
     with open(filePath, "r") as file:
         newsLines = file.read().split("\n")
@@ -18,5 +18,5 @@ def TestModel(filePath, eps, samples, metric):
                 falseIncluded.append(line)
                 # print(f"[Falsely Included] : {line}")
         newsAccuracy = (correct / len(newsLines)) * 100
-        noiseAccuracy = (correct / (correct+falsePositives)) * 100
+        noiseAccuracy = (correct / (correct + falsePositives)) * 100
         return noiseAccuracy, newsAccuracy, falseIncluded
