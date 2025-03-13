@@ -1,55 +1,34 @@
-import re
-
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
 
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.5"
+}
+MIN_LIMIT = 20
 
-# todo: Factor out most of the functions
 def fetch_and_extract_text(url):
-    response = requests.get(url)
+    response = requests.get(url, headers=headers)
     if response.status_code != 200:
         raise Exception(f"Failed to fetch page, status code {response.status_code}")
 
     soup = BeautifulSoup(response.text, "html.parser")
-
     # Remove script and style elements
     for element in soup(["script", "style"]):
-        element.extract()
+        element.decompose()
 
-    # First, try to extract text from <p> tags (usually main content)
-    # todo: add h1,h2,div,header, pic's alts...
-    paragraphs = soup.find_all("p")
-    text_list = [
-        p.get_text(strip=True)
-        for p in paragraphs
-        if p.get_text(strip=True, separator=" ")
-    ]
+    # get text
+    text_headers = ["p","h1","h2","h3","h4","h5","h6"]
+    tags = soup.find_all(text_headers)
+    text_list = [text.get_text().strip() for text in tags if text.get_text().strip()]
+    for img in soup.find_all("img"):
+        alt_text = img.get("alt", "nothing") 
+        text_list.append("Picture describing " + alt_text)
 
-    # Fallback: if no paragraphs, use all visible text
-    if not text_list:
-        texts = soup.find_all(text=True)
-
-        def is_visible(text):
-            if text.parent.name in [
-                "style",
-                "script",
-                "head",
-                "title",
-                "meta",
-                "[document]",
-            ]:
-                return False
-            if re.match("<!--.*-->", str(text)):
-                return False
-            return True
-
-        visible_texts = filter(is_visible, texts)
-        text_list = [text.strip() for text in visible_texts if text.strip()]
-
-    return text_list
+    return list(set(text_list))
 
 
 def compute_embeddings(texts, model_name="all-MiniLM-L6-v2"):
@@ -58,18 +37,16 @@ def compute_embeddings(texts, model_name="all-MiniLM-L6-v2"):
     return embeddings
 
 
-def perform_dbscan(embeddings, eps=0.5, min_samples=2):
-    # DBSCAN with cosine metric (note: sklearn’s DBSCAN expects a distance, so cosine similarity is transformed)
-    clustering = DBSCAN(eps=eps, min_samples=min_samples, metric="cosine").fit(
+def perform_dbscan(embeddings, texts,  eps, min_samples, metric):
+    clustering = DBSCAN(eps=eps, min_samples=min_samples, metric=metric).fit(
         embeddings
     )
-    return clustering.labels_
+    labels = clustering.labels_
 
-
-def get_largest_cluster(texts, labels):
     # Filter out noise (-1 label)
     cluster_ids = [label for label in labels if label != -1]
     if not cluster_ids:
+        
         # if no cluster is identified, return all texts
         return texts
 
@@ -82,7 +59,7 @@ def get_largest_cluster(texts, labels):
     return selected_texts
 
 
-def extract_main_news(url):
+def extract_main_news(url, eps, min_samples, metric):
     texts = fetch_and_extract_text(url)
     if not texts:
         raise Exception("No text content extracted from the page.")
@@ -90,9 +67,13 @@ def extract_main_news(url):
     # Compute embeddings for each text segment
     embeddings = compute_embeddings(texts)
 
-    # Adjust DBSCAN parameters as needed (eps and min_samples) depending on content
-    labels = perform_dbscan(embeddings, eps=0.5, min_samples=2)
-
-    # Get the texts in the largest cluster
-    largest_cluster_texts = get_largest_cluster(texts, labels)
+    # Get Largest Cluster
+    largest_cluster_texts = perform_dbscan(embeddings, texts, eps, min_samples, metric)
+    # for i in largest_cluster_texts:
+    #     print(i)
+    #     t = input("Wait : ")
     return largest_cluster_texts
+
+
+
+# extract_main_news("https://x.com/OpenAI", 0.5, 2, "euclidean")

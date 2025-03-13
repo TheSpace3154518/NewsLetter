@@ -1,16 +1,26 @@
 from TheGreatFilter import extract_main_news
 
-with open("Tests/Al-Jazeera.txt", "r") as file:
-    newsLines = file.read().split("\n")
-    predictedLines = extract_main_news(newsLines[0])
-    newsLines.pop(0)
-    correct = 0
-    falsePositives = 0
-    for line in predictedLines:
-        if line in newsLines:
-            correct += 1
-        else:
-            falsePositives += 1
-            print(f"[Falsely Included] : {line}")
-    print(f"Inlucding News Accuracy  : {(correct/len(newsLines)) * 100:.2f}% ")
-    print(f"Deleting Noise Accuracy : {(correct/(correct+falsePositives)) * 100:.2f}% ")
+
+#Test Model against a file 
+def TestModel(filePath, eps, samples, metric):
+    with open(filePath, "r") as file:
+        newsLines = file.read().split("\n")
+        predictedLines = extract_main_news(newsLines[0], eps, samples, metric)
+        newsLines.pop(0)
+        correct = 0
+        falsePositives = 0
+        falseIncluded = []
+        for line in predictedLines:
+            if line in newsLines:
+                correct += 1
+            else:
+                falsePositives += 1
+                falseIncluded.append(line)
+                # print(f"[Falsely Included] : {line}")
+        newsAccuracy = (correct/len(newsLines)) * 100
+        noiseAccuracy = (correct/(correct+falsePositives)) * 100
+        return noiseAccuracy, newsAccuracy, falseIncluded
+
+# a, b = TestModel("Tests/Al-Jazeera.txt")
+
+# print(f"\nNoise Falsely Included : {a:.2f} \nNews Included out of the total ones : {b:.2f}")
