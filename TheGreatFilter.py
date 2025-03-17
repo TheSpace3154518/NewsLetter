@@ -1,8 +1,12 @@
 import numpy as np
-import requests
-from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
+
+import time
+
+from bs4 import BeautifulSoup
+
+from selenium import webdriver
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
@@ -10,25 +14,41 @@ headers = {
 }
 MIN_LIMIT = 20
 
+# * JavaScript Rendering
+# todo: Handle The Pictures issue
+# todo: exploratory data analysis
+# todo: More Tests
 
 def fetch_and_extract_text(url):
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch page, status code {response.status_code}")
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    # Fetch HTML Page
+    chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_argument("--headless")  
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-gpu")
+
+    driver = webdriver.Chrome(options=chrome_options) 
+
+    driver.get(url)
+    time.sleep(10)
+    html = driver.page_source
+    driver.quit()
+
+
+
+    soup = BeautifulSoup(html, "html.parser")
     # Remove script and style elements
     for element in soup(["script", "style"]):
         element.decompose()
 
-    # get text
-    text_headers = ["p", "h1", "h2", "h3", "h4", "h5", "h6"]
+    # Get text
+    text_headers = ["p", "h1", "h2", "h3", "h4", "h5", "h6","span"]
     tags = soup.find_all(text_headers)
-    text_list = [text.get_text().strip() for text in tags if text.get_text().strip()]
-    for img in soup.find_all("img"):
-        alt_text = img.get("alt", "nothing")
-        text_list.append("Picture describing " + alt_text)
-
+    text_list = [text.get_text().strip() for text in tags if text.get_text().strip() and len(text.get_text()) >= 25]
+    # for img in soup.find_all("img"):
+    #     alt_text = img.get("alt", "nothing")
+    #     text_list.append("Picture describing " + alt_text)
+    print("\n".join(text_list))
     return list(set(text_list))
 
 
@@ -67,10 +87,10 @@ def extract_main_news(url, eps, min_samples, metric):
 
     # Get Largest Cluster
     largest_cluster_texts = perform_dbscan(embeddings, texts, eps, min_samples, metric)
-    # for i in largest_cluster_texts:
-    #     print(i)
-    #     t = input("Wait : ")
+    for i in largest_cluster_texts:
+        print(i)
+        t = input("Wait : ")
     return largest_cluster_texts
 
 
-# extract_main_news("https://x.com/OpenAI", 0.5, 2, "euclidean")
+extract_main_news("https://x.com/OpenAI", 0.5, 2, "euclidean")
