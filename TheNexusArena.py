@@ -8,12 +8,12 @@ import pandas as pd
 # OpenRouter API client setup
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("TOKEN"),  # Replace with your actual API key
+    api_key=os.getenv("TOKEN"), 
 )
 
 def read_from_excel():
     models = pd.read_excel('model_arena_results.xlsx')
-    models = pd.DataFrame(models)  # Fixed typo
+    models = pd.DataFrame(models)  
     models["Model"] = models['Model'].unique()
     return models
 
@@ -55,7 +55,7 @@ def generate_response(prompt, system_prompt, model_name):
     """Test multiple models on a given prompt."""
     results = []
     try:
-        print(f"🔄 Testing model: {model_name}...")  # Fixed variable name
+        print(f"🔄 Testing model: {model_name}...") 
         start_time = time.time()
         response = client.chat.completions.create(
             model=model_name,
@@ -90,7 +90,7 @@ def generate_response(prompt, system_prompt, model_name):
 
 def test_models(models, prompt, system_prompt):
     """Function to test multiple models (Placeholder for actual implementation)."""
-    model_names = models["Model"]  # Example models
+    model_names = models["Model"]
     all_results = []
     for model in model_names:
         all_results.extend(generate_response(prompt, system_prompt, model))
