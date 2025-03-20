@@ -1,12 +1,16 @@
 from openai import OpenAI
 import os
 import time
-import openpyxl
-from math import inf
+import numpy as np
+import pandas as pd
+import math
+from rich.console import Console
+from rich.panel import Panel
+from rich.text import Text
 # OpenRouter API client setup
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("TOKEN"),  # Replace with your actual API key
+    api_key=os.getenv("TOKEN"),
 )
 
 # List of models to compare
@@ -26,48 +30,12 @@ models = [
 # Excel file to store rankings
 excel_file = "model_arena_results.xlsx"
 
-# def load_or_create_excel():
-#     """Load existing Excel file or create a new one."""
-#     if not os.path.exists(excel_file):
-#         workbook = openpyxl.Workbook()
-#         sheet = workbook.active
-#         sheet.title = "Arena Results"
-#         sheet.append(["Model", "Total Score", "Last Score", "Avg Response Time", "Total Runs"])
-#         workbook.save(excel_file)
-#     return openpyxl.load_workbook(excel_file)
-
-# def update_excel(results):
-#     """Update Excel with new rankings."""
-#     workbook = load_or_create_excel()
-#     sheet = workbook.active
-#     model_data = {sheet.cell(row=i, column=1).value: i for i in range(2, sheet.max_row + 1)}
-
-#     for model, _, tokens, time_taken in results:
-#         score = tokens  # Use token count as a simple score metric
-#         row = model_data.get(model)
-
-#         if row:
-#             # Update existing model entry
-#             total_score = sheet.cell(row=row, column=2).value + score
-#             last_score = score
-#             total_runs = sheet.cell(row=row, column=5).value + 1
-#             avg_time = round(((sheet.cell(row=row, column=4).value * (total_runs - 1)) + time_taken) / total_runs, 2)
-
-#             sheet.cell(row=row, column=2, value=total_score)
-#             sheet.cell(row=row, column=3, value=last_score)
-#             sheet.cell(row=row, column=4, value=avg_time)
-#             sheet.cell(row=row, column=5, value=total_runs)
-#         else:
-#             # Insert new model entry
-#             sheet.append([model, score, score, time_taken, 1])
-
-#     workbook.save(excel_file)
+tslika = [["google/gemini-2.0-pro-exp-02-05:free", 1500, 1.0, 1.0, 1], 
+          ["qwen/qwq-32b:free", 1223, 1.0, 1.0, 1]]
 
 def generate_response(prompt, system_prompt, model_name):
     """Test multiple models on a given prompt."""
-    results = []
     try:
-        print(f"🔄 Testing model: {model}...")  # Debugging output
         start_time = time.time()
         response = client.chat.completions.create(
             model=model_name,
@@ -84,33 +52,130 @@ def generate_response(prompt, system_prompt, model_name):
         
         # Handle cases where response is empty
         if not generated_text:
-            print(f"⚠️ Warning: Model {model} returned an empty response.")
-            response_time = inf
-            results.append((model, "Error: Empty response", 0, response_time))
+            print(f"⚠️ Warning: Model {model_name} returned an empty response.")
+            response_time = math.inf
+            return "Error: Empty response", 0, response_time
 
         # Token count as length of words (basic approximation)
         token_count = len(generated_text.split())
 
-        results.append((model, generated_text, token_count, response_time))
+        return generated_text, token_count, response_time
 
     except Exception as e:
-        print(f"❌ Exception for model {model}: {str(e)}")
-        results.append((model, f"Error: {str(e)}", 0, 0))
+        print(f"❌ Exception for model {model_name}: {str(e)}")
+        return f"Error: {str(e)}", 0, 0
 
-    results.sort(key=lambda x: x[1], reverse=True)
-    return results
-
-# User inputs prompt
-system_prompt = input("Enter a system prompt: ")
-user_prompt = input("Enter a test prompt: ")
+def expected_score(model_a, model_b):
+    return 1 / (1 + 10**((model_a - model_b)/400))
 
 
-# Get results
-arena_results = test_models(user_prompt, system_prompt)
+def test_models(models, system_prompt, prompt):
+    first_contestant = np.random.randint(0,len(models.index))
+    second_contestant = np.random.randint(0,len(models.index))
+    while (second_contestant == first_contestant):
+        second_contestant = np.random.randint(0,len(models.index))
+    print(" ==================== Prompt ========================= ")
+    print("\t" + prompt)
+    print()
+    firstResponse, firstToken, firstDelay = generate_response(prompt, system_prompt, models.loc[first_contestant, "Model Name"])
+    print("\n ================ Model Number A ===================== ")
+    print("\t" + firstResponse)
+    print()
+    secondResponse, secondToken, secondDelay = generate_response(prompt, system_prompt, models.loc[second_contestant, "Model Name"])
+    print("\n ================ Model Number B ===================== ")
+    print("\t" + secondResponse)
+    first_data = models.loc[first_contestant, :].values
+    second_data = models.loc[second_contestant, :].values
+    Choice = input("\nshkon rbe7? A wla B wla Ta wa7ed? ( A | B | T ) : ")
+    
+    #Update ELO
+    ELO_COEFICCIENT = 100
+    a_state = 0
+    b_state = 0
+    verdict = ""
+    if Choice == "A":
+        verdict = " A won "
+        a_state = 1
+        b_state = 0
+    elif Choice == "B" :
+        verdict = " B won "
+        a_state = 0
+        b_state = 1
+    else:
+        verdict = " It was a tie "
+        a_state = 0.5
+        b_state = 0.5
+    first_data[1] = round(first_data[1] + ELO_COEFICCIENT *  (a_state - expected_score(second_data[1], first_data[1])))
+    second_data[1] = round(second_data[1] + ELO_COEFICCIENT *  (b_state - expected_score(first_data[1], second_data[1])))
 
-# Display results
-print("\n🏆 **Model Arena Results** 🏆\n")
-for rank, (model, response, tokens, time_taken) in enumerate(arena_results, start=1):
-    print(f"🔹 Rank #{rank} | **Model**: {model}")
-    print(f"🕒 Response Time: {time_taken}s | 📝 Token Count: {tokens}")
-    print(f"📜 Response:\n{response[:500]}...\n{'-'*50}\n")
+    # Update Local Runs
+    first_data[4] += 1
+    second_data[4] += 1
+
+    # Update Average response time
+    first_data[2] = round(((first_data[2]*(first_data[4] - 1)) + firstDelay)/(first_data[4]),2)
+    second_data[2] = round(((second_data[2]*(second_data[4] - 1)) + secondDelay)/(second_data[4]),2)
+
+    #Update Average Token Size
+    first_data[3] = round(((first_data[3]*(first_data[4] - 1)) + firstToken)/(first_data[4]),2)
+    second_data[3] = round(((second_data[3]*(second_data[4] - 1)) + secondToken)/(second_data[4]),2)
+        
+    #Update Original DataFrame
+    models.loc[first_contestant] = first_data
+    models.loc[second_contestant] = second_data
+
+    # Show Results
+    print("\n" + "=" * 45)
+    print(">        📊 Final Results Summary 📊        <")
+    print("=" * 45)
+    print(f"\n✅ Verdict: {verdict}\n")
+
+    print("🎯 Model A:")
+    print("-" * 20)
+    for i in models.columns:
+        print(f"  • {i} : {models.loc[first_contestant, i]}")
+
+    print("\n🎯 Model B:")
+    print("-" * 20)
+    for i in models.columns:
+        print(f"  • {i} : {models.loc[second_contestant, i]}")
+
+    print("=" * 45 + "\n")
+    
+
+
+# get input
+models =  pd.DataFrame(tslika, columns=["Model Name", "ELO", "Average Response Time", "Average Token Size", "Total Runs"]) #input
+
+current = 1
+
+# Print The Menu
+console = Console()
+
+banner_text = Text("Welcome To ChatBot Arena", style="bold magenta", justify="center")
+panel = Panel.fit(banner_text, border_style="bright_cyan", padding=(1, 4), title="🔥 AI Arena 🔥", subtitle="🤖 May the best model win!")
+
+console.print(panel)
+ 
+
+while True:
+    
+    print()
+    print("> > > Match Number : " + str(current))
+    current += 1
+    print()
+
+    # get prompts
+    prompt = input("| Yooo, Something in Mind? : ")
+    print()
+    system_prompt = "You are a helpful assistant"
+
+    #Arena
+    test_models(models,system_prompt, prompt)
+
+    #Write to History
+    
+    
+# Write Output
+
+# Who's Better Barcelona or Real Madrid?
