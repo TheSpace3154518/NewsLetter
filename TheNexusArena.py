@@ -3,28 +3,91 @@ import os
 import time
 import openpyxl
 from math import inf
+import pandas as pd
 # OpenRouter API client setup
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("TOKEN"),  # Replace with your actual API key
 )
-
-# List of models to compare
-models = [
-    "google/gemini-2.0-pro-exp-02-05:free",
-    "sophosympatheia/rogue-rose-103b-v0.2:free",
-    "open-r1/olympiccoder-7b:free",
-    "open-r1/olympiccoder-32b:free",
-    "google/gemma-3-27b-it:free",
-    "deepseek/deepseek-r1-zero:free",
-    "qwen/qwq-32b:free",
-    "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
-
-    "meta-llama/llama-3.3-70b-instruct:free"
-]
-
-# Excel file to store rankings
-excel_file = "model_arena_results.xlsx"
+def read_from_excel():
+    models = pd.read_excel('model_arena_results.xlsx')
+    # List of models to compare
+    models = pd.modelsFrame(models)
+    models["Model"] = models['Model'].unique()
+# results will have the model name, the score, the response time, the total runs, and winner(0) or loser(1)
+def update_excel(results, models):
+    for model, score, Avg_Response_Time, Total_Runs,_ in results:
+        if model in models['Model'].values:
+            models.loc[models['Model'] == model, 'ELO'] += score
+            models.loc[models['Model'] == model, 'Avg Response Time'] += Avg_Response_Time
+            models.loc[models['Model'] == model, 'Total Runs'] += 1
+        else:
+            models = models.append({'model': model, 'score': score, 'Avg_Response_Time': Avg_Response_Time, 'Total_Runs': Total_Runs}, ignore_index=True)
+def Elo_hist_to_csv(results, Elo_csv):
+    """
+    Update the ELO history CSV file with the latest results
+    
+    Args:
+        results (list): List of tuples with (model, score, Avg_Response_Time, Total_Runs)
+        Elo_csv (str): Path to the CSV file storing ELO history
+    
+    Returns:
+        None: The function updates the CSV file directly
+    """
+    try:
+        # Read existing ELO history
+        models_history = pd.read_csv(Elo_csv)
+        
+        # Get the current timestamp for this update
+        import datetime
+        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        
+        # For each model in the results, add a new entry to the history
+        for model, elo_score, avg_response_time, total_runs in results:
+            # Create a new row with the current data
+            new_row = {
+                'Timestamp': timestamp,
+                'Model': model,
+                'ELO': elo_score
+            }
+            
+            # Append the new row to the history DataFrame
+            models_history = pd.concat([models_history, pd.DataFrame([new_row])], ignore_index=True)
+        
+        # Save the updated history back to CSV
+        models_history.to_csv(Elo_csv, index=False)
+        print(f"✅ ELO history updated successfully in {Elo_csv}")
+        
+    except Exception as e:
+        print(f"❌ Error updating ELO history: {str(e)}")
+        
+        # If the file doesn't exist, create it with the current results
+        if "No such file or directory" in str(e):
+            try:
+                # Create a new DataFrame with the current results
+                columns = ['Timestamp', 'Model', 'ELO', 'Avg_Response_Time', 'Total_Runs']
+                new_history = pd.DataFrame(columns=columns)
+                
+                # Add timestamp to each result
+                import datetime
+                timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                
+                for model, elo_score, avg_response_time, total_runs in results:
+                    new_row = {
+                        'Timestamp': timestamp,
+                        'Model': model,
+                        'ELO': elo_score,
+                        'Avg_Response_Time': avg_response_time,
+                        'Total_Runs': total_runs
+                    }
+                    new_history = pd.concat([new_history, pd.DataFrame([new_row])], ignore_index=True)
+                
+                # Save the new history to CSV
+                new_history.to_csv(Elo_csv, index=False)
+                print(f"✅ Created new ELO history file: {Elo_csv}")
+            except Exception as create_error:
+                print(f"❌ Error creating new ELO history file: {str(create_error)}")
+    
 
 # def load_or_create_excel():
 #     """Load existing Excel file or create a new one."""
@@ -40,11 +103,11 @@ excel_file = "model_arena_results.xlsx"
 #     """Update Excel with new rankings."""
 #     workbook = load_or_create_excel()
 #     sheet = workbook.active
-#     model_data = {sheet.cell(row=i, column=1).value: i for i in range(2, sheet.max_row + 1)}
+#     model_models = {sheet.cell(row=i, column=1).value: i for i in range(2, sheet.max_row + 1)}
 
 #     for model, _, tokens, time_taken in results:
 #         score = tokens  # Use token count as a simple score metric
-#         row = model_data.get(model)
+#         row = model_models.get(model)
 
 #         if row:
 #             # Update existing model entry
