@@ -20,19 +20,8 @@ def read_from_excel():
     models["Model"] = models['Model'].unique()
     return models
 
-# results will have the model name, the score, the response time, the total runs, and winner(0) or loser(1)
+# results will have the Model, the score, the response time, the total runs, and winner(0) or loser(1)
 # Update the excel file with the new results
-def update_excel(results, models):
-    for model, score, avg_response_time, total_runs, _ in results:
-        if model in models['Model'].values:
-            models.loc[models['Model'] == model, 'ELO'] += score
-            models.loc[models['Model'] == model, 'Avg Response Time'] += avg_response_time
-            models.loc[models['Model'] == model, 'Total Runs'] += 1
-        else:
-            new_entry = pd.DataFrame([{ 
-                'Model': model, 'ELO': score, 'Avg Response Time': avg_response_time, 'Total Runs': total_runs
-            }])
-            models = pd.concat([models, new_entry], ignore_index=True)
 def elo_hist_to_csv(history_updates, elo_csv):
     with open(elo_csv, "a") as f:
         f.write(",".join(history_updates))
@@ -57,9 +46,10 @@ def generate_response(prompt, system_prompt, model_name):
         
         # Handle cases where response is empty
         if not generated_text:
-            print(f"⚠️ Warning: Model {model_name} returned an empty response.")
+            print(f"⚠️  Warning: Model {model_name} returned an empty response.")
+            models.loc[model_name, "Failures"] += 1
             response_time = inf
-            return "Error: Empty response", 0, response_time
+            return "Error: Empty response", -1, response_time
 
         # Token count as length of words (basic approximation)
         token_count = len(generated_text.split())
@@ -67,8 +57,9 @@ def generate_response(prompt, system_prompt, model_name):
         return generated_text, token_count, response_time
 
     except Exception as e:
-        print(f"❌ Exception for model {model_name}: {str(e)}")
-        return f"Error: {str(e)}", 0, 0
+        print(f"❌  Exception for model {model_name}: {str(e)}")
+        models.loc[model_name, "Failures"] += 1
+        return f"Error: {str(e)}", -1, 0
 
 def expected_score(model_a, model_b):
     return 1 / (1 + 10**((model_a - model_b)/400))
@@ -82,11 +73,17 @@ def test_models(models, system_prompt, prompt):
     print(" ==================== Prompt ========================= ")
     print("\t" + prompt)
     print()
-    firstResponse, firstToken, firstDelay = generate_response(prompt, system_prompt, models.loc[first_contestant, "Model Name"])
+    firstResponse, firstToken, firstDelay = generate_response(prompt, system_prompt, models.loc[first_contestant, "Model"])
+    if firstToken == -1:
+        print("Error in Model A")
+        return
     print("\n ================ Model Number A ===================== ")
     print("\t" + firstResponse)
     print()
-    secondResponse, secondToken, secondDelay = generate_response(prompt, system_prompt, models.loc[second_contestant, "Model Name"])
+    secondResponse, secondToken, secondDelay = generate_response(prompt, system_prompt, models.loc[second_contestant, "Model"])
+    if secondToken == -1:
+        print("Error in Model B")
+        return
     print("\n ================ Model Number B ===================== ")
     print("\t" + secondResponse)
     first_data = models.loc[first_contestant, :].values
@@ -152,8 +149,8 @@ def test_models(models, system_prompt, prompt):
 # get input
 models = read_from_excel()
 current = 1
-
 # Print The Menu
+print()
 console = Console()
 
 banner_text = Text("Welcome To ChatBot Arena", style="bold magenta", justify="center")
@@ -175,12 +172,9 @@ while True:
     system_prompt = "You are a helpful assistant"
 
     #Arena
-    results = test_models(models,system_prompt, prompt)
+    test_models(models,system_prompt, prompt)
 
     #Write to History
-    elo_models = models[: ,"ELO"].values
+    elo_models = [str(i) for i in models.loc[: ,"ELO"].values]
     elo_hist_to_csv(elo_models, 'elo_history.csv')
     models.to_excel('model_arena_results.xlsx', index=False)
-# Write Output
-
-# Who's Better Barcelona or Real Madrid?
