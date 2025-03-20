@@ -1,38 +1,43 @@
+import datetime
 from openai import OpenAI
 import os
-import time
-import numpy as np
-import pandas as pd
-import math
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
+import time
+import numpy as np
+import pandas as pd
+from math import inf
 # OpenRouter API client setup
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("TOKEN"),
+    api_key=os.getenv("TOKEN"), 
 )
 
-# List of models to compare
-models = [
-    "google/gemini-2.0-pro-exp-02-05:free",
-    "sophosympatheia/rogue-rose-103b-v0.2:free",
-    "open-r1/olympiccoder-7b:free",
-    "open-r1/olympiccoder-32b:free",
-    "google/gemma-3-27b-it:free",
-    "deepseek/deepseek-r1-zero:free",
-    "qwen/qwq-32b:free",
-    "cognitivecomputations/dolphin3.0-r1-mistral-24b:free",
+def read_from_excel():
+    models = pd.read_excel('model_arena_results.xlsx')
+    models = pd.DataFrame(models)  
+    models["Model"] = models['Model'].unique()
+    return models
 
-    "meta-llama/llama-3.3-70b-instruct:free"
-]
-
-# Excel file to store rankings
-excel_file = "model_arena_results.xlsx"
-
-tslika = [["google/gemini-2.0-pro-exp-02-05:free", 1500, 1.0, 1.0, 1], 
-          ["qwen/qwq-32b:free", 1223, 1.0, 1.0, 1]]
-
+# results will have the model name, the score, the response time, the total runs, and winner(0) or loser(1)
+# Update the excel file with the new results
+def update_excel(results, models):
+    for model, score, avg_response_time, total_runs, _ in results:
+        if model in models['Model'].values:
+            models.loc[models['Model'] == model, 'ELO'] += score
+            models.loc[models['Model'] == model, 'Avg Response Time'] += avg_response_time
+            models.loc[models['Model'] == model, 'Total Runs'] += 1
+        else:
+            new_entry = pd.DataFrame([{ 
+                'Model': model, 'ELO': score, 'Avg Response Time': avg_response_time, 'Total Runs': total_runs
+            }])
+            models = pd.concat([models, new_entry], ignore_index=True)
+def elo_hist_to_csv(history_updates, elo_csv):
+    with open(elo_csv, "a") as f:
+        f.write(",".join(history_updates))
+        f.flush()
+    
 def generate_response(prompt, system_prompt, model_name):
     """Test multiple models on a given prompt."""
     try:
@@ -53,7 +58,7 @@ def generate_response(prompt, system_prompt, model_name):
         # Handle cases where response is empty
         if not generated_text:
             print(f"⚠️ Warning: Model {model_name} returned an empty response.")
-            response_time = math.inf
+            response_time = inf
             return "Error: Empty response", 0, response_time
 
         # Token count as length of words (basic approximation)
@@ -68,7 +73,7 @@ def generate_response(prompt, system_prompt, model_name):
 def expected_score(model_a, model_b):
     return 1 / (1 + 10**((model_a - model_b)/400))
 
-
+# Run tests
 def test_models(models, system_prompt, prompt):
     first_contestant = np.random.randint(0,len(models.index))
     second_contestant = np.random.randint(0,len(models.index))
@@ -145,8 +150,7 @@ def test_models(models, system_prompt, prompt):
 
 
 # get input
-models =  pd.DataFrame(tslika, columns=["Model Name", "ELO", "Average Response Time", "Average Token Size", "Total Runs"]) #input
-
+models = read_from_excel()
 current = 1
 
 # Print The Menu
@@ -171,11 +175,12 @@ while True:
     system_prompt = "You are a helpful assistant"
 
     #Arena
-    test_models(models,system_prompt, prompt)
+    results = test_models(models,system_prompt, prompt)
 
     #Write to History
-    
-    
+    elo_models = models[: ,"ELO"].values
+    elo_hist_to_csv(elo_models, 'elo_history.csv')
+    models.to_excel('model_arena_results.xlsx', index=False)
 # Write Output
 
 # Who's Better Barcelona or Real Madrid?
