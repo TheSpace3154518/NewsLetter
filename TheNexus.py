@@ -86,6 +86,71 @@ def summarize_news(news_text):
         return f"❌ Error occurred: {str(e)}"
 
 
-# Example usage
+def generate_news_html(title, category, content):
+    """
+    Fills the HTML template with the provided news details.
+    """
+    html_template = f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{title}</title>
+        <style>
+            body {{
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+                display: flex;
+                justify-content: center;
+            }}
+            .container {{
+                max-width: 800px;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }}
+            h1 {{
+                color: #333;
+                text-align: center;
+            }}
+            h2 {{
+                color: #555;
+                text-align: center;
+                font-size: 20px;
+            }}
+            p {{
+                font-size: 18px;
+                line-height: 1.6;
+                color: #555;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>{title}</h1>
+            <h2>{category}</h2>
+            <p>{content}</p>
+        </div>
+    </body>
+    </html>
+    """
+    return html_template
+
+
+# Example usage with AI-generated summary
+title = input("What is the ttile of the news? ")
+category = input("What is the category of the news? ")
 summary = summarize_news(TGF_OUTPUT)
+news_html = generate_news_html(title , category, summary)
+
+# Save the generated email document
+with open("news_email.html", "w", encoding="utf-8") as file:
+    file.write(news_html)
+
+print("HTML news email saved successfully!")
+
 print(summary)
