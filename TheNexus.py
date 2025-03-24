@@ -58,15 +58,15 @@ def summarize_news(news_text):
     4. **Spice It Up** → Feel free to use light sarcasm depending on the situation, pop-culture references, or playful phrasing.
     5. **Format Correctly** → Return the summary wrapped in this template:
     6. **Maintain a Strong Narrative** → Ensure the paragraph is **cohesive, structured, and impactful**.
-    7. **Format the Output Correctly** → Return the summary wrapped in this template:
+    7. **Format the Output Correctly** → Return the summary wrapped in thi html template:
     Template:
-    <div>[Your summarized text here]</div>
+    <p>[Your summarized text here]</p>
 
     """
 
     try:
         completion = client.chat.completions.create(
-            model="google/gemini-2.0-pro-exp-02-05:free",
+            model="google/gemma-3-27b-it:free",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": news_text}
