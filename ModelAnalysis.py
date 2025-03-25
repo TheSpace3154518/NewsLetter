@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import umap
 
-url = "https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes"
+url = "https://www.artificialintelligence-news.com/"
 
 
 # todo: Parameters Tuning
 
 EPS = 1.2
-MIN_SAMPLES = 6
+MIN_SAMPLES = 10
 
 
 def project_embeddings(embeddings, umap_transform):
@@ -69,7 +69,7 @@ def plot_projection(global_projection, labels, texts, Title):
 
 
 def Projection():
-    html = fetch_text(url, 1)
+    html = fetch_text(url, 2)
     texts = extract_text(html)
     if not texts:
         raise Exception("No text content extracted from the page.")
@@ -79,27 +79,28 @@ def Projection():
     embeddings = np.array(compute_embeddings(texts))
     labels = perform_dbscan(embeddings, texts,EPS,MIN_SAMPLES)
 
-    umap_transform = umap.UMAP().fit(embeddings)
-    global_projection = project_embeddings(embeddings, umap_transform)
-    plot_projection(global_projection, labels,texts, "UMAP Projection")
+    # umap_transform = umap.UMAP().fit(embeddings)
+    # global_projection = project_embeddings(embeddings, umap_transform)
+    # plot_projection(global_projection, labels,texts, "UMAP Projection")
 
-    pca = PCA(n_components=30)
+    pca = PCA(n_components=min(30,len(embeddings)))
     X_pca = pca.fit_transform(embeddings)
-    tsne = TSNE(n_components=2, perplexity=30, random_state=42)
+    tsne = TSNE(n_components=2, perplexity=min(30,len(embeddings) - 1), random_state=42)
     embeddings_final = tsne.fit_transform(X_pca)
     plot_projection(embeddings_final, labels,texts, "PCA + T-SNE")
 
-    tsne = TSNE(n_components=2, perplexity=30, random_state=42)
+    tsne = TSNE(n_components=2, perplexity=min(30,len(embeddings) - 1), random_state=42)
     embeddings_tsne = tsne.fit_transform(embeddings)
     plot_projection(embeddings_tsne, labels,texts, "T-SNE")
 
-    print("------------------ Results -----------------\n")
-    noise, missed, falses = TestModel("./Tests/Al-Jazeera.txt", EPS,MIN_SAMPLES,"euclidean")
-    print(f"Noise Included : {noise:.3f}")
-    print(f"Missed Data : {missed:.3f}")
-    print(f"Falsely Included : {"\n".join(falses)}")
-    print()
-    print("--------------------------------------------")
+    # Testing model wih chosen params
+    # print("------------------ Results -----------------\n")
+    # noise, missed, falses = TestModel("./Tests/Al-Jazeera.txt", EPS,MIN_SAMPLES,"euclidean")
+    # print(f"Noise Included : {noise:.3f}")
+    # print(f"Missed Data : {missed:.3f}")
+    # print(f"Falsely Included : {"\n".join(falses)}")
+    # print()
+    # print("--------------------------------------------")
 
 
     plt.show()

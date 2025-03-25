@@ -14,9 +14,18 @@ headers = {
 MIN_LIMIT = 20
 
 # * JavaScript Rendering
-# todo: Handle The Pictures issue
+# * Handle The Pictures issue
 # todo: exploratory data analysis
 # todo: More Tests
+# todo: ma3rftsh kash kaysm
+
+# ? =========== Scraping Principles =============
+# ?     - targeted Tags : p, h1, h2 ,h3 ,h4 ,h5, h6, span, div (special treatment)
+# ?     - Text Must be >= 32, the longer the richer with info
+# ?     - Pictures are included as " Picture describing " + alt(Picture)  
+# ?     - Trademarks are eliminated
+# ? =============================================
+
 
 def extract_text(html):
 
@@ -26,14 +35,25 @@ def extract_text(html):
         element.decompose()
 
     # Get text
-    text_headers = ["p", "h1", "h2", "h3", "h4", "h5", "h6","span"]
+    text_headers = ["p", "h1", "h2", "h3", "h4", "h5", "h6", "span", "a"]
+    forbidden_characters = ["™", "℠", "®", "©"]
     tags = soup.find_all(text_headers)
-    text_list = [text.get_text().strip() for text in tags if text.get_text().strip() and len(text.get_text()) >= 25]
+    text_list = [text.get_text().strip() for text in tags if text.get_text().strip()]
+
+    # Get Pictures
     for img in soup.find_all("img"):
         alt_text = img.get("alt", "nothing")
         text_list.append("Picture describing " + alt_text)
-    # print("\n".join(text_list))
-    return list(set(text_list))
+    
+    # Get Div Text
+    divs = soup.find_all(["div"])
+    for div in divs:
+        div_text = [t.get_text(separator="\n").strip() for t in div.find_all(text=True) if t.parent.name not in text_headers]
+        text_list.extend(div_text)
+
+    # Text Preprocessing
+    filtered_text_list = [text for text in text_list if len(text) >= 32 and not np.any([(symbol in text) for symbol in forbidden_characters])]
+    return list(set(filtered_text_list))
 
 
 def compute_embeddings(texts, model_name="all-MiniLM-L6-v2"):
@@ -83,4 +103,4 @@ def main(url, eps=0.5, min_samples=2, metric="euclidiean"):
 
 
 # main("https://x.com/OpenAI", 0.5, 2, "euclidean")
-# main("https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes", 0.5, 2, "euclidean")
+# main("https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes", 1.2, 8, "euclidean")

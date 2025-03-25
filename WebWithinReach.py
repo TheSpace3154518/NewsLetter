@@ -4,6 +4,9 @@ import requests
 import time
 
 
+# todo : Needs Better Selenium Implementation
+# todo : Solve The Different Sources Problem
+
 def fetch_text(url, method=0):
 
     if (method == 0):
