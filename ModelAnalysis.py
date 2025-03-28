@@ -1,5 +1,5 @@
 from TheGreatFilter import compute_embeddings, extract_text, perform_dbscan
-from WebWithinReach import fetch_text
+from main import fetch_text
 from ModelTests import TestModel
 
 from sklearn.manifold import TSNE
@@ -9,13 +9,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import umap
 
-url = "https://www.artificialintelligence-news.com/"
+url = "https://www.wired.com/"
 
 
-# todo: Parameters Tuning
 
 EPS = 1.2
-MIN_SAMPLES = 10
+MIN_SAMPLES = 2
 
 
 def project_embeddings(embeddings, umap_transform):

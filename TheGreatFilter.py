@@ -2,22 +2,13 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
 
-from WebWithinReach import fetch_text
+from main import fetch_text
 
 from bs4 import BeautifulSoup
 
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "Accept-Language": "en-US,en;q=0.5",
-}
-MIN_LIMIT = 20
+MIN_LIMIT = 32
 
-# * JavaScript Rendering
-# * Handle The Pictures issue
-# todo: exploratory data analysis
-# todo: More Tests
-# todo: ma3rftsh kash kaysm
 
 # ? =========== Scraping Principles =============
 # ?     - targeted Tags : p, h1, h2 ,h3 ,h4 ,h5, h6, span, div (special treatment)
@@ -52,7 +43,7 @@ def extract_text(html):
         text_list.extend(div_text)
 
     # Text Preprocessing
-    filtered_text_list = [text for text in text_list if len(text) >= 32 and not np.any([(symbol in text) for symbol in forbidden_characters])]
+    filtered_text_list = [text for text in text_list if len(text) >= MIN_LIMIT and not np.any([(symbol in text) for symbol in forbidden_characters])]
     return list(set(filtered_text_list))
 
 

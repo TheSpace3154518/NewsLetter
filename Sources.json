@@ -1,0 +1,73 @@
+[
+    {
+        "Source" : "DeepLearning.Ai",
+        "URL" : "https://www.deeplearning.ai/the-batch/tag/data-points/",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"a, href=/the-batch/..."
+    },
+    {
+        "Source" : "DeepLearning.Ai",
+        "URL" : "https://www.deeplearning.ai/the-batch/tag/research/",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"a, href=/the-batch/..."
+    },
+    {
+        "Source" : "Google DeepMind",
+        "URL" : "https://deepmind.google/discover/blog/",
+        "post":"gdm-pagination > ul > li",
+        "time":"time",
+        "clickEvent":"a .card"
+    },
+    {
+        "Source" : "Tech Crunch",
+        "URL" : "https://techcrunch.com/category/artificial-intelligence/",
+        "post":".loop-card",
+        "time":"time",
+        "clickEvent":"a .loop-card__title-link"
+    },
+    {
+        "Source" : "OpenAI Blog",
+        "URL" : "https://openai.com/research/index/",
+        "post":"div .items-baseline",
+        "time":"time",
+        "clickEvent":"a"
+    },
+    {
+        "Source" : "Anthropic News",
+        "URL" : "https://www.anthropic.com/news",
+        "post":"a .PostCard_post-card__z_Sqq",
+        "time":"div .PostList_post-date__djrOA",
+        "clickEvent":"a .PostCard_post-card__z_Sqq"
+    },
+    {
+        "Source" : "Andrej Karpathy on Twitter",
+        "URL" : "https://x.com/karpathy",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"article"
+    },
+    {
+        "Source" : "OpenAI on Twitter",
+        "URL" : "https://x.com/OpenAI",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"article"
+    },
+    {
+        "Source" : "hardmaru on Twitter",
+        "URL" : "https://x.com/hardmaru",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"article"
+    },
+    {
+        "Source" : "DeepSeek AI on Twitter",
+        "URL" : "https://x.com/deepseek_ai",
+        "post":"article",
+        "time":"time",
+        "clickEvent":"article"
+    }
+    
+]
