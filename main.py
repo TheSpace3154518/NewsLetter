@@ -17,21 +17,20 @@ import dateparser
 # * JavaScript Rendering
 # * Handle The Pictures issue
 # * exploratory data analysis
-# todo: split based 3la \n for divs
+# * split based 3la \n for divs
 # todo: better solution for photos
-# todo: Multiple sources collision
 
 # ! TheNexus.py ===========
 # todo: Check if news are AI news
 # todo: include Time + Source
-# todo: Check for duplicates
+# todo: Multiple sources collision
 
 # ! Scraping ====================
 # * Needs Better Selenium Implementation
 # * Solve The Different Sources Problem
 # * Always Check for Time
+# * Bypass CDN
 # todo: Pop-up ads
-# todo: Bypass CDN
 
 # ! ModelAnalsis.py =============
 # todo: Parameters Tuning

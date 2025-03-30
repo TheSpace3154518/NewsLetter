@@ -41,8 +41,11 @@ def extract_text(html):
     # Get Div Text
     divs = soup.find_all(["div"])
     for div in divs:
-        div_text = [t.get_text(separator="\n").strip() for t in div.find_all(text=True) if t.parent.name not in text_headers]
-        text_list.extend(div_text)
+        div_text = [t.get_text(separator="\n").strip() for t in div.find_all(string=True) if t.parent.name not in text_headers]
+        contained_text = []
+        for text in div_text:
+            contained_text.extend([not_empty for not_empty in text.split("\n") if not_empty])
+        text_list.extend(contained_text)
 
     # Text Preprocessing
     filtered_text_list = [text for text in text_list if len(text) >= MIN_LIMIT and not np.any([(symbol in text) for symbol in forbidden_characters])]
@@ -83,5 +86,8 @@ def filter_html(html, eps, min_samples):
     return largest_cluster_texts
 
 
-# main("https://x.com/OpenAI", 0.5, 2, "euclidean")
-# main("https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes", 1.2, 8, "euclidean")
+# Testing
+# import requests
+# response = requests.get("https://www.aljazeera.com/news/2025/3/9/syrias-president-calls-for-peace-calm-amid-brutal-clashes") 
+# html = response.text
+# filter_html(html, 1.2, 8)
