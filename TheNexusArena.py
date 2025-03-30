@@ -153,7 +153,7 @@ current = 1
 print()
 console = Console()
 
-banner_text = Text("Welcome To ChatBot Arena", style="bold magenta", justify="center")
+banner_text = Text("Welcome To The Nexus Arena", style="bold magenta", justify="center")
 panel = Panel.fit(banner_text, border_style="bright_cyan", padding=(1, 4), title="🔥 AI Arena 🔥", subtitle="🤖 May the best model win!")
 
 console.print(panel)
