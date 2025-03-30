@@ -1,0 +1,46 @@
+https://techcrunch.com/category/artificial-intelligence/
+Anthropic says this is the industry’s first “hybrid” reasoning model, because it can both fire off quick answers and really think things through when needed. It also gives users control over how long the model can think for, per Anthropic. Sonnet 3.7 is available to all Claude users, but heavier users will need a $20-per-month Pro plan.
+building web apps and code agents
+has upgraded its existing GPT-4o model
+OpenAI’s o1 family is meant to produce better answers by “thinking” through responses through a hidden reasoning feature. The model excels at coding, math, and safety, OpenAI claims, but has issues with trying to deceive humans, too. Using o1 requires subscribing to ChatGPT Plus, which is $20 a month.
+OpenAI has upgraded its existing GPT-4o model to generate images, not just text. The souped-up model soon went viral for transforming images into Studio Ghibli-style anime, despite obvious copyright concerns. Accessing GPT-4o requires, at minimum, a $20 per month ChatGPT Plus subscription.
+Sora is a model that creates realistic videos based on text. While it can generate entire scenes rather than just clips, OpenAI admits that it often generates “unrealistic physics.” It’s currently only available on paid versions of ChatGPT, starting with Plus, which is $20 a month.
+summarizes Google’s search results
+enhanced version of its flagship Grok 2 chatbot
+Stability AI’s Stable Virtual Camera
+Google Gemini’s much-awaited flagship model says it excels at coding and understanding general knowledge. It also has a super-long context window of 2 million tokens, helping users who need to quickly process massive chunks of text. The service requires (at minimum) a Google One AI Premium subscription of $19.99 a month.
+Grok 3 is the latest flagship model from Elon Musk-founded startup xAI. It’s claimed to outperform other leading models on math, science, and coding. The model requires X Premium (which is $50 per month.) After one study found Grok 2 leaned left, Musk pledged to shift Grok more “politically neutral” but it’s not yet clear if that’s been achieved.
+Image generation startup Stability AI has launched a model that the company says can generate 3D scenes and camera angles from a single 2D image. However, it still struggles with scenes featuring more complex elements like humans and moving water. The model is available for noncommercial research use on HuggingFace.
+Charles Rollet is a senior reporter at TechCrunch. His investigative reporting has led to U.S. government sanctions against four tech companies, including China’s largest AI firm. Prior to joining TechCrunch, Charles covered the surveillance industry for IPVM. Charles is based in San Francisco, where he enjoys hiking with his dogs. You can contact Charles securely on Signal at charlesrollet.12 or +1-628-282-2811.
+industry’s first “hybrid” reasoning model
+To cut through the noise, TechCrunch has compiled an overview of the most advanced AI models released since 2024, with details on how to use them and what they’re best for. We’ll keep this list updated with the latest launches, too.
+This is OpenAI’s latest reasoning model and is optimized for STEM-related tasks like coding, math, and science. It’s not OpenAI’s most powerful model but because it’s smaller, the company says it’s significantly lower cost. It is available for free but requires a subscription for heavy users.
+produces highly photorealistic images
+Claude Sonnet 3.5 is a model Anthropic claims as being best in class. It’s become known for its coding capabilities and is considered a tech insider’s chatbot of choice. The model can be accessed for free on Claude, although heavy users will need a $20 monthly Pro subscription. While it can understand images, it can’t generate them.
+launched app versions of Le Chat
+OpenAI calls Orion their largest model to date, touting its strong “world knowledge” and “emotional intelligence.” However, it underperforms on certain benchmarks compared to newer reasoning models. Orion is available to subscribers of OpenAI’s $200-per-month plan.
+Gemini 2.5 Pro Experimental, a reasoning model, excels at building web apps and code agents according to Google. It underperforms on one popular coding benchmark compared to Claude Sonnet 3.7, however. The model requires a $20 monthly Gemini Advanced subscription.
+newest and most advanced version
+issues with trying to deceive humans, too.
+technical metrics often reveal little
+This model is one of the few to rival OpenAI’s o1 on certain industry benchmarks, excelling in math and coding. Ironically for a “reasoning model,” it has “room for improvement in common sense reasoning,” Alibaba says. It also incorporates Chinese government censorship, TechCrunch testing shows. It’s free and open source.
+OpenAI’s Deep Research is designed for doing in-depth research on a topic with clear citations. This service is only available with ChatGPT’s $200-per-month Pro subscription. OpenAI recommends it for everything from science to shopping research, but beware that hallucinations remain a problem for AI.
+designed for doing in-depth research
+Claude’s Computer Use is meant to take control of your computer to complete tasks like coding or booking a plane ticket, making it a predecessor of OpenAI’s Operator. Computer use, however, remains in beta. Pricing is via API: $0.80 per million tokens of input and $4 per million tokens of output.
+OpenAI’s Operator is meant to be a personal intern that can do things independently, like help you buy groceries. It requires a $200-per-month ChatGPT Pro subscription. AI agents hold a lot of promise, but they’re still experimental: A Washington Post reviewer says Operator decided on its own to order a dozen eggs for $31, paid with the reviewer’s credit card.
+There are literally over a million AI models out there: Hugging Face, for example, hosts over 1.4 million. So this list might miss some models that perform better, in one way or another.
+OpenAI has touted GPT 4o-mini as its most affordable and fastest model yet, thanks to its small size. It’s meant to enable a broad range of tasks like powering customer service chatbots. The model is available on ChatGPT’s free tier. It’s better suited for high-volume simple tasks compared to more complex ones.
+Cohere’s Command R+ model excels at complex retrieval-augmented generation (or RAG) applications for enterprises. That means it can find and cite specific pieces of information really well. (The inventor of RAG actually works at Cohere.) Still, RAG doesn’t fully solve AI’s hallucination problem.
+doesn’t fully solve AI’s hallucination problem.
+Elon Musk’s AI company, xAI, has launched an enhanced version of its flagship Grok 2 chatbot it claims is “three times faster.” Free users are limited to 10 questions every two hours on Grok, while subscribers to X’s Premium and Premium+ plans enjoy higher usage limits. xAI also launched an image generator, Aurora, that produces highly photorealistic images, including some graphic or violent content.
+Deep Research summarizes Google’s search results in a simple and well-cited document. The service is helpful for students and anyone else who needs a quick research summary. However, its quality isn’t nearly as good as an actual peer-reviewed paper. Deep Research requires a $19.99 Google One AI Premium subscription.
+Adding to the confusion is that AI models are often promoted based on industry benchmarks. But these technical metrics often reveal little about how real people and companies actually use them.
+Cohere released a multimodal model called Aya Vision that it claims is best in class at doing things like captioning images and answering questions about photos. It also excels in languages other than English, unlike other models, Cohere claims. It is available for free on WhatsApp.
+transforming images into Studio Ghibli-style anime
+AI models are being cranked out at a dizzying pace, by everyone from Big Tech companies like Google to startups like OpenAI and Anthropic. Keeping track of the latest ones can be overwhelming.
+Google Gemini 2.0 Pro Experimental
+Mistral has launched app versions of Le Chat, a multimodal AI personal assistant. Mistral claims Le Chat responds faster than any other chatbot. It also has a paid version with up-to-date journalism from the AFP. Tests from Le Monde found Le Chat’s performance impressive, although it made more errors than ChatGPT.
+This is the newest and most advanced version of Meta’s open source Llama AI models. Meta has touted this version as its cheapest and most efficient yet, especially for math, general knowledge, and instruction following. It is free and open source.
+This Chinese AI model took Silicon Valley by storm. DeepSeek’s R1 performs well on coding and math, while its open source nature means anyone can run it locally. Plus, it’s free. However, R1 integrates Chinese government censorship and faces rising bans for potentially sending user data back to China.
+Open source devs are fighting AI crawlers with cleverness and vengeance
+The hottest AI models, what they do, and how to use them

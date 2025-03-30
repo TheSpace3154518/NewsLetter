@@ -1,0 +1,39 @@
+https://techcrunch.com/2025/03/27/open-source-devs-are-fighting-ai-crawlers-with-cleverness-and-vengeance/
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+And Cloudflare, perhaps the biggest commercial player offering several tools to fend off AI crawlers, last week released a similar tool called AI Labyrinth.
+a reverse proxy proof-of-work check
+“It’s futile to block AI crawler bots because they lie, change their user agent, use residential IP addresses as proxies, and more,” Iaso lamented.
+“Think we need to aim for the bots to get _negative_ utility value from visiting our traps, not just zero value,” xyzal explained.
+Since the likelihood of that is zilch, developers, particularly in FOSS, are fighting back with cleverness and a touch of humor.
+“Anubis weighed your soul (heart) and if it was heavier than a feather, your heart got eaten and you, like, mega died,” Iaso told TechCrunch. If a web request passes the challenge and is determined to be human, a cute anime picture announces success. The drawing is “my take on anthropomorphizing Anubis,” says Iaso. If it’s a bot, the request gets denied.
+In a “cry for help” blog post in January, FOSS developer Xe Iaso described how AmazonBot relentlessly pounded on a Git server website to the point of causing DDoS outages. Git servers host FOSS projects so that anyone who wants can download the code or contribute to it.
+“They will scrape your site until it falls over, and then they will scrape it some more. They will click every link on every link on every link, viewing the same pages over and over and over and over. Some of them will even click on the same link multiple times in the same second,” the developer wrote in the post.
+Jonathan Corbet, a famed FOSS developer who runs Linux industry news site LWN, warned that his site was
+But this bot ignored Iaso’s robot.txt, hid behind other IP addresses, and pretended to be other users, Iaso said.
+The issue is that many AI bots don’t honor the Robots Exclusion Protocol robot.txt file, the tool that tells bots what not to crawl, originally created for search engine bots.
+‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
+A few days ago on Hacker News, user xyzal suggested loading robot.txt forbidden pages with “a bucket load of articles on the benefits of drinking bleach” or “articles about positive effect of catching measles on performance in bed.”
+spending “from 20-100% of my time in any given week mitigating hyper-aggressive LLM crawlers at scale,” and “experiencing dozens of brief outages per week.”
+The instant popularity of Anubis shows that Iaso’s pain is not unique. In fact, Venerandi shared story after story:
+AI web-crawling bots are the cockroaches of the internet, many software developers believe. Some devs have started fighting back in ingenuous, often humorous ways.
+As it happens, in January, an anonymous creator known as “Aaron” released a tool called Nepenthes that aims to do exactly that. It traps crawlers in an endless maze of fake content, a goal that the dev admitted to Ars Technica is aggressive if not downright malicious. The tool is named after a carnivorous plant.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+The wryly named project has spread like the wind among the FOSS community. Iaso shared it on GitHub on March 19, and in just a few days, it collected 2,000 stars, 20 contributors, and 39 forks.
+So Iaso fought back with cleverness, building a tool called Anubis.
+By their nature, sites hosting free and open source (FOSS) projects share more of their infrastructure publicly, and they also tend to have fewer resources than commercial products.
+It’s intended to “slow down, confuse, and waste the resources of AI Crawlers and other bots that don’t respect ‘no crawl’ directives,” Cloudflare described in its blog post. Cloudflare said it feeds misbehaving AI crawlers “irrelevant content rather than extracting your legitimate website data.”
+Let that sink in for a moment — that developers “even have to turn to banning entire countries” just to fend off AI bots that ignore robot.txt files, says Venerandi.
+Open source devs are fighting AI crawlers with cleverness and vengeance
+But DeVault also issued a public, heartfelt plea for a more direct fix: “Please stop legitimizing LLMs or AI image generators or GitHub Copilot or any of this garbage. I am begging you to stop using them, stop talking about them, stop making new ones, just stop.”
+While any website might be targeted by bad crawler behavior — sometimes taking down the site — open source developers are “disproportionately” impacted, writes Niccolò Venerandi, developer of a Linux desktop known as Plasma and owner of the blog LibreNews.
+Anubis is a reverse proxy proof-of-work check that must be passed before requests are allowed to hit a Git server. It blocks bots but lets through browsers operated by humans.
+Beyond weighing the soul of a web requester, other devs believe vengeance is the best defense.
+SourceHut Drew DeVault described
+being slowed by DDoS-level traffic
+The funny part: Anubis is the name of a god in Egyptian mythology who leads the dead to judgment.
+SourceHut’s DeVault told TechCrunch that “Nepenthes has a satisfying sense of justice to it, since it feeds nonsense to the crawlers and poisons their wells, but ultimately Anubis is the solution that worked” for his site.
+Kevin Fenzi, the sysadmin of the enormous Linux Fedora project,
+Venerandi tells TechCrunch that he knows of multiple other projects experiencing the same issues. One of them “had to temporarily ban all Chinese IP addresses at one point.”
+Sam Altman firing drama detailed in new book excerpt
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+had gotten so aggressive, he had to block the entire country of Brazil from access.

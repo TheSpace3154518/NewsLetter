@@ -1,0 +1,17 @@
+https://techcrunch.com/2025/03/26/openai-adopts-rival-anthropics-standard-for-connecting-ai-models-to-data/
+MCP lets models draw data from sources like business tools and software to complete tasks, as well as from content repositories and app development environments. The protocol enables developers to build two-way connections between data sources and AI-powered applications, such as chatbots.
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Anthropic’s Model Context Protocol
+OpenAI is embracing rival Anthropic’s standard for connecting AI assistants to the systems where data resides.
+Picture describing OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.
+OpenAI says it intends to share more about its MCP plans in the coming months.
+OpenAI peels back ChatGPT’s safeguards around image creation
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+OpenAI adopts rival Anthropic’s standard for connecting AI models to data
+In a post on X on Wednesday, OpenAI CEO Sam Altman said that OpenAI will add support for Anthropic’s Model Context Protocol, or MCP, across its products, including the desktop app for ChatGPT. MCP is an open source standard that helps AI models produce better, more relevant responses to certain queries.
+Developers can expose data through “MCP servers” and build “MCP clients” — for instance, apps and workflows — that connect to those servers on command. In the months since Anthropic open sourced MCP, companies including Block, Apollo, Replit, Codeium, and Sourcegraph have added MCP support for their platforms.
+“People love MCP and we are excited to add support across our products,” Altman said. “[It’s] available today in the Agents SDK and support for [the] ChatGPT desktop app [and] Responses API [is] coming soon!”
+Kyle Wiggers is TechCrunch’s AI Editor. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+Sam Altman firing drama detailed in new book excerpt
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+“Excited to see the MCP love spread to OpenAI – welcome!” Anthropic chief product officer Mike Krieger said in an X post. “MCP has [become a] thriving open standard with thousands of integrations and growing. LLMs are most useful when connecting to the data you already have and software you already use.”

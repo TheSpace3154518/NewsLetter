@@ -1,0 +1,19 @@
+https://techcrunch.com/2025/03/26/amazon-launches-personalized-shopping-prompts-as-part-of-its-generative-ai-push/
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Picture describing TechCrunch Logo
+AI-generated product information
+Picture describing Amazon Interests
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+Amazon continues to infuse AI into its shopping tools to encourage customers to make more purchases. The company announced on Wednesday a new feature called “Interests,” aimed at creating a more personalized and conversational search experience.
+Additionally, the tool continuously works in the background, notifying users when new items that match their interests become available, as well as providing updates on relevant products, restocks, and deals.
+The company plans to expand access to more U.S. customers in the coming months.
+Lauren covers media, streaming, apps and platforms at TechCrunch.
+For instance, Google has recently upgraded its Shopping tab, introducing a “Vision Match” tool that allows shoppers to describe a garment they envision, with the AI suggesting similar ideas based on the description. It also launched an AI summary tool to provide product information.
+Plus, several other companies are likely to follow suit in order to enhance the shopping experience for customers, and some have already begun to do so.
+Currently, Interests is available to a select group of users in the U.S. via the Amazon Shopping app on iOS and Android devices, as well as on the mobile website under the “Me” tab.
+The Interests feature represents a natural progression for the tech giant as it continues to integrate AI into its app. The feature joins a host of AI-powered features already on Amazon, including its AI shopping assistant Rufus, AI Shopping Guides, review summaries, AI-generated product information, and more.
+a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
+With the new feature, customers can enter tailored prompts in the search bar, reflecting their interests, preferences, and even their budget. For example, users might ask for “model building kits and accessories for hobbyist engineers” or “brewing tools and gadgets for coffee lovers.”
+Interests leverages large language models (LLMs) to convert everyday language into queries that traditional search engines can understand, resulting in more relevant product suggestions.
+Amazon launches personalized shopping prompts as part of its generative AI push

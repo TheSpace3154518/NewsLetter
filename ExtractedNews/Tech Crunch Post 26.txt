@@ -1,0 +1,25 @@
+https://techcrunch.com/2025/03/25/outreach-founder-manny-medina-has-a-new-startup-that-helps-ai-agents-get-paid/
+“Agents are replacing roles, human roles, not the entire job, but entire roles,” Medina says.
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+It’s the AI agent era version of Zuora (SaaS renewal billing software) meets SuccessFactors (SaaS HR management software).
+Picture describing TechCrunch Logo
+“So how do you help them price for the job that they’re delivering?” Medina said of the startups offering agents. “They needed the ability to try new things with different customers. They needed the ability to measure their margins.”
+Javice found guilty of defrauding JPMorgan in $175M startup purchase
+The Paid platform is being marketed to startups, rather than enterprises like Salesforce and Microsoft, which are also offering agentic platforms. Paid has three such companies as beta customers, it says: Logic.app, 11x, VidLab7, Artisan, and HappyRobot.
+Companies developing AI agents also can’t charge like the last big generational change in software, SaaS, charging by usage because, if agents work properly, they “are taking over a whole role,” Medina says.
+In doing so, it also tracks agents’ output, which also lets startups validate the return on investment.
+At the same time, the costs associated with providing agents are variable, depending on how many LLM tokens it needs to execute its training and its tasks.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+Agents are so new that startups haven’t had to deal with processes that provide profitable billing, let alone renewals. Paid allows agentic startups to create pricing — fixed or variable — with an eye to profitable margins.
+The premise of Paid is that the old ways of charging for software won’t work with AI agents. Agentic companies can’t charge per user or per seat, meaning based on how many people are using the software (like old-school Microsoft Office). The whole point is that one employee could run lots of agents. Or agents will run by themselves with no human overseer at all.
+Medina came up with the idea for Paid after spending months talking to dozens of agentic platform startups. In these conversations, a common complaint emerged. “They didn’t really know what to charge,” Medina told TechCrunch.
+He’s also practicing what he preaches, using AI to build this new startup. Paid engineers vibe coded the initial product demos with tools like v0, Replit, and Lovable.
+Manny Medina, best known as the founder and former CEO of the $4.4 billion valued sales automation company Outreach, just launched one such startup called Paid, he told TechCrunch exclusively.Paid doesn’t make AI agents. It offers a platform that makes sure they get paid, profitably. Paid announced Monday that it raised €10 million (about $11 million) in a pre-seed investment from European powerhouse EQT Ventures, Sequoia, and GTMFund.
+“This is what is so much fun about building a company right now. We have two engineers, and we have built the entirety of the building platform in a month. Why? Because we build everything on AI,” he said.
+Medina has experience building companies from nothing. The former Microsoftie, who has been a well known part of the Seattle tech scene for decades, took Outreach from $0 when he founded it in 2011 to 800 employees and $250 million in annual recurring revenue by the time he left the CEO role in September.
+a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
+Outreach founder Manny Medina has a new startup that helps AI agents get paid
+Medina left the executive chairman role in March, though he remains on the board. He, and Paid, are now based in London.
+An agent’s customer doesn’t want to pay for all the discrete tasks an agent does — if it even knows them all, he says. They want to pay for its results, like an employee. So if an agent is hired in insurance and the role’s success is measured in completed policy renewals, a company doesn’t want to pay for each email the agent sent.
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+As the year of the AI agent takes shape, a new trend is emerging: startups offering the picks and shovels that help employers build a workforce of bots.

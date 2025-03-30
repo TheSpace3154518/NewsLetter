@@ -1,0 +1,29 @@
+https://techcrunch.com/2025/03/26/openais-viral-studio-ghibli-moment-highlights-ai-copyright-concerns/
+“I think this raises the same question that we’ve been asking ourselves for a couple years now,” said Brown in an interview. “What are the copyright infringement implications of going out, crawling the web, and copying into these databases?”
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Picture describing TechCrunch Logo
+OpenAI’s viral Studio Ghibli moment highlights AI copyright concerns
+According to Evan Brown, an intellectual property lawyer at the law firm Neal & McDevitt, products like GPT-4o’s native image generator operate in a legal gray area today. Style is not explicitly protected by copyright, according to Brown, meaning OpenAI does not appear to be breaking the law simply by generating images that look like Studio Ghibli movies.
+people used it to remove watermarks from images
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+OpenAI peels back ChatGPT’s safeguards around image creation
+‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
+Picture describing Sam Altman speaks onstage during The New York Times Dealbook Summit 2024.
+That’s the question at the core of several ongoing lawsuits against generative AI model developers.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+We tested several popular AI image generators — including ones available in Google’s Gemini, xAI’s Grok, and Playground.ai — to see their ability to match Studio Ghibli’s style. We found OpenAI’s new image generator created the most accurate replica of the animation studio’s style.
+Evidently, users have also been able to use GPT-4o’s native image-generation feature to re-create styles from other studios and artists. Someone else made a Marc Andreessen portrait in the style of Dr. Seuss, and a married couple re-created their wedding photos in the style of Pixar.
+OpenAI’s and Google’s latest tools make it easier than ever to re-create the styles of copyrighted works — simply by typing a text prompt. But the real concern lies in how these AI tools are trained to imitate styles. Are these companies training on copyrighted works, and if so, does that violate copyright law?
+The New York Times and several publishers are in active lawsuits against OpenAI, claiming the company trained its AI models on copyrighted works without proper attribution or payment. There have been similar claims brought in lawsuits against other leading AI companies, including Meta and AI image-generation startup Midjourney.In a statement to TechCrunch, an OpenAI spokesperson says that while ChatGPT refuses to replicate “the style of individual living artists,” OpenAI does permit it to replicate “broader studio styles.” Of course, it’s worth noting there are living artists who are credited with pioneering their studio’s unique styles, such as Studio Ghibli’s co-founder, Hayao Miyazaki.
+wedding photos in the style of Pixar.
+Eugene Gologursky/The New York Times / Getty Images
+OpenAI’s latest update comes on the heels of Google’s release of a similar AI image feature in its Gemini Flash model, which also sparked a viral moment earlier in March when people used it to remove watermarks from images.
+Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
+Image Credits:Maxwell Zeff/openAI
+For now, OpenAI’s and Google’s new image features present a leap forward in what AI models can generate, which seems to be driving a surge in usage. OpenAI delayed the rollout of its new image tool to free-tier users on Wednesday, citing high demand. That may be the most important thing for these companies today, but we’ll have to wait for the courts to weigh in on their legality.
+made his new profile picture a Studio Ghibli-style image
+ChatGPT’s new AI image generator went live
+It’s only been a day since ChatGPT’s new AI image generator went live, and social media feeds are already flooded with AI-generated memes in the style of Studio Ghibli, the cult-favorite Japanese animation studio behind blockbuster films such as “My Neighbor Totoro” and “Spirited Away.”
+In the last 24 hours, we’ve seen AI-generated images representing Studio Ghibli versions of Elon Musk, “The Lord of the Rings“, and President Donald Trump. OpenAI CEO Sam Altman even seems to have made his new profile picture a Studio Ghibli-style image, presumably made with GPT-4o’s native image generator. Users seem to be uploading existing images and pictures into ChatGPT and asking the chatbot to re-create it in new styles.
+However, Brown says it’s plausible that OpenAI achieved this likeness by training its model on millions of frames from Ghibli’s films. Even if that was the case, several courts are still deciding whether training AI models on copyrighted works falls under fair use protections.
+A real dog (Left) and an AI-generated image of a dog ChatGPT made in Studio Ghibli style (right).

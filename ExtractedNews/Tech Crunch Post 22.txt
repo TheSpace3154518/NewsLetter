@@ -1,0 +1,22 @@
+https://techcrunch.com/2025/03/25/chatgpts-image-generation-feature-gets-an-upgrade/
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Picture describing TechCrunch Logo
+This article was update at 12pm PT to include OpenAI’s statement to the Wall Street Journal around GPT-4o’s training data.
+‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
+Altman said GPT-4o native image generation is live today in ChatGPT and Sora, OpenAI’s AI video-generation product, for subscribers to the company’s $200-a-month Pro plan. OpenAI says the feature is rolling out soon to Plus and free users of ChatGPT, as well as developers using the company’s API service.
+OpenAI offers an opt-out form that allows creators to request that their works be removed from its training datasets. The company also says that it respects requests to disallow its web-scraping bots from collecting training data, including images, from websites.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+“We’re respecting of the artists’ rights in terms of how we do the output, and we have policies in place that prevent us from generating images that directly mimic any living artists’ work,” said Brad Lightcap, OpenAI’s chief operating officer, in a statement to the Journal.
+To power the new image feature, OpenAI told the Wall Street Journal it trained GPT-4o on “publicly available data,” as well as proprietary data from its partnerships with companies like Shutterstock.
+Silas Stein / picture alliance / Getty Images
+Open source devs are fighting AI crawlers with cleverness and vengeance
+Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
+Many generative AI vendors see training data as a competitive advantage, so they keep it and any information related to it close to the chest. But training data details are also a potential source of IP-related lawsuits, another disincentive for companies to reveal much.
+ChatGPT’s image-generation feature gets an upgrade
+During a livestream on Tuesday, OpenAI CEO Sam Altman announced the first major upgrade to ChatGPT’s image-generation capabilities in over a year.
+GPT-4o with image output “thinks” a bit longer than the image-generation model it effectively replaces, DALL-E 3, to make what OpenAI describes as more accurate and detailed images. GPT-4o can edit existing images, including images with people in them — transforming them or “inpainting” details like foreground and background objects.
+Kyle Wiggers is TechCrunch’s AI Editor. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+ChatGPT can now leverage the company’s GPT-4o model to natively create and modify images and photos. GPT-4o has long underpinned the AI-powered chatbot platform, but until now, the model has been able to generate and edit only text — not images.
+Sam Altman firing drama detailed in new book excerpt
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+ChatGPT’s upgraded image-generation feature follows on the heels of Google’s experimental native image output for Gemini 2.0 Flash, one of the company’s flagship models. The powerful feature went viral on social media — but not necessarily for the best reasons. Gemini 2.0 Flash’s image component turned out to have few guardrails, allowing people to remove watermarks and create images depicting copyrighted characters.

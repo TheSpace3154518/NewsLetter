@@ -1,0 +1,35 @@
+https://techcrunch.com/2025/03/29/coreweave-co-founder-explains-how-a-closet-of-crypto-mining-gpus-led-to-a-1-5b-ipo/
+“We were the largest Ethereum miner in the world for like two and a half years,” he says. “At one point, we had 50,000 Nvidia consumer GPUs.”
+CoreWeave began trading on Friday with more of a shrug than a war cry. The company priced at $40 on Thursday, below the $47- $50 price range announced. It also trimmed the number of shares offered.
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Picture describing TechCrunch Logo
+He had been working as portfolio manager for the energy industry hedge fund, Hudson Ridge, founded by CoreWeave cofounder and CEO Michael Intrator. They had built an ML model to help them pick investments in the data-heavy energy industry. There they met their cofounder, Brannin McBee, who ran the data firm they used.
+So they connected with EleutherAI, an open source group working on an LLM. CoreWeave offered access to their GPUs in exchange for help learning about AI training and announced a partnership in 2022.
+CoreWeave co-founder explains how a closet of crypto-mining GPUs led to a $1.5B IPO
+announced a partnership in 2022.
+The team knew they wanted to use their GPU empire for other things, like maybe AI training. But they also needed to learn how.
+Still, the company’s IPO lands as the largest AI-related listing to date, and the biggest U.S. tech IPO since the heady days of 2021.
+Like eating potato chips, one GPU turned into 10. Ten turned into 1,000. The rigs moved from pool table to closet.
+They went to dinner with Magnetar investors and “I was literally pounding on the dinner table,” convincing them of the future of AI, Venturo said. Magnetar wrote them what he said was a $100 million check.
+All told, CoreWeave raised $1.5 billion and nabbed a $14 billion market cap on Day 1, instead of a hoped-for $3 billion+ raise and a much higher valuation. Shares also opened at $39 (ouch!), and closed at $40. A lukewarm reception.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+But after the U.S. veered into its fracking boom era, they closed Hudson Ridge, leaving “a lot of time on our hands,” Venturo says.
+Venturo acknowledges that much has been made about CoreWeave’s jaw-dropping $7.6 billion in debt, much of it due to be repaid in two years, FT reports. Against CoreWeave’s $1.9 billion in revenues (even with, it says, $15 billion under contract), the debt is a big reason why investors have been cautious.
+That’s because it all started when he and his hedge fund friends had some extra time on their hands after their last venture together went south.
+These were chips meant for playing video games on consumer PCs, not running 24/7 in “a warehouse with no air conditioning or no ventilation,” he said. So the cofounders built “crazy automation and health checking [systems] to run these low grade GPUs in the harshest environments.”
+“Next thing we knew, we were in the most cliche place possible. We were in my grandfather’s garage in New Jersey,” he joked. Then their friends in finance wanted in so they bought more.
+“We thought we were just going to learn how the infrastructure worked,” Venturo says. But EleutherAI was working with hundreds of people building AI startups and “it was this total springboard moment for us.”
+OpenAI learned of CoreWeave through its work with the open source community. And Microsoft learned of the company through OpenAI. Microsoft became its biggest customer because it was OpenAI’s biggest investor and sole cloud provider at the time.
+OpenAI recently signed a $12 billion deal
+That’s no longer the case. And OpenAI recently signed a $12 billion deal of its own with CoreWeave, bumping Microsoft from being its biggest customer.
+Open source devs are fighting AI crawlers with cleverness and vengeance
+However, Venturo insisted that CoreWeave has structured each customer deal to cover the debt used to buy the GPUs needed. More than that, though, he realizes that three hedge fund guys turned crypto miners who are now running an influential AI training infrastructure have been on a wild ride.
+Picture describing CoreWeave IPO
+The good will from working with EleutherAI led these startups to become paid customers. It was “total luck started the training business,” Venturo said.
+“There’s so many pieces of luck along the way, it’s crazy,” he said.
+Today CoreWeave has 32 data centers and 250,000 GPUs, including Nvidia’s difficult to obtain Blackwell chips, which supports AI reasoning, the company says.
+Stability AI got wind of CoreWeave through EleutherAI, and became a customer. The founders needed more capital to build better infrastructure.
+a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+Thousands of GPUs in a warehouse
+Next up: crypto. The wanted to get in, but first “wanted to understand from the commodity side, how is this made,” Venturo said. “So we started doing mining on the pool table in our Manhattan office.”

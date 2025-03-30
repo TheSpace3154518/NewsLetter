@@ -1,0 +1,98 @@
+https://x.com/OpenAI
+3. Valuing unknown, unimaginable possibilities.
+// i lead model behavior at openai, and wanted to share some thoughts & nuance that went into setting policy for 4o image generation.
+
+features capital letters (!) bc i published it as a blog post:
+
+--
+This week, we launched native image generation in ChatGPT through 4o.
+
+It was a special launch for many reasons — one of which our CEO Sam highlighted as "a new high-water mark for us in allowing creative freedom."
+
+I wanted to unpack that a bit, as it could be easily missed by those not deep in AI or closely following our evolving thoughts on model behavior (wh… what do you mean you haven’t read the sixty-page Model Spec in your free time??).
+
+tl;dr we’re shifting from blanket refusals in sensitive areas to a more precise approach focused on preventing real-world harm. The goal is to embrace humility: recognizing how much we don't know, and positioning ourselves to adapt as we learn.
+Images are visceral
+There's something uniquely powerful and visceral about images; they can deliver unmatched delight and shock. Unlike text, images transcend language barriers and evoke varied emotional responses. They can clarify complex ideas instantly.
+
+Precisely because images carry so much impact, we felt even more heft — relative to other launches — in shaping policy and behavior.
+
+Evolving perspectives on launching what feels like a new capability
+
+When it comes to launching (what feels like) a new capability, our perspective has evolved across multiple launches:
+
+1. Trusting user creativity over our own assumptions.
+AI lab employees should not be the arbiters of what people should and shouldn’t be allowed to create. We’re always humbled after launch, discovering use cases we never imagined — or even ones that seem so obvious in hindsight but didn’t occur to us from our limited perspectives.
+
+2. Seeing risks clearly, but not losing sight of everyday value to users.
+It’s easy to fixate on potential harms, and broad restrictions always feel safest (and easiest!). We often catch ourselves questioning, “do we really need better meme capabilities when the same memes could be used to offend or hurt people?”. But I think that framing itself is flawed. It implies that subtle, everyday benefits must justify themselves against hypothetical worst-case scenarios, which undervalues how these small moments of delight, humor, and connection genuinely improve people’s lives.
+
+3. Valuing unknown, unimaginable possibilities.
+Maybe due to our cognitive bias against loss aversion, we rarely consider the negative impacts of inaction; some people refer to it as “invisible graveyards” although that’s a bit too morbid and extreme. There are second order or indirect impacts unlocked by a new capability: all the positive interactions, innovations, and ideas from people that never materialize simply because we feared the worst-case scenario.
+
+How we thought about policy decisions for Day 1
+
+Navigating these challenges is hard, but we aimed to maximize creative freedom while preventing real harm. Some examples from our launch decisions:
+
+- Public figures: We know it can be tricky with public figures—especially when the lines blur between news, satire, and the interests of the person being depicted. We want our policies to apply fairly and equally to everyone, regardless of their “status”. But rather than be the arbiters of who is “important enough”, we decided to create an opt-out list to allow anyone who can be depicted by our models to decide for themselves.
+
+- “Offensive” content: When it comes to “offensive” content, we pushed ourselves to reflect on whether any discomfort was stemming from our personal opinions or preferences vs. potential for real-world harm. Without clear guidelines, the model previously refused requests like "make this person’s eyes look more Asian" or "make this person heavier," unintentionally implying these attributes were inherently offensive.
+
+- Hate symbols: We recognize symbols like swastikas carry deep and painful history. At the same time, we understand they can also appear in genuinely educational or cultural contexts. Completely banning them could erase meaningful conversations and intellectual exploration. Instead, we're iterating on technical methods to better identify and refuse harmful misuse.
+
+- Minors: Whenever a policy decision involved younger users, we decided to play it safe: choosing stronger protections and tighter guardrails for people under 18 across research and product.
+
+Ultimately, these considerations — coupled with our progress toward more precise technical levers — led us toward more permissive policies. We recognize this might be misinterpreted as "OpenAI lowering its safety standards,” but personally, I don’t think that does justice to the team’s extensive research, thoughtful debates, and genuine love & care for users and society.
+
+My colleague Jason Kwon once passed onto me:
+“Ships are safest in the harbor; the safest model is the one that refuses everything. But that’s not what ships or models are for.”
+
+The future is built with imagination and adventure. As we continue our research and learn from society, we believe we can continue to find ways to responsibly increase user freedom. When (not if!) our policies evolve, updating them based on real-world feedback isn’t failure; that’s the point of iterative deployment.
+
+Please keep sharing your feedback and creations — they genuinely help us improve!
+: Whenever a policy decision involved younger users, we decided to play it safe: choosing stronger protections and tighter guardrails for people under 18 across research and product.
+
+Ultimately, these considerations — coupled with our progress toward more precise technical levers — led us toward more permissive policies. We recognize this might be misinterpreted as "OpenAI lowering its safety standards,” but personally, I don’t think that does justice to the team’s extensive research, thoughtful debates, and genuine love & care for users and society.
+
+My colleague Jason Kwon once passed onto me:
+wh… what do you mean you haven’t read the sixty-page Model Spec in your free time??
+tl;dr we’re shifting from blanket refusals in sensitive areas to a more precise approach focused on preventing real-world harm. The goal is to embrace humility: recognizing how much we don't know, and positioning ourselves to adapt as we learn.
+do we really need better meme capabilities when the same memes could be used to offend or hurt people?
+: We know it can be tricky with public figures—especially when the lines blur between news, satire, and the interests of the person being depicted. We want our policies to apply fairly and equally to everyone, regardless of their “status”. But rather than be the arbiters of who is “important enough”, we decided to create an opt-out list to allow anyone who can be depicted by our models to decide for themselves.
+
+-
+It’s easy to fixate on potential harms, and broad restrictions always feel safest (and easiest!). We often catch ourselves questioning, “
+The future is built with imagination and adventure. As we continue our research and learn from society, we believe we can continue to find ways to responsibly increase user freedom. When (not if!) our policies evolve, updating them based on real-world feedback isn’t failure; that’s the point of iterative deployment.
+
+Please keep sharing your feedback and creations — they genuinely help us improve!
+Navigating these challenges is hard, but we aimed to maximize creative freedom while preventing real harm. Some examples from our launch decisions:
+
+-
+“Ships are safest in the harbor; the safest model is the one that refuses everything. But that’s not what ships or models are for.”
+When it comes to launching (what feels like) a new capability, our perspective has evolved across multiple launches:
+How we thought about policy decisions for Day 1
+: We recognize symbols like swastikas carry deep and painful history. At the same time, we understand they can also appear in genuinely educational or cultural contexts. Completely banning them could erase meaningful conversations and intellectual exploration. Instead, we're iterating on technical methods to better identify and refuse harmful misuse.
+
+-
+AI lab employees should not be the arbiters of what people should and shouldn’t be allowed to create. We’re always humbled after launch, discovering use cases we never imagined — or even ones that seem so obvious in hindsight but didn’t occur to us from our limited perspectives.
+2. Seeing risks clearly, but not losing sight of everyday value to users.
+”. But I think that framing itself is flawed. It implies that subtle, everyday benefits must justify themselves against hypothetical worst-case scenarios, which undervalues how these small moments of delight, humor, and connection genuinely improve people’s lives.
+: When it comes to “offensive” content, we pushed ourselves to reflect on whether any discomfort was stemming from our personal opinions or preferences vs. potential for real-world harm. Without clear guidelines, the model previously refused requests like "make this person’s eyes look more Asian" or "make this person heavier," unintentionally implying these attributes were inherently offensive.
+
+-
+Maybe due to our cognitive bias against loss aversion, we rarely consider the negative impacts of inaction; some people refer to it as “invisible graveyards” although that’s a bit too morbid and extreme. There are second order or indirect impacts unlocked by a new capability: all the positive interactions, innovations, and ideas from people that never materialize simply because we feared the worst-case scenario.
+Evolving perspectives on launching what feels like a new capability
+// i lead model behavior at openai, and wanted to share some thoughts & nuance that went into setting policy for 4o image generation.
+
+features capital letters (!) bc i published it as a blog post:
+
+--
+This week, we launched native image generation in ChatGPT through 4o.
+
+It was a special launch for many reasons — one of which our CEO Sam highlighted as "a new high-water mark for us in allowing creative freedom."
+
+I wanted to unpack that a bit, as it could be easily missed by those not deep in AI or closely following our evolving thoughts on model behavior (
+There's something uniquely powerful and visceral about images; they can deliver unmatched delight and shock. Unlike text, images transcend language barriers and evoke varied emotional responses. They can clarify complex ideas instantly.
+
+Precisely because images carry so much impact, we felt even more heft — relative to other launches — in shaping policy and behavior.
+1. Trusting user creativity over our own assumptions.

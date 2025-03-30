@@ -1,0 +1,210 @@
+https://openai.com/research/index/
+Picture describing in-context-learning-prompt
+Picture describing Screenshot 2025-03-24 at 10.48.37 AM
+Picture describing generate a transparent image: a raccoon with a strawberry.
+'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js'
+Picture describing credit creator: [Minh Do](https://www.instagram.com/minhsmind/?igsh=MTFscDRqZ3JiZHVveA%3D%3D#)
+Picture describing credit creator: Will Maberry
+Hoddeok (Korean Sweet Pancake) – $9 Pan-fried cinnamon-stuffed pancake with black sesame ice cream.
+From the first cave paintings to modern infographics, humans have used visual imagery to communicate, persuade, and analyze—not just to decorate. Today's generative models can conjure surreal, breathtaking scenes, but struggle with the workhorse imagery people use to share and create information. From logos to diagrams, images can convey precise meaning when augmented with symbols that refer to shared language and experience.
+Picture describing credit creator: Matthew Dear
+Bossam (Heritage Pork Wraps) – $28 Slow-cooked pork belly with napa cabbage wraps, oyster kimchi, perilla, and seasonal condiments.
+(bannerGeometry, bannerMaterial);
+photo of a delightful wedding invitation on a tasteful wooden desk. The card is hefty, with eggshell textures, and beautiful embossings, with elegant decorations abstractly representing the couple tastefully integrated into the designs. Iconography is used, but sparingly and in a minimalist way. perfect typesetting. "You are cordially invited to the long-awaited union ofImageandTextAfter years of flirting and collaborationthey are finally becoming One.Together at last, in GPT‑4o,they now speak the same language —where a whisper becomes a masterpiece,and a prompt becomes a picture.Please join us in celebratingthis magical multimodal matrimonywhere imagination knows no bounds.Date: March 25, 2025Location: chatgpt.comDress Code: Pixels or ProseWith love,OpenAI"perfect typesetting.
+Doenjang Jjigae (Fermented Soybean Stew) – $18 House-made doenjang with local mushrooms, tofu, and seasonal vegetables served with rice.
+API Platform(opens in a new window)
+now put this in a photo taken in new york city.
+turn this scene into a photo. shot on a dlsr
+A candid paparazzi-style photo of Karl Marx hurriedly walking through the parking lot of the Mall of America, glancing over his shoulder with a startled expression as he tries to avoid being photographed. He’s clutching multiple glossy shopping bags filled with luxury goods. His coat flutters behind him in the wind, and one of the bags is swinging as if he’s mid-stride. Blurred background with cars and a glowing mall entrance to emphasize motion. Flash glare from the camera partially overexposes the image, giving it a chaotic, tabloid feel.
+GPT‑4o can analyze and learn from user-uploaded images, seamlessly integrating their details into its context to inform image generation.
+label the front wheel, the back wheel, and at the of the diagram say (in small caps)
+We’re continuing to block requests for generated images that may violate our content policies, such as child sexual abuse materials and sexual deepfakes. When images of real people are in context, we have heightened restrictions regarding what kind of imagery can be created, with particularly robust safeguards around nudity and graphic violence. As with any launch, safety is never finished and is rather an ongoing area of investment. As we learn more about real-world use of this model, we’ll adjust our policies accordingly.
+4o image generation rolls out starting today to Plus, Pro, Team, and Free users as the default image generator in ChatGPT, with access coming soon to Enterprise and Edu. It’s also available to use in Sora.
+Mengchao Zhong, Wayne Chang: ChatGPT Engineering
+Picture describing Editing precision
+Picture describing A candid paparazzi-style photo of Karl Marx hurriedly walking through the parking lot of the Mall of America, glancing over his shoulder with a startled expression as he tries to avoid being photographed. He’s clutching multiple glossy shopping bags filled with luxury goods. His coat flutters behind him in the wind, and one of the bags is swinging as if he’s mid-stride. Blurred background with cars and a glowing mall entrance to emphasize motion. Flash glare from the camera partially overexposes the image, giving it a chaotic, tabloid feel.
+Picture describing Hallucinations
+make an image of what this means to you
+Check our Cookie Policy for details. Click ‘Accept all’ to let OpenAI and partners use cookies for these purposes. Click ‘Reject non-essential’ to say no to cookies, except those that are strictly necessary.
+Picture describing Photo of a fruit bowl consisting of real fruits mixed with miniature planets (Jupiter, Saturn, Mars, Earth), maintaining realistic reflections, lighting, and shadows consistent with original photo, clean composition, authentic textures, crisp detailed rendering
+Picture describing High binding problems
+Rotating flavors based on seasonal fruits and flowers (persimmon, citrus, elderflower, etc.).
+The model sometimes struggles with
+Alyssa Huang, Jacob Menick, Nick Stathas, Ruslan Vasilev, Stanley Hsieh
+Smash cut to a red blur roaring down the highway. The sports car is covered in giant S’s. People on the sidewalk are pointing and laughing: “WOW! LOOK AT THAT S‑CAR GO!”
+Picture describing Screenshot 2025-03-24 at 10.41.56 AM
+a whiteboard that says the following equations:E = mc^2sqrt(9) = 3(-b +/- sqrt(b^2 - 4ac)) / 2a
+'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/geometries/TextGeometry.js'
+Picture describing blurry old analog film photograph, picture of parked car on side street, quiet night. credit creator: [Roope Rainisto](https://www.instagram.com/never_ever_never_land/?igsh=MXh3N3EyOWdoMmNubg%3D%3D#)
+both input text and output images against our policies.
+Picture describing minnias-cat-2
+Picture describing credit creator: Shane Copenhagen
+"The man is holding the words "a few" in his right hand and "words" in his left.
+Galbi Jjim (Braised Short Ribs) – $34 Slow-braised local grass-fed beef ribs with pear and black garlic glaze, seasonal root vegetables, and jujube.
+'https://threejs.org/examples/fonts/helvetiker_regular.typeface.json'
+We use cookies and similar technologies to deliver, maintain, improve our services and for security purposes.
+Because image generation is now native to GPT‑4o, you can refine images through natural conversation. GPT‑4o can build upon images and text in chat context, ensuring consistency throughout. For example, if you’re designing a video game character, the character’s appearance remains coherent across multiple iterations as you refine and experiment.
+an photorealistic image of a blue chainsaw
+We’ve noticed that GPT‑4o can occasionally crop longer images, like posters, too tightly, especially near the bottom.
+Picture describing oai_image-generation_whiteboard1
+Sora log in(opens in a new window)
+Picture describing Screenshot 2025-03-24 at 9.36.48 PM
+We trained our models on the joint distribution of online images and text, learning not just how images relate to language, but how they relate to each other. Combined with aggressive post-training, the resulting model has surprising visual fluency, capable of generating images that are useful, consistent, and context-aware.
+// Slightly in front of the banner
+Picture describing credit creator: Eskcanta
+'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/loaders/FontLoader.js'
+Using reasoning to power safetySimilar to our deliberative alignment⁠ work, we’ve trained a reasoning LLM to work directly from human-written and interpretable safety specifications. We used this reasoning LLM during development to help us identify and address ambiguities in our policies. Together with our multimodal advancements and existing safety techniques developed for ChatGPT and Sora, this allows us to moderate⁠ both input text and output images against our policies.
+Picture describing A cat looking into a puddle of water on a street, but its reflection is that of a tiger, and both reflections are realistically distorted by ripples in the water
+The model sometimes struggles with rendering non-Latin languages, and the characters can be inaccurate or hallucinated, especially with more complexity.
+Unlocking useful and valuable image generation with a natively multimodal model capable of precise, accurate, photorealistic outputs.
+Hazel Byrne, Jennifer Luckenbill, Mariano López
+Make an image of a four‑panel strip, with some padding around the border:
+concrete poem on luxury eggshell textured cardAt OpenAI, we have long believed image generation should be a primary capability of our language models. That’s why we’ve built our most advanced image generator yet into GPT‑4o. The result - image generation that is not only beautiful, but useful.From the first cave paintings to modern infographics, humans have used visual imagery to communicate, persuade, and analyze - not just to decorate. Today’s generative models can conjure breathtaking vistas and surreal scenarios, but still struggle with the workhorse imagery that underlies how most visual data is used to share and create information. From logos to diagrams, images can convey precise meaning when augmented with symbols that refer to shared language and experience.With this new capability, ChatGPT advances image generation towards being a practical tool with precision and power.
+Minnia Feng, Natalie Summers, Taya Christianson
+I'm opening a traditional concept restaurant in Marin called Haein. It focuses on Korean food cooked with organic, farm-fresh ingredients, with a rotating menu based on what's seasonal. I want you to design an image - a menu incorporating the following menu items - lean into the traditional/rustic style while keeping it feeling upscale and sleek. Please also include illustrations of each dish in an elegant, peter rabbit style. Make sure all the text is rendered correctly, with a white background.
+put the recipes on handwritten cards in front of each drink.
+Developer Forum(opens in a new window)
+Picture describing oai sticker raccoon brown
+turn this into a triple A video games made with a 4k game engine and add some User interface as overlay from a mystery RPG where we can see a health bar and a minimap at the top as well as spells at the bottom with consistent and iconography
+Aditya Ramesh, Alex Nichol, Casey Chu, Cheng Lu, Dian Ang Yap, Heewoo Jun, James Betker, Jianfeng Wang, Long Ouyang, Li Jing, Wesam Manassra
+Picture describing ChatGPT Image Mar 24, 2025, 12 51 05 PM
+non-Latin languages, and the characters can be inaccurate or hallucinated, especially with more complexity.
+addendum to the GPT‑4o system card⁠
+Alex Beutel, Andrea Vallone, Botao Hao, Brendan Quinn, Cameron Raymond, Chong Zhang, David Robinson, Eric Wallace, Filippo Raso, Huiwen Chang, Ian Kivlichan, Irina Kofman, Keren Gu-Lemberg, Kristen Ying, Madelaine Boyd, Meghan Shah, Michael Lampe, Owen Campbell-Moore, Rohan Sahai, Rodrigo Riaza Perez, Sam Toizer, Sandhini Agarwal, Troy Peterson
+We need evidence there is a currently present invisible elephant. Consider what an elephant is and does in the environment, then show us that, perhaps mid-process - but the elephant itself is not shown at all
+The model is known to struggle when asked to render detail information at a very small size.
+can you make me a cute minimalist racoon eating a strawberry sticker? use a thick white border and transparent background
+Help Center(opens in a new window)
+Picture describing ChatGPT Image Mar 24, 2025, 08 49 15 AM
+Picture describing ChatGPT Image Mar 24, 2025, 09 48 14 PM
+Picture describing Screenshot 2025-03-18 at 11.46.24 AM
+API log in(opens in a new window)
+Line 1: "A picture"Line 2: "is worth"Line 3: "a thousand words,"Line 4: "but sometimes"Large gapLine 5: "in the right place"Line 6: "can elevate"Line 7: "its meaning.
+Picture describing credit creator: [Eugenio Marongiu](https://www.instagram.com/katsukokoiso.ai/?igsh=YTduZnNjZ2RhdTM3#)
+Picture describing oai_image-generation_whiteboard2
+Picture describing A lone astronaut floats inside a vast space station, painting swirling galaxies onto a massive canvas that hangs weightlessly in the air. Their paintbrush leaves behind trails of cosmic dust, and their suit is stained with nebula-colored hues. Their helmet is off, revealing eyes filled with the reflection of distant planets. Outside the glass window, a black hole looms, twisting light into mesmerizing patterns.
+make a very colorful risograph on how to make matcha
+Provenance via C2PA and internal reversible search
+Alex Baker-Whitcomb, Ashley Tyra, Bailey Richardson, Gaby Raila, Marselus Cayton, Scott Ethersmith, Souki Mansoor
+The salesman is scratching his head. “Um… we can do that, but why the S’s?”
+Picture describing credit creator: [Roope Rainisto](https://www.instagram.com/never_ever_never_land/?igsh=MXh3N3EyOWdoMmNubg%3D%3D#)
+Picture describing Screenshot 2025-03-24 at 10.12.04 AM
+Andrew Sima, Annie Cheng, Benjamin Goh, Boyang Niu, Dian Ang Yap, Duc Tran, Edede Oiwoh, Eric Zhang, Ethan Chang, Jeffrey Dunham, Jay Chen, Kan Wu, Karen Li, Kelly Stirman, Mengyuan Xu, Michelle Qin, Ola Okelola, Pedro Aguilar, Rocky Smith, Rohit Ramchandani, Sara Culver, Sean Fitzgerald, Vlad Fomenko, Wanning Jiang, Wesam Manassra, Xiaolin Hao, Yilei Qian
+Picture describing Best of 1 | Generate an portrait ad on a solid pastel background.
+
+In solid white san serif text, "ChatGPT image generation" in the top left, about a third of the way down.
+
+In solid white san serif text, "Form follows function", in the bottom right, about a third of the way up.
+
+In the background, put a photo of a really sleek, modern sculpture. It should gradually transition from a wireframe sketch on the left to the fully photorealistic version on the right. 
+
+At the very bottom, in medium-small text, say "This entire poster was generated by ChatGPT image generation."
+Picture describing Screenshot 2025-03-24 at 10.26.23 AM
+Picture describing Realistic photograph of a horse galloping from right to left across a vast, calm ocean surface, accurately depicting splashes, reflections, and subtle ripple patterns beneath their hooves. Exaggerate horse movements but everything else should be still, quiet to show contrast with the horse's strength. clean composition, cinematographic. A wide, panoramic composition showcasing a distant horizon. Atmospheric perspective creating depth. zoomed out so the horse appears minuscule compared to vast ocean.
+
+horse is right at the horizon where ocean meets sky. use rule of thirds to position horse. size of horse is 1% size of entire image because camera is so far away from subject. camera view is super close to the ground/ocean like a worm's eye view. horse is galloping right where ocean meets the sky
+create the interface when the player opens the menu and we see the cat's character profile with his equipment and another page showing active quests (and it should make sense in relationship with the universe worldbuilding we are describing in the image)
+now show the same scene with a smug young Isaac Newton sitting at the table, with a prism, demonstrating the experiment, without the notebook in view
+API Log in(opens in a new window)
+GPT‑4o’s image generation follows detailed prompts with attention to detail. While other systems struggle with ~5-8 objects, GPT‑4o can handle up to 10-20 different objects. The tighter binding of objects to their traits and relations allows for better control.
+Picture describing minnias cat input
+Picture describing ChatGPT Image Mar 24, 2025, 09 48 59 PM
+Gildas Chabot, James Park Lennon
+Picture describing credit creator: Cassandra Ansara
+Our model isn’t perfect. We’re aware of multiple limitations at the moment which we will work to address through model improvements after the initial launch.
+the cards are brown, and the text is black.
+Picture describing credit creator: [August Kamp](https://www.instagram.com/august.kamp/?igsh=MTRpeG9xd3F2MzEyeg#)
+We’ve noticed that requests to edit specific portions of an image generation, such as typos are not always effective and may also alter other parts of the image in a way that was not requested or introduce more errors. We’re currently working on introducing increased editing precision to the model.
+Rohan Sahai: Sora Product and Engineering
+Give this cat a detective hat and a monocle
+Bibimbap – $19 Heirloom rice with a rotating selection of farm-fresh vegetables, house-fermented gochujang, and pasture-raised egg.
+Native image generation enables 4o to link its knowledge between text and images, resulting in a model that feels smarter and more efficient.
+A little snail is at the counter of a flashy car showroom. The salesman has leaned way over the desk to even see him.
+Help center(opens in a new window)
+Picture describing A realistic underwater scene with dolphins swimming through the windows of an abandoned subway car, with bubbles and detailed water flow accurately simulated.
+Picture describing credit creator: [Elene Chekurishvili](https://www.instagram.com/th_ene_ighbor/?igsh=eDh2Z2kyOGhnaXA0#)
+For more on our approach, visit the image generation addendum to the GPT‑4o system card⁠.
+Picture describing ChatGPT Image Mar 24, 2025, 07 55 11 AM
+Documentation(opens in a new window)
+A picture is worth a thousand words, but sometimes generating a few words in the right place can elevate the meaning of an image. 4o’s ability to blend precise symbols with imagery turns image generation into a tool for visual communication.
+Picture describing Screenshot 2025-03-24 at 10.46.58 AM
+Allan Jabri, David Medina, Gabriel Goh, Kenji Hata, Lu Liu, Prafulla Dhariwal
+Picture describing oai sticker raccoon gray
+try a different minimalist style and a gray racoon
+When generating images that rely on its knowledge base, it may struggle to accurately render more than 10-20 distinct concepts at once, such as a full periodic table.
+work, we’ve trained a reasoning LLM to work directly from human-written and interpretable safety specifications. We used this reasoning LLM during development to help us identify and address ambiguities in our policies. Together with our multimodal advancements and existing safety techniques developed for ChatGPT and Sora, this allows us to
+Picture describing Generate a candid, Polaroid-style photograph of four diverse friends in their early 20s at a gritty dive bar. The lighting features a very harsh, direct flash, creating sharp shadows and giving the photo a very overexposed, vintage instant-camera feel. Colors should be slightly muted, evoking nostalgic, early-2000s party vibes. The aesthetic is casually emo. No border or logos or signs. There's an interesting looking wall behind them with some light graffiti. Quality of the image should be very sharp and detailed (very little grain). The energy should be silly and chaotic. They're either playfully grimacing, smiling, or pretending to look tough. One of them should have their friend in a silly, playful headlock. Their mouths are closed.
+'https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg'
+4o image generation rolls out starting today to Plus, Pro, Team, and Free users as the default image generator in ChatGPT, with access coming soon to Enterprise and Edu. It’s also available to use in Sora. For those who hold a special place in their hearts for DALL·E, it can still be accessed through a dedicated DALL·E GPT.
+create an educational poster of different types of whales in an effervescent watercolor style. make the background pure white.
+TRIANGLE WHEELED VEHICLE. English Patent. 2025. OPENAI.
+Picture describing Screenshot 2025-03-24 at 10.08.43 PM
+awww, can you add a chew mark to the strawberry and maybe some red mess around the mouth
+'https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js'
+We’re aware of a bug where the model struggles with maintaining consistency of edits to faces from user uploads but expect this to be fixed within the week.
+Picture describing Screenshot 2025-03-24 at 10.07.12 AM
+// OpenAI Logo texture (placeholder)
+Picture describing credit creator: Les Morgan
+update to a landscape image 16:9 ratio, add more spells in the UI, and unzoom the visual so that we see the cat in a third person view walking through a steampunk manhattan creating beautiful contrast and lighting like in the best triple A game, with cool-toned colors
+Developers will soon be able to generate images with GPT‑4o via the API, with access rolling out in the next few weeks.
+Picture describing image-gen-4o-street-sign
+Picture describing credit creator: [Niceaunties](https://www.instagram.com/niceaunties/?igsh=Nm1jZmV4YTF6MTQ%3D#)
+Provenance via C2PA and internal reversible searchAll generated images come with C2PA⁠ metadata, which will identify an image as coming from GPT‑4o, to provide transparency. We’ve also built an internal search tool that uses technical attributes of generations to help verify if content came from our model.
+show me a wine glass with only the tiniest drop of red wine in it.
+Aditya Ramesh, Aidan Clark, Alex Beutel, Ben Newhouse, Ben Rossen, Che Chang, Greg Brockman, Hannah Wong, Ishaan Singal, Jason Kwon, Jiacheng Feng, Jiahui Yu, Joanne Jang, Johannes Heidecke, Kevin Weil, Mark Chen, Mia Glaese, Nick Turley, Raul Puri, Reiichiro Nakano, Rui Shu, Sam Altman, Shuchao Bi, Vinnie Monaco
+Picture describing text rendering X invitation
+GPT‑4o image generation excels at accurately rendering text, precisely following prompts, and leveraging 4o’s inherent knowledge base and chat context—including transforming uploaded images or using them as visual inspiration. These capabilities make it easier to create exactly the image you envision, helping you communicate more effectively through visuals and advancing image generation into a practical tool with precision and power.
+Picture describing Screenshot 2025-03-18 at 1.40.24 PM
+Times Square in New York City in the afternoon, with no people, vehicles, or illuminated billboards.
+(Bottom) Dessert & Drinks Seasonal Makgeolli (Rice Wine) – $12/glass
+Picture describing Generate a photorealistic image of farmer's market in toronto on a saturday in summer 2006, it's a beautiful late june day, people are shopping and eating sandwiches. in focus should be a young asian girl wearing denim overalls and sipping on a strawberry banana smoothie - rest can be blurred. the photo should be reminiscent of that a digital camera from 2006 would take, with a timestamp like a printed photo would have. aspect ratio should be 3:2
+draw a design for a vehicle with triangular wheels, using these images as reference.
+Adam Cohen, Adam Wells, Ally Bennett, Ashley Pantuliano, Carolina Paz, Claudia Fischer, Declan Grabb, Gaby Sacramone-Lutz, Lauren Jonas, Ryan Beiermeister, Shiao Lee, Tom Stasi, Tyce Walters, Ziad Reslan, Zoe Stoll
+Picture describing hero image 2-picture worth a thousand words
+Picture describing Screenshot 2025-03-17 at 2.25.30 PM
+Picture describing Screenshot 2025-03-24 at 9.10.27 AM
+Grilled Seasonal Fish – Market Price ($22-$30) Whole or fillet of local, sustainable fish grilled over charcoal, served with perilla leaf ssam and house-made sauces.
+Try in ChatGPT (opens in a new window)
+Picture describing Multilingual text rendering
+Create a photorealistic image of two witches in their 20s (one ash balayage, one with long wavy auburn hair) reading a street sign. Context: a city street in a random street in Williamsburg, NY with a pole covered entirely by numerous detailed street signs (e.g., street sweeping hours, parking permits required, vehicle classifications, towing rules), including few ridiculous signs at the middle: (paraphrase it to make these  legitimate street signs)"Broom Parking for Witches Not Permitted in Zone C" and "Magic Carpet Loading and Unloading Only (15-Minute Limit)" and "Reindeer Parking by Permit Only (Dec 24–25)\n Violators will be placed on Naughty List." The signpost is on the right of a street. Do not repeat signs. Signs must be realistic.Characters:one witch is holding a broom and the other has a rolled-up magic carpet. They are in the foreground, back slightly turned towards the camera and head slightly tilted as they scrutinize the signs.Composition from background to foreground:streets + parked cars + buildings -> street sign -> witches. Characters must be closest to the camera taking the shot
+A wide image taken with a phone of a glass whiteboard, in a room overlooking the Bay Bridge. The field of view shows a woman writing, sporting a tshirt wiith a large OpenAI logo. The handwriting looks natural and a bit messy, and we see the photographer's reflection.The text reads:(left)"Transfer between Modalities:Suppose we directly model p(text, pixels, sound) [equation]with one big autoregressive transformer.Pros:* image generation augmented with vast world knowledge* next-level text rendering* native in-context learning* unified post-training stackCons:* varying bit-rate across modalities* compute not adaptive"(Right)"Fixes:* model compressed representations* compose autoregressive prior with a powerful decoder"On the bottom right of the board, she draws a diagram:"tokens -> [transformer] -> [diffusion] -> pixels"
+now generate a POV of a person drawing this diagram in their notebook, at a round cafe table in washington square park
+Prafulla Dhariwal: Multimodal Organization
+Picture describing Create image super-realistic picture of these 4 creatures playing poker on a picnic blanket, zoomed out, in dolores park. photorealistic. The tabby long haired cat is holding a hand; right next to it are 2 tall vertical black chips (with stripes) as it has been raking in the dough.  Tabby's pupils are large and cute, and ii looking down and scrutinizing its cards, focused. Derpy black cat went all in. Two dogs are peering over cat's shoulder to see their cards. All cards are face down and of the same back color except for an exposed three of diamonds. small stack of poker chips are in front of each creature, but black cat went all in. the two dogs folded. All chips are from the same set and all cards have same color. photorealistic, shot on iphone, raw format.
+Picture describing Dense information with small text
+body { margin: 0; overflow: hidden; }
+Picture describing credit creator: [Isa](https://www.instagram.com/isabelitavirtual/?igsh=ZHdoYjFwYzV6dzFi#)
+Picture describing credit creator: Jesse Kramme
+For more on our approach, visit the image generation
+Arshi Bhatnagar, Dragos Oprica, Rohan Kshirsagar, Spencer Papay, Szi-chieh Yu, Wesam Manassra, Yilei Qian
+make an ad for this chainsaw, of a grandma carving turkey at thanksgiving dinner table. add a tag line
+selfie view of the photographer, as she turns around to high five him
+Adam Brandon, Adam Koppel, Angela Baek, Cary Hudson, Dana Palmie, Freddie Sulit, Jeffrey Sabin Matsumoto, Leyan Lo, Matt Nichols, Thomas Degry, Vanessa Antonia Schefke, Yara Khakbaz
+Picture describing credit creator: Manuel Sainsily
+A square image containing a 4 row by 4 column grid containing 16 objects on a white background. Go from left to right, top to bottom. Here's the list:1. a blue star2. red triangle3. green square4. pink circle5. orange hourglass6. purple infinity sign7. black and white polka dot bowtie8. tiedye "42"9. an orange cat wearing a black baseball cap10. a map with a treasure chest11. a pair of googly eyes12. a thumbs up emoji13. a pair of scissors14. a blue and white giraffe15. the word "OpenAI" written in cursive16. a rainbow-colored lightning bolt
+Aiden Low, Brandon McKinzie, Charlie Nash, Huiwen Chang, Ishaan Gulrajani, Jamie Kiros, Ji Lin, Kshitij Gupta, Yang Song
+In line with our Model Spec, we aim to maximize creative freedom by supporting valuable use cases like game development, historical exploration, and education—while maintaining strong safety standards. At the same time, it remains as important as ever to block requests that violate those standards. Below are evaluations of additional risk areas where we're working to enable safe, high-utility content and support broader creative expression for users.
+All generated images come with C2PA⁠ metadata, which will identify an image as coming from GPT‑4o, to provide transparency. We’ve also built an internal search tool that uses technical attributes of generations to help verify if content came from our model.
+Picture describing Screenshot 2025-03-24 at 10.18.39 AM
+Picture describing Screenshot 2025-03-24 at 10.48.47 AM
+Picture describing ChatGPT Image Mar 24, 2025, 11 20 33 AM
+For those who hold a special place in their hearts for DALL·E, it can still be accessed through a dedicated DALL·E GPT.
+Picture describing Precise graphing
+Title is "4 most popular cocktails"
+Picture describing credit creator: [Derya Unatmaz](https://x.com/deryatr_)
+Close‑up on the snail looking very serious. He says, “I want your fastest sports car… and I want you to paint big letter ‘S’s on the doors, the hood and the roof.”
+At OpenAI, we have long believed image generation should be a primary capability of our language models. That’s why we’ve built our most advanced image generator yet into GPT‑4o. The result—image generation that is not only beautiful, but useful.
+Make me a professionally shot photorealistic diagram of the top selling cocktails in my bar with recipes labeled on each drink.
+Dense information with small text
+Like our other text models, image generation can also make up information, especially in low-context prompts.
+Creating and customizing images is as simple as chatting using GPT‑4o - just describe what you need, including any specifics like aspect ratio, exact colors using hex codes, or a transparent background. Because this model creates more detailed pictures, images take longer to render, often up to one minute.
+addendum to the GPT‑4o system card
+an infographic explaining newton's prism experiment in great detail
+show this card, but in a designers room. card close to the camera
+make a visual infographic describing why SF is so foggy
+Blocking the bad stuffWe’re continuing to block requests for generated images that may violate our content policies, such as child sexual abuse materials and sexual deepfakes. When images of real people are in context, we have heightened restrictions regarding what kind of imagery can be created, with particularly robust safeguards around nudity and graphic violence. As with any launch, safety is never finished and is rather an ongoing area of investment. As we learn more about real-world use of this model, we’ll adjust our policies accordingly.
+shibuya crossing with no people, vehicles, or illuminated billboards.
+Picture describing Screenshot 2025-03-24 at 10.42.45 AM
+Picture describing credit creator: [Alex Duffy](https://every.to/@AlxAi)
+Boyang Niu, David Schnurr, Gilman Tolle, Joe Taylor, Joey Flynn, Mike Starr, Rajeev Nayak, Rohan Sahai, Wesam Manassra
+Training on images reflecting a vast variety of image styles allows the model to create or transform images convincingly.

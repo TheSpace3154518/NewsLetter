@@ -1,0 +1,15 @@
+https://techcrunch.com/2025/03/24/openai-says-its-ai-voice-assistant-is-now-better-to-chat-with/
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+An OpenAI spokesperson tells TechCrunch its new AI voice assistant for paying users is “more direct, engaging, concise, specific, and creative in its answers.”
+Free users of ChatGPT now have access to a new version of Advanced Voice Mode that lets users pause,  without being interrupted, when speaking to the AI assistant. Paying users of ChatGPT — including subscribers to OpenAI’s Plus, Teams, Edu, Business, and Pro tiers — will also now get less frequent interruptions when using Advanced Voice Mode, as well as an improved personality for the voice assistant.
+OpenAI says its AI voice assistant is now better to chat with
+Sesame — an Andreessen Horowitz-backed startup created by Oculus co-founder Brendan Iribe — recently went viral for its natural-sounding AI voice assistants, Maya and Miles. Larger players are also stepping more aggressively into the AI voice-assistant space, such as Amazon, which is readying the release of its LLM-powered version of Alexa.
+OpenAI released updates Monday for Advanced Voice Mode, its AI voice feature that enables real-time conversations in ChatGPT, to make the AI assistant more personable and interrupt users less frequently.
+release of its LLM-powered version of Alexa
+OpenAI peels back ChatGPT’s safeguards around image creation
+natural-sounding AI voice assistants,
+OpenAI’s latest update aims to address a frequent problem with AI voice assistants, which will interrupt users when they pause to think or take a deep breath.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
+The improvements to Advanced Voice Mode come amid intense pressure from competitors in the AI voice assistant space.
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.

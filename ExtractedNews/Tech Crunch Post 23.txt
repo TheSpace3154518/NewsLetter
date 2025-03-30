@@ -1,0 +1,22 @@
+https://techcrunch.com/2025/03/25/google-unveils-a-next-gen-ai-reasoning-model/
+On Tuesday, Google unveiled Gemini 2.5, a new family of AI reasoning models that pauses to “think” before answering a question.
+first AI reasoning model in September 2024
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Google didn’t publish API pricing for Gemini 2.5 Pro. The company says it’ll share more in the coming weeks.
+However, on another test measuring software dev abilities, SWE-bench Verified, Gemini 2.5 Pro scores 63.8%, outperforming OpenAI’s o3-mini and DeepSeek’s R1, but underperforming Anthropic’s Claude 3.7 Sonnet, which scored 70.3%.
+‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
+On an evaluation measuring code editing, called Aider Polyglot, Google says Gemini 2.5 Pro scores 68.6%, outperforming top AI models from OpenAI, Anthropic, and Chinese AI lab DeepSeek.
+Moving forward, Google says all of its new AI models will have reasoning capabilities baked in.
+On Humanity’s Last Exam, a multimodal test consisting of thousands of crowdsourced questions relating to mathematics, humanities, and the natural sciences, Google says Gemini 2.5 Pro scores 18.8%, performing better than most rival flagship models.
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+To start, Google says Gemini 2.5 Pro is shipping with a 1 million token context window, which means the AI model can take in roughly 750,000 words in a single go. That’s longer than the entire “Lord of The Rings” book series. And soon, Gemini 2.5 Pro will support double the input length (2 million tokens).
+Open source devs are fighting AI crawlers with cleverness and vengeance
+Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
+Since OpenAI launched the first AI reasoning model in September 2024, o1, the tech industry has raced to match or exceed that model’s capabilities with their own. Today, Anthropic, DeepSeek, Google, and xAI all have AI reasoning models, which use extra computing power and time to fact-check and reason through problems before delivering an answer.
+Reasoning techniques have helped AI models achieve new heights in math and coding tasks. Many in the tech world believe reasoning models will be a key component of AI agents, autonomous systems that can perform tasks largely sans human intervention. However, these models are also more expensive.
+Google claims that Gemini 2.5 Pro outperforms its previous frontier AI models, and some of the leading competing AI models, on several benchmarks. Specifically, Google says it designed Gemini 2.5 to excel at creating visually compelling web apps and agentic coding applications.
+Google unveils a next-gen family of AI reasoning models
+a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
+To kick off the new family of models, Google is launching Gemini 2.5 Pro Experimental, a multimodal, reasoning AI model that the company claims is its most intelligent model yet. This model will be available on Tuesday in the company’s developer platform, Google AI Studio, as well as in the Gemini app for subscribers to the company’s $20-a-month AI plan, Gemini Advanced.
+Google has experimented with AI reasoning models before, previously releasing a “thinking” version of Gemini in December. But Gemini 2.5 represents the company’s most serious attempt yet at besting OpenAI’s “o” series of models.
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.

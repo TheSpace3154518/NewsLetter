@@ -1,0 +1,272 @@
+https://www.deeplearning.ai/the-batch/tag/research/
+Gemini 2.5: Our most intelligent AI model
+We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.
+Our comprehensive benchmark and online leaderboard offer a much-needed measure of how accurately LLMs ground their responses in provided source material and avoid hallucinations
+Responsibility & Safety
+FACTS Grounding: A new benchmark for evaluating the factuality of large language models
+Our comprehensive benchmark and online leaderboard offer a much-needed measure of how accurately LLMs ground their responses in provided source material and avoid hallucinations
+
+
+17 December 2024
+Genie 2: A large-scale foundation world model
+4 December 2024
+View Research
+          
+          
+          
+        
+
+ — We work on some of the most complex and interesting challenges in AI.
+— A universal AI agent that is helpful in everyday life
+— Uncover the extraordinary ways AI is transforming our world
+Responsibility & Safety
+Updating the Frontier Safety Framework
+Our next iteration of the FSF sets out stronger security protocols on the path to AGI
+
+
+4 February 2025
+Today, we’re announcing Gemini 2.0, our most capable multimodal AI model yet.
+Events
+          
+          
+          
+        
+
+ — Meet our team and learn more about our research
+Technologies
+Gemini 2.5: Our most intelligent AI model
+Gemini 2.5 is our most intelligent AI model, now with thinking built in.
+
+
+25 March 2025
+Explore our other teams and product areas
+— Identifying AI-generated content
+Sign up for updates on our latest innovations
+— Our highest quality text-to-image model
+Genie 2: A large-scale foundation world model
+Start building with Gemini 2.0 Flash and Flash-Lite
+— Discover our latest breakthroughs and see how we’re shaping the future
+Advancing adaptive AI agents, empowering 3D scene creation, and innovating LLM training for a smarter, safer future
+Blog
+          
+          
+          
+        
+
+ — Discover our latest AI breakthroughs, projects, and updates
+Learn about Google DeepMind
+          
+          
+          
+        
+
+ — Our mission is to build AI responsibly to benefit humanity
+The Podcast
+          
+          
+          
+        
+
+ — Uncover the extraordinary ways AI is transforming our world
+AlphaFold
+          
+          
+          
+
+
+
+
+ — Accelerating breakthroughs in biology with AI
+We’re rolling out a new, state-of-the-art video model, Veo 2, and updates to Imagen 3. Plus, check out our new experiment, Whisk.
+Gemini 2.5: Our most intelligent AI model
+25 March 2025
+Technologies
+Gemini Robotics brings AI into the physical world
+Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.
+
+
+12 March 2025
+Veo
+          
+          
+          
+
+
+
+
+ — Our state-of-the-art video generation model
+Technologies
+GenCast predicts weather and the risks of extreme conditions with state-of-the-art accuracy
+New AI model advances the prediction of weather uncertainties and risks, delivering faster, more accurate forecasts up to 15 days ahead
+
+
+4 December 2024
+Careers
+          
+          
+          
+        
+
+ — Many disciplines, one common goal
+Technologies
+Gemini 2.0 is now available to everyone
+We’re announcing new updates to Gemini 2.0 Flash, plus introducing Gemini 2.0 Flash-Lite and Gemini 2.0 Pro Experimental.
+
+
+5 February 2025
+Imagen
+          
+          
+          
+        
+
+ — Our highest quality text-to-image model
+Technologies
+Introducing Gemma 3
+The most capable model you can run on a single GPU or TPU.
+
+
+12 March 2025
+Introducing Gemini Robotics and Gemini Robotics-ER, AI models designed for robots to understand, act and react to the physical world.
+AlphaFold
+          
+          
+          
+        
+
+ — Accelerating breakthroughs in biology with AI
+Publications
+          
+          
+          
+        
+
+ — Explore a selection of our recent research
+Gemini Robotics brings AI into the physical world
+Gemini 2.0 is now available to everyone
+— Discover our latest AI breakthroughs, projects, and updates
+Google DeepMind at NeurIPS 2024
+5 December 2024
+View Technologies
+          
+          
+          
+        
+
+ — Solving the world’s most complex challenges
+Introducing Gemini 2.0: our new AI model for the agentic era
+Veo 2
+          
+            
+(New)
+FACTS Grounding: A new benchmark for evaluating the factuality of large language models
+— The most general and capable AI models we've ever built
+— Our mission is to build AI responsibly to benefit humanity
+Experiment with Gemini 2.0 Flash native image generation
+Technologies
+Experiment with Gemini 2.0 Flash native image generation
+Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API.
+
+
+12 March 2025
+Gemini
+          
+          
+          
+        
+
+ — The most general and capable AI models we've ever built
+Gemini Robotics brings AI into the physical world
+12 March 2025
+GenCast predicts weather and the risks of extreme conditions with state-of-the-art accuracy
+View Discover
+          
+          
+          
+        
+
+ — Discover our latest breakthroughs and see how we’re shaping the future
+The most capable model you can run on a single GPU or TPU.
+— Solving the world’s most complex challenges
+— We want AI to benefit the world, so we must be thoughtful about how it’s built and used
+Updating the Frontier Safety Framework
+— Our vision is to help make the AI ecosystem more representative of society
+Project Astra
+          
+          
+          
+        
+
+ — A universal AI agent that is helpful in everyday life
+Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI
+— Our state-of-the-art video generation model
+— Accelerating breakthroughs in biology with AI
+— Meet our team and learn more about our research
+Education
+          
+          
+          
+        
+
+ — Our vision is to help make the AI ecosystem more representative of society
+State-of-the-art video and image generation with Veo 2 and Imagen 3
+Technologies
+State-of-the-art video and image generation with Veo 2 and Imagen 3
+We’re rolling out a new, state-of-the-art video model, Veo 2, and updates to Imagen 3. Plus, check out our new experiment, Whisk.
+
+
+16 December 2024
+— Explore a selection of our recent research
+— Explore some of the biggest innovations in AI
+Native image output is available in Gemini 2.0 Flash for developers to experiment with in Google AI Studio and the Gemini API.
+Technologies
+Introducing Gemini 2.0: our new AI model for the agentic era
+Today, we’re announcing Gemini 2.0, our most capable multimodal AI model yet.
+
+
+11 December 2024
+Breakthroughs
+          
+          
+          
+        
+
+ — Explore some of the biggest innovations in AI
+Gemini 2.5 is our most intelligent AI model, now with thinking built in.
+SynthID
+          
+          
+          
+        
+
+ — Identifying AI-generated content
+Veo
+          
+          
+          
+        
+
+ — Our state-of-the-art video generation model
+— We work on some of the most complex and interesting challenges in AI.
+New AI model advances the prediction of weather uncertainties and risks, delivering faster, more accurate forecasts up to 15 days ahead
+Research
+Google DeepMind at NeurIPS 2024
+Advancing adaptive AI agents, empowering 3D scene creation, and innovating LLM training for a smarter, safer future
+
+
+5 December 2024
+Technologies
+Start building with Gemini 2.0 Flash and Flash-Lite
+Gemini 2.0 Flash-Lite is now generally available in the Gemini API for production use in Google AI Studio and for enterprise customers on Vertex AI
+
+
+25 February 2025
+— Many disciplines, one common goal
+Responsibility & Safety
+          
+          
+          
+        
+
+ — We want AI to benefit the world, so we must be thoughtful about how it’s built and used
+Our next iteration of the FSF sets out stronger security protocols on the path to AGI

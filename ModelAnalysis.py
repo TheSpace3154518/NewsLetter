@@ -1,25 +1,23 @@
-from TheGreatFilter import compute_embeddings, extract_text, perform_dbscan
+from TheGreatFilter import extract_text, perform_dbscan
 from main import fetch_text
 from ModelTests import TestModel
+from sentence_transformers import SentenceTransformer
 
 from sklearn.manifold import TSNE
 from sklearn.decomposition import PCA
 
 import matplotlib.pyplot as plt
 import numpy as np
-import umap
-
-url = "https://www.wired.com/"
 
 
 
+# > ============ Constants ======================
 EPS = 1.2
 MIN_SAMPLES = 2
-
-
-def project_embeddings(embeddings, umap_transform):
-    projected_embeddings = umap_transform.transform(embeddings)
-    return projected_embeddings
+model_name="all-MiniLM-L6-v2"
+url = "https://www.wired.com/"
+model = SentenceTransformer(model_name)
+# > =============================================
 
 
 def plot_projection(global_projection, labels, texts, Title):
@@ -75,11 +73,11 @@ def Projection():
 
     # Compute embeddings for each text segment
     print(f"\nThe Extracted text contains : {len(texts)}\n")
-    embeddings = np.array(compute_embeddings(texts))
+    embeddings = np.array(model.encode(texts))
     labels = perform_dbscan(embeddings, texts,EPS,MIN_SAMPLES)
 
     # umap_transform = umap.UMAP().fit(embeddings)
-    # global_projection = project_embeddings(embeddings, umap_transform)
+    # global_projection = umap_transform.transform(embeddings)
     # plot_projection(global_projection, labels,texts, "UMAP Projection")
 
     pca = PCA(n_components=min(30,len(embeddings)))

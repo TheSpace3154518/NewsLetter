@@ -1,0 +1,26 @@
+https://techcrunch.com/2025/03/25/plurals-platform-allows-enterprises-to-manage-their-kubernetes-clusters-in-one-place/
+1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
+Picture describing TechCrunch Logo
+The startup also recently raised a $6 million seed round led by Primary Venture Partners with participation from Capital One Ventures and Company Ventures. Weaver said the team set out to raise $3 million but ended up doubling its round after seeing strong demand. The company wants to put the money toward deepening its product capabilities and eventually exploring areas outside of Kubernetes.
+Picture describing Rebecca Szkutak
+‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
+Picture describing Image of the Plural team at an axe-throwing establishment.
+“I’m thinking to myself, there’s got to be a better way of doing this,” Weaver told TechCrunch. “I mean, what we had built was sufficient, but it was not by any means complete, and it took us about two years to do the build.”
+“You have a lot of cattle running around that you can no longer just treat as individual clusters,” Weaver said. “So up until now, people have been taking a lot of open source tooling from the ecosystem. There’s 2,000 projects in the Kubernetes ecosystem.”
+When Sam Weaver was vice president of product management at Unqork, he realized that the company needed a better way to manage its sprawling network of Kubernetes clusters — which are groups of computing nodes. When Unqork couldn’t find anything off the shelf, it assembled a 15-person team to build a Kubernetes management product. Despite the multimillion-dollar expense, Weaver said the resulting platform was just okay.
+“The enterprise basically has full control over how and where they deploy this thing,” Weaver said. “No data is sent home. It’s not a SaaS service. We’re heads down, we’re focused on continuing to add to the Kubernetes management platform that we have, and there’s tons still to do that we’re excited about.”
+Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
+Amazon shakes up streaming leadership team
+Plural isn’t alone in tackling Kubernetes cluster sprawl. Competitors include Loft Labs, a startup that has raised $28.6 million in venture funding, and Rancher Labs, a startup that raised $95 million before being acquired by Suse in 2020 for $600 million.
+Plural’s AI can also offer suggestions about optimizing cluster efficiency or diagnosing scaling issues, Weaver said. Plural is cloud and LLM agnostic.
+Weaver (pictured above right) sat on the idea until he met Michael Guarino, an engineer with notable stints at companies including Amazon and Twitter — back when it was still called that. When Weaver explained the problem to Guarino, he was surprised by his response: Guarino thought the issue was relatively straightforward to solve. Guarino then built a better system by himself in a few weeks.
+Weaver thinks Plural’s biggest differentiator is its architecture. He mentioned specifically the fact that Plural runs on a GitOps model, its product is self-hosted by each customer, and that each Kubernetes cluster has its own AI agent that runs on top of it.
+“It reduces the operational overhead by about 90% is what we’ve seen with our users and customers,” Weaver said. “People are really excited for that because they’re actually able to go and get productive work done.”
+a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
+That platform became the basis for Plural. The company’s platform consolidates an enterprise’s Kubernetes clusters onto one dashboard to make it easier for enterprises to streamline operations, manage these clusters, and deploy upgrades from one central spot.
+Plural was founded in 2021 and launched the original version of its platform shortly after. The company now works with multiple enterprise customers, in markets like financial services and other regulated industries, according to Weaver, though he declined to disclose specific customer names or numbers.
+Becca is a senior writer at TechCrunch that covers venture capital trends and startups. She previously covered the same beat for Forbes and the Venture Capital Journal.
+Plural’s platform allows enterprises to manage their Kubernetes clusters in one place
+Weaver said that the hope is that Plural frees up time for developers because they don’t need to search for information or bugs in their Kubernetes clusters. He added that the company can help teams run updates in hours as opposed to weeks.
+Weaver said the timing for this solution is right. Over the past few years, enterprises went from managing one Kubernetes cluster to multiple — a trend accelerated by the rise of AI.
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.

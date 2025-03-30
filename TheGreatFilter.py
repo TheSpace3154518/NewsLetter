@@ -2,13 +2,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
 
-from main import fetch_text
-
 from bs4 import BeautifulSoup
-
-
-MIN_LIMIT = 32
-
 
 # ? =========== Scraping Principles =============
 # ?     - targeted Tags : p, h1, h2 ,h3 ,h4 ,h5, h6, span, div (special treatment)
@@ -16,6 +10,14 @@ MIN_LIMIT = 32
 # ?     - Pictures are included as " Picture describing " + alt(Picture)  
 # ?     - Trademarks are eliminated
 # ? =============================================
+
+
+# > ============ Constants ======================
+MIN_LIMIT = 32
+model_name="all-MiniLM-L6-v2"
+# > =============================================
+
+
 
 
 def extract_text(html):
@@ -46,18 +48,9 @@ def extract_text(html):
     filtered_text_list = [text for text in text_list if len(text) >= MIN_LIMIT and not np.any([(symbol in text) for symbol in forbidden_characters])]
     return list(set(filtered_text_list))
 
-
-def compute_embeddings(texts, model_name="all-MiniLM-L6-v2"):
-    model = SentenceTransformer(model_name)
-    embeddings = model.encode(texts)
-    return embeddings
-
-
 def perform_dbscan(embeddings, texts, eps=0.5, min_samples=2, metric="euclidean"):
     clustering = DBSCAN(eps=eps, min_samples=min_samples, metric=metric).fit(embeddings)
     labels = clustering.labels_
-
-    # Filter out noise (-1 label)
     return labels
 
 def get_largest_cluster(texts, labels):
@@ -75,21 +68,18 @@ def get_largest_cluster(texts, labels):
     return selected_texts
 
 
-def main(url, eps=0.5, min_samples=2, metric="euclidiean"):
-    html = fetch_text(url)
+def filter_html(html, eps, min_samples):
+    model = SentenceTransformer(model_name)
     texts = extract_text(html)
     if not texts:
         raise Exception("No text content extracted from the page.")
 
     # Compute embeddings for each text segment
-    embeddings = compute_embeddings(texts)
+    embeddings = model.encode(texts)
 
     # Get Largest Cluster
-    labels = perform_dbscan(embeddings, texts, eps, min_samples, metric)
+    labels = perform_dbscan(embeddings, texts, eps, min_samples)
     largest_cluster_texts = get_largest_cluster(texts,labels)
-    # for i in largest_cluster_texts:
-    #     print(i)
-    #     t = input("Wait : ")
     return largest_cluster_texts
 
 
