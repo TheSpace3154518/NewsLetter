@@ -24,7 +24,7 @@ def read_from_excel():
 # Update the excel file with the new results
 def elo_hist_to_csv(history_updates, elo_csv):
     with open(elo_csv, "a") as f:
-        f.write(",".join(history_updates))
+        f.write(",".join(history_updates) + "\n")
         f.flush()
     
 def generate_response(prompt, system_prompt, model_name):
