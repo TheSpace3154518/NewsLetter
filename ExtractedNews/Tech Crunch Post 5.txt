@@ -1,55 +1,22 @@
-https://techcrunch.com/podcast/openai-is-aiming-for-agi-but-landing-on-studio-ghibli/
-Picture describing Sam Altman, CEO of OpenAI
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Picture describing TechCrunch Logo
-Today, on TechCrunch’s Equity podcast, hosts Max Zeff, Anthony Ha, and Sean O’Kane are unpacking the week’s news, including how OpenAI’s latest tool is sparking both excitement and debate.
-Equity will be back next week, so stay tuned!
-Equity is TechCrunch’s flagship podcast, produced by Theresa Loconsolo, and posts every Wednesday and Friday.
-and all the casts. You also can follow Equity on
-Theresa Loconsolo
-
-
-, 
-
-
-
-
-Anthony Ha
-
-
-, 
-
-
-
-
-Maxwell Zeff
-
-
-, 
-
-
-
-
-Sean O'Kane
+https://techcrunch.com/category/artificial-intelligence/
+To gain meaningful market share, Parasail will have to go head-to-head with hyperscalers and bet on the demand for GPUs continuing to grow. There is reason to believe that it will, but there are also signs — like Microsoft canceling some of its data center contracts — that the predictions around needed AI infrastructure may be a bit overblown.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-OpenAI is aiming for AGI but landing on Studio Ghibli
-‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
-its new image generator went live in ChatGPT
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-, at @EquityPod. For the full episode transcript, for those who prefer reading over listening, check out our full archive of episodes
-OpenAI and Microsoft’s ‘frenemies relationship,’ and what you missed at SXSW
-and the $7.6 billion loan that might stand in its way
-Open source devs are fighting AI crawlers with cleverness and vengeance
-Bradley Tusk says VC is dead. But the ‘fixer’ in him is just getting started
-Theresa Loconsolo is an audio producer at TechCrunch focusing on Equity, the network’s flagship podcast. Before joining TechCrunch in 2022, she was one of 2 producers at a four-station conglomerate where she wrote, recorded, voiced and edited content, and engineered live performances and interviews from guests like lovelytheband. Theresa is based in New Jersey and holds a bachelors degree in Communication from Monmouth University.
-Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
-OpenAI is reportedly nearing completion of a massive $40 billion funding round, with SoftBank leading the way. But this week, it wasn’t just the company funding news making headlines — its new image generator went live in ChatGPT, with capabilities including the ability to turn ordinary images into Studio Ghibli-style animation stills. While AI-generated art often sparks philosophical debates, this tool has been getting buzz for its visually impressive results. Of course, it also raises some big questions about copyright and intellectual property.
-Anthony Ha is TechCrunch’s weekend editor. Previously, he worked as a tech reporter at Adweek, a senior editor at VentureBeat, a local government reporter at the Hollister Free Lance, and vice president of content at a VC firm. He lives in New York City.
-Picture describing Theresa Loconsolo
-Listen to the full episode to hear about:
-Sean O’Kane is a reporter who has spent a decade covering the rapidly-evolving business and technology of the transportation industry, including Tesla and the many startups chasing Elon Musk. Most recently, he was a reporter at Bloomberg News where he helped break stories about some of the most notorious EV SPAC flops. He previously worked at The Verge, where he also covered consumer technology, hosted many short- and long-form videos, performed product and editorial photography, and once nearly passed out in a Red Bull Air Race plane.
-, and Jack Dorsey’s reasoning for the move
-Subscribe to us on Apple Podcasts, Overcast, Spotify and all the casts. You also can follow Equity on X and Threads, at @EquityPod. For the full episode transcript, for those who prefer reading over listening, check out our full archive of episodes here.
-Picture describing AngelList CEO Avlok Kohli
-Sam Altman firing drama detailed in new book excerpt
-‘Every software company is an AI company now,’ says AngelList CEO Avlok Kohli
+Harris and Parasail CEO Mike Henry had the idea for the startup a few years back. Henry, the former CPO of Groq, told TechCrunch that he had spent a long time thinking about what it would take to build AI infrastructure that could compete with Nvidia. He said that when he realized AI infrastructure was being rapidly built up by numerous players, he saw an opportunity for a horizontal move.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Becca is a senior writer at TechCrunch that covers venture capital trends and startups. She previously covered the same beat for Forbes and the Venture Capital Journal.
+Harris added, “We didn’t want a world where AI was controlled from soup to nuts by the hyperscalers.”
+“There’s basically three cloud vendors who run the internet, and that isn’t exactly how the internet is being rebuilt when you look at AI,” Tim Harris, one of Parasail’s co-founders and the CEO of Swift Navigation, told TechCrunch. “It’s much more fragmented. The compute is much more fungible and fluid, so you can actually inherently run it in a more horizontal nature, and that’s really what we were trying to do.”
+“We had to really focus on, how do we make [this] as simple as possible for the customer?” Henry said. “They’re barely keeping up with the open source model releases alone.”
+Wednesday marks the official launch of its platform, but Parasail is already working with dozens of customers, including Elicit, Weights & Biases, and Rasa. The company has also raised $10 million from a seed round in 2024 that had participation from Basis Set Ventures, Threshold Ventures, Buckley Ventures, and Black Opal Ventures.
+“We see literally no end [to] the demand,” Harris said. “It’s really that customers have a hard time doing it — have a hard time scaling AI. The models now are getting to a place where [companies] can just grab open source models and pretty much run them, but then being able to get access to GPUs, access to data centers, all the optimizations… we can do that with a click of a button.”
+Parasail works with dozens of providers to deliver on-demand GPUs for companies and enterprises looking to build AI models and applications. Parasail gives customers access to hardware, including Nvidia’s H100, H200, A100, and 4090 GPUs, at a fraction of the cost that incumbents charge, according to the company.
+NaNoWriMo shut down after AI, content moderation scandals
+The Parasail founders don’t think they’re all one and the same.
+According to Henry, the rapid clip of innovation happening in AI hardware was making it difficult for companies to keep up.
+Parasail says its fleet of on-demand GPUs is larger than Oracle’s entire cloud
+Cloud infrastructure is dominated by several large industry players: AWS, Microsoft’s Azure, and Google Cloud. While to some it may look like AI is headed in a similar direction, the founders of Parasail think AI infrastructure will look very different — and are betting their company’s fate on it.
+Sure, all these vendors provide GPUs and AI infrastructure, Henry said, but he thinks the proprietary technology Parasail has running under the hood helps it stand out. This tech is what connects Parasail’s GPUs from various sources.
+Today, there’s no shortage of vendors looking to help enterprises and other companies build and scale their AI products. From hyperscalers like Nvidia and Microsoft to startups such as Together AI and Lepton AI, customers have plenty of options.
+OpenAI’s new image generator is now available to all users
+Researchers suggest OpenAI trained AI models on paywalled O’Reilly books
+Harris and Henry got started on the company back in 2023, hired an engineering team, and began building in early 2024.

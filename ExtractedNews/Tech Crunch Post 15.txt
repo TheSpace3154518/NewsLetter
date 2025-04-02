@@ -1,40 +1,13 @@
-https://techcrunch.com/2025/03/26/has-getreal-cracked-the-code-on-ai-deepfakes-18m-and-an-impressive-client-list-says-yes/
-Ballistic is a key firm in that list. GetReal was incubated at the VC from 2022 until it emerged from stealth in June 2024. Ballistic also led GetReal’s $7 million seed — a round that, per PitchBook, also included Venrock, Artisanal, Qudit, and Silver Buckshot.
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Phishing, he said, proved out that even very smart people can be easily tricked, and taken all together, it’s a complicated and very bad sign for where things might go.
-GetReal sits in the wider world of cybersecurity, specifically in the fast-evolving area of cyber-forensics. The gap in the market that the San Mateo-based startup is addressing is the dearth of talent and knowledge in that space.
-Picture describing TechCrunch Logo
-Ingrid is a writer and editor for TechCrunch, joining February 2012, based out of London.
-“There are techniques we developed 20 years ago that still work today,” he said. He declined to explain what they are. “You don’t have to tell people everything we do, but it’s complicated to get right.”
-Javice found guilty of defrauding JPMorgan in $175M startup purchase
-“They raised the issue [of deepfaked impersonations] after their CEOs had been been put into voice interviews,” he said. They were impersonated themselves and tricked by impersonations. Named customers include John Deere and Visa.
-Forgepoint Capital, a specialist in cybersecurity and AI, is leading this Series A with Ballistic Ventures, Evolution Equity, and K2 Access Fund participating.
-He described viruses as a “novel threat” in comparison. “What we’ve seen over the past 20 years is the threat moving to the end user,” he said. “Fun” apps that let people create deepfakes are part of the problem, but so is the environment we work in today. “People have gone from bricks and mortar to businesses that are now almost completely digital and in the cloud.”
-Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
-Moynahan is not the startup’s founder; he came to GetReal while it was still in stealth on the heels of a three-decades-long career leading a string of major cybersecurity companies such as Symantec, Arbor Networks, Veracode, and Forcepoint.
-Ballistic is important for another reason: The firm’s founder, Ted Schlein, is the chairman and the other co-founder of GetReal. Before Ballistic, Schlein headed Kleiner Perkins.
-As for the government work, Yépez said, “They also have some priorities in the space.”
-These “priorities” include intelligence agencies and government officials being tricked into acting, or not acting, based on faked information from bad actors.
-GetReal — co-founded by Hany Farid, one of the pioneers in detecting deepfake media — has raised $17.5 million in equity, funding that it will be using for R&D, hiring, and business development.
-mistakenly added to a Signal group chat
-Farid said that text is not currently in GetReal’s purview. “It is a different beast,” he said. But longer term, the plan will be to widen the scope over time to include all kinds of deepfake and impersonation threats.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-Picture describing Ingrid Lunden
-What Yépez said he found during due diligence was that heavily regulated industries — such as financial institutions — were already asking for a product like this, and CISOs were reaching out on a mandate from the boards of directors.
-GetReal is the brainchild of Farid, a longtime, well-known academic (currently at UC Berkeley) who is considered a pioneer in techniques for identifying when digital images have been doctored. Arguably, Farid was understanding the risks of deepfakes before the term had even come into existence.
-The proliferation of scarily realistic deepfakes is one of the more pernicious by-products of the rise of AI, and falling victim to scams based on these deepfakes is already costing companies millions of dollars — not to mention the implications these could have on national security. A startup that’s built a toolset aimed at governments and enterprises to help detect and halt deepfakes and impersonations in audio, video, and still images is announcing some funding Wednesday with some impressive customers and investors in tow.
-They have yet, however, to extend to text-based impersonations.
-Alongside the funding, the company is launching its forensics platform as a service, which includes a web interface, an API, and integrations to run media analysis as a service. Features include a threat exposure dashboard; an “Inspect” tool specifically aimed at safeguarding high-profile executives from being spoofed; a “Protect” tool to screen media; and “Respond,” which involves human teams at GetReal performing deeper analysis.
-Interestingly, Farid notes that while the technology it is developing is dependent on how new apps work — there is a lot of reverse engineering that takes place at GetReal — it is combined with decades of knowledge that has changed very little.
-That list of strategics mirrors the kinds of companies that are interested in or have already started to adopt GetReal’s product, said Alberto Yépez, the co-founder of Forgepoint who led the investment.
-Open source devs are fighting AI crawlers with cleverness and vengeance
-Picture describing Concept illustration depicting the concept of "deepfake"
-That is something that came up only this week, when the editor of The Atlantic who was mistakenly added to a Signal group chat planning a military attack in Yemen initially assumed it was an impersonation hoax. Shockingly, that chat turned out to be very real and very much in violation of national security procedures.
-“To be honest, I don’t think I’ve seen a threat this ubiquitous,” he said of the ability to create and then apply malicious deepfakes.
-a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
-“If you think cybersecurity has a shortage of people, get ready for forensics,” said Matt Moynahan, GetReal’s CEO.
-As Farid explained it to TechCrunch, while working primarily as an academic and researcher, he’s been applying his learnings more or less informally for years as a service to media organizations, legal teams (after digital images became admissible in court), and others. In 2022, he came together with Schlein to consider how to translate that into an actual business, turning that investigative process into code.
-The Signal effect: Text still to come
-The Series A being announced Wednesday also includes some key strategic backers that include Cisco Investments, Capital One Ventures, and In-Q-Tel, an investment firm closely linked with the CIA.
-Has GetReal cracked the code on AI deepfakes? $18M and an impressive client list say yes
+https://techcrunch.com/category/artificial-intelligence/
+OpenAI’s image-generation tool took off instantly after launch, with Altman saying the demand was so high, the company’s GPUs were “melting.” The tool quickly also gained notoriety for being used to convert pictures into the style of Japanese animation firm Studio Ghibli, raising concerns around copyright and training data used by the company, given the similarity in style.
+funding led by SoftBank at a $300 billion valuation
+ChatGPT’s new image generator is really good at faking receipts
+Meanwhile, OpenAI on Monday said it raised $40 billion in funding led by SoftBank at a $300 billion valuation. The company also said ChatGPT has hit 500 million weekly active users and 700 million monthly active users.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+While it is not clear how many images users on the free tier can generate, Altman last week had mentioned a limit of three images per day.
+OpenAI’s new image generator, powered by its GPT-4o model, is now available to all users, CEO Sam Altman said in a post on X. The feature was until now available only to paying users of ChatGPT.
+copyright and training data used by the company, given the similarity in style
+Some people also used it to generate fake receipts, such as restaurant bills. An OpenAI spokesperson told TechCrunch that all these images have metadata indicating that ChatGPT generated them and that the company “takes actions” if the images violate the company’s guidelines.
+OpenAI’s new image generator is now available to all users
+Silas Stein / picture alliance / Getty Images
+Researchers suggest OpenAI trained AI models on paywalled O’Reilly books

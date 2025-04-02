@@ -1,14 +1,25 @@
-https://techcrunch.com/2025/03/26/krisp-launches-a-dubbing-feature-to-change-accent-of-the-speaker-during-a-call/
-Arto Minasyan, the company’s co-founder, said the idea for the feature stemmed from a problem he faced in his conversations. “Many people don’t understand my accent even though I am speaking English well. We thought changing accents might help people understand each other much better. We started working on this problem two years ago and now we are releasing it in beta,” Minasyan said.
-The company said that it decided to work on Indian accents first as people from the country account for a large portion of the global workforce in STEM fields. There are plans to add support for more accents, including Filipino.
-‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
-Krisp, which last raised capital in 2021, plans to release iOS and Android apps this year to support in-person meetings. There’s also a new Chrome extension for better integration with Google Meet in the works.
-Krisp is using AI to help Indians sound like Americans on calls
-Audio startup Krisp on Wednesday said it is launching a new feature that uses AI to change a user’s accent during calls. The company is initially rolling out support for changing Indian English accents to U.S. English.
-Minasyan said another advantage of the feature is that it doesn’t need any pre-training on a user’s voice as it creates a profile for the speaker in real time.
-Other startups like GV-backed Sanas have deployed similar technology in call centers at scale.
-The company says it trained the model on thousands of speech samples that covered different accents and dialects, and used data from its meeting assistant after getting user consent.
-a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
-However, when this reporter tested the feature, the processed voice didn’t sound natural and even missed some words at times. The company attributed those faults to this being a beta release, saying the model would improve over time.
+https://techcrunch.com/category/artificial-intelligence/
+Kim Jae-Hwan/SOPA Images/LightRocket / Getty Images
+Charles Rollet is a senior reporter at TechCrunch. His investigative reporting has led to U.S. government sanctions against four tech companies, including China’s largest AI firm. Prior to joining TechCrunch, Charles covered the surveillance industry for IPVM. Charles is based in San Francisco, where he enjoys hiking with his dogs. You can contact Charles securely on Signal at charlesrollet.12 or +1-628-282-2811.
+TechCrunch tested 4o and was also able to generate a fake receipt for an Applebee’s in San Francisco:
+This month, ChatGPT unveiled a new image generator as part of its 4o model that is a lot better at generating text inside images.
+Others were able to replicate similar results, including one with food or drink stains to make it look even more authentic:
+ChatGPT’s new image generator is really good at faking receipts
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-The startup says the accent conversion process preserves the speaker’s voice and only switches phonemes to match American accents. The feature has apparently been tested in enterprise environments, and a beta version is now coming to the Krisp desktop app. Users can turn the feature on any time during or before calls.
+OpenAI spokesperson Taya Christianson told TechCrunch that all of its images include metadata indicating they were made by ChatGPT. Christianson added that OpenAI “takes action” when users violate its usage policies and that it’s “always learning” from real-world use and feedback.
+But it wouldn’t be hard for a fraudster to quickly fix a few of the numbers with either photo editing software or, possibly, more precise prompts.
+Picture describing Open AI Chief Executive Officer Sam Altman speaks during the Kakao media day in Seoul.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Christianson replied that OpenAI’s “goal is to give users as much creative freedom as possible” and that fake AI receipts could be used in non-fraud situations like “teaching people about financial literacy” along with creating original art and product ads.
+Image Credits:chagpt / charles rollet
+Prolific social media poster and VC Deedy Das posted on X a photo of a fake receipt for a (real) San Francisco steakhouse that he says was created with 4o.
+But our attempt had a couple of dead giveaways that it was faked. For one, the total uses a comma instead of a period. For another, the math doesn’t add up. LLMs still struggle to do basic math, so this isn’t particularly surprising.
+Picture describing Charles Rollet
+ChatGPT unveiled a new image generator
+Picture describing TechCrunch Logo
+It’s clear that making it really easy to generate fake receipts presents huge opportunities for fraud. It wouldn’t be hard to imagine this kind of tech being used by bad actors to get “reimbursed” for entirely fake expenses.
+People are already using it to generate fake restaurant receipts, potentially adding another tool to the already-extensive toolkit of AI deepfakes used by fraudsters.
+OpenAI’s new image generator is now available to all users
+The most real-looking example TechCrunch found was actually from France, where a LinkedIn user posted a crinkled-up AI-generated receipt for a local restaurant chain:
+TechCrunch then asked why ChatGPT allows people to generate fake receipts in the first place, and whether this is in line with OpenAI’s usage policies (which ban fraud.)
+Researchers suggest OpenAI trained AI models on paywalled O’Reilly books

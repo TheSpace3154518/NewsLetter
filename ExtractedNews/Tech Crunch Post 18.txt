@@ -1,19 +1,30 @@
-https://techcrunch.com/2025/03/26/amazon-launches-personalized-shopping-prompts-as-part-of-its-generative-ai-push/
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Picture describing TechCrunch Logo
-AI-generated product information
-Picture describing Amazon Interests
+https://techcrunch.com/category/artificial-intelligence/
+The funding will accelerate further development of Isomorphic’s AI drug design engine and support the company’s goal of bringing its discovered drugs to clinical trials.
+Picture describing Anthropic Co-Founder & CEO Dario Amodei speaks onstage during TechCrunch Disrupt 2023 at Moscone Center.
+DeepMind’s 145-page paper on AGI safety may not convince skeptics
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+Epic Games acquires Loci to introduce automated 3D tagging
+TechCrunch's AI experts cover the latest news in the fast-moving field.
+Hassabis told the New York Times that while Isomorphic Labs didn’t need the capital, the extra funding will help the division hire top research scientists.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-Amazon continues to infuse AI into its shopping tools to encourage customers to make more purchases. The company announced on Wednesday a new feature called “Interests,” aimed at creating a more personalized and conversational search experience.
-Additionally, the tool continuously works in the background, notifying users when new items that match their interests become available, as well as providing updates on relevant products, restocks, and deals.
-The company plans to expand access to more U.S. customers in the coming months.
-Lauren covers media, streaming, apps and platforms at TechCrunch.
-For instance, Google has recently upgraded its Shopping tab, introducing a “Vision Match” tool that allows shoppers to describe a garment they envision, with the AI suggesting similar ideas based on the description. It also launched an AI summary tool to provide product information.
-Plus, several other companies are likely to follow suit in order to enhance the shopping experience for customers, and some have already begun to do so.
-Currently, Interests is available to a select group of users in the U.S. via the Amazon Shopping app on iOS and Android devices, as well as on the mobile website under the “Me” tab.
-The Interests feature represents a natural progression for the tech giant as it continues to integrate AI into its app. The feature joins a host of AI-powered features already on Amazon, including its AI shopping assistant Rufus, AI Shopping Guides, review summaries, AI-generated product information, and more.
-a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
-With the new feature, customers can enter tailored prompts in the search bar, reflecting their interests, preferences, and even their budget. For example, users might ask for “model building kits and accessories for hobbyist engineers” or “brewing tools and gadgets for coffee lovers.”
-Interests leverages large language models (LLMs) to convert everyday language into queries that traditional search engines can understand, resulting in more relevant product suggestions.
-Amazon launches personalized shopping prompts as part of its generative AI push
+For their work on AlphaFold, Hassabis and DeepMind researcher John Jumper were among the three scientists who received a Nobel Prize in chemistry in 2024.
+Alphabet’s AI drug discovery platform Isomorphic Labs raises $600M from Thrive
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised external capital for the first time. The $600 million round was led by Thrive Capital, with participation from GV and existing investor Alphabet, Google’s parent, it said.
+Anthropic launches an AI chatbot plan for colleges and universities
+Last year, Isomorphic Labs secured strategic partnerships with Eli Lilly and Novartis, potentially generating up to $3 billion in milestone payments for access to its AI model.
+Picture describing DeepMind logo
+Add TechCrunch AI to your subscription choices
+Subscribe for the industry’s biggest tech news
+Every Monday, gets you up to speed on the latest advances in aerospace.
+Picture describing OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.
+Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+Add TechCrunch Daily News to your subscription choices
+Add TechCrunch Space to your subscription choices
+Picture describing Epic Games/Loci
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+Picture describing Marina Temkin
+Isomorphic Labs was founded by DeepMind co-founder Demis Hassabis by leveraging DeepMind’s software for AI drug discovery, including AlphaFold, an AI model that predicts the three-dimensional structures of proteins.
+Picture describing TechCrunch Logo
+Add Startups Weekly to your subscription choices
+OpenAI seeks to convene group to advise its nonprofit goals

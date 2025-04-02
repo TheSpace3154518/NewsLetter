@@ -1,28 +1,27 @@
-https://techcrunch.com/2025/03/26/amazon-alexa-fund-invests-into-four-new-startups-as-it-plans-to-invest-more-into-ai-solutions/
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Picture describing TechCrunch Logo
-Menlo Ventures to create an investment vehicle for startups
-: It is hard to escape the phrase “vibe coding” on the internet, especially if you follow tech. HeyBoss is a startup in the same category that lets you create websites, apps, games, or prototypes by just describing them. Other startups that are working in the same area include
-Ivan covers global consumer tech developments at TechCrunch. He is based out of India and has previously worked at publications including Huffington Post and The Next Web. You can reach out to him at im[at]ivanmehta[dot]com
-Picture describing Alexa script logo
-OpenAI peels back ChatGPT’s safeguards around image creation
-are also working on solving schedule management for families.
-“As such, the Fund has been investing in startups that advance the state-of-the-art in AI-enabled hardware, generative media, smart agents, emerging AI architectures, and more. To dive deeper into this evolving investment strategy, we met with Paul Bernard, director of the Alexa Fund, to ask him about the Fund’s renewed mission and its recent investments.”
-: Ario is an AI-powered family management app to handle scheduling and tasks. The company has created a school email decoder to create events and action items through school communication. Bernard said he was impressed by the app because it understands the personal context behind tasks. Notably, startups like
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-In a blog post Amazon shared with TechCrunch ahead of publication, Alexa Fund leader Paul Bernard explained that the company now wants to invest in areas including AI-enabled hardware and smart agents.
-“While the Alexa Fund’s mission has evolved beyond the initial focus on voice technology over the years, the rapid developments in AI present an inflection point that allows the Fund to embrace new technology while still serving its original mission,” Bernard said.
-Nikola founder Trevor Milton pardoned by Trump
-. Last year, the company raised $10 million from a16z Games Speedrun, Abstract, and Index Ventures.
-Amazon’s Alexa Fund is now backing AI startups
-Amazon started the Alexa Fund in 2015 to back early-stage voice startups. With the advent of large language models and Amazon launching Gen AI-powered Alexa+, along with a family of multimodal AI models, the fund now wants to broaden its scope and invest more in AI startups.
-The fund has invested in four new startups working in different areas:
-: This is an all-in-one AI company that has a chatbot with capabilities to generate code, images, and videos, perform deep research, and schedule meetings for you. Just like AI assistant platforms, including Quora’s Poe, NinjaTech AI provides access to models from OpenAI, Meta, Anthropic, Google, and DeepSeek. Amazon said the company runs its infrastructure on AWS.
-a family of multimodal AI models
-Hedra is an AI media company that allows users to generate images, audio, and video through its studio. The company recently launched its
-a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
-For Amazon, these startups also become a way to put its cloud and AI stack to use. Many of these startups get early access to private APIs and SDKs of Amazon and become a test ground for the e-commerce company. Amazon also said that it provides access to senior execs or opportunities with Amazon Business.
-All major companies working in AI are trying to fund promising startups that can use their AI models. OpenAI’s startup fund has backed numerous companies in the healthcare, robotics, edtech, and creative tools sectors. Anthropic partnered with Menlo Ventures to create an investment vehicle for startups. Google also recently backed companies like the lock screen platform Glance and the webtoons platform Toonsutra and provided them access to different AI models.
-numerous companies in the healthcare, robotics, edtech, and creative tools sectors
+https://techcrunch.com/category/artificial-intelligence/
+Picture describing Anthropic Co-Founder & CEO Dario Amodei speaks onstage during TechCrunch Disrupt 2023 at Moscone Center.
+OpenAI raises $40B at $300B post-money valuation
+CNBC, citing a source familiar with the matter, says that around $18 billion of the funding will go toward OpenAI’s ambitious Stargate infrastructure project, which aims to establish a network of AI data centers around the U.S.
+DeepMind’s 145-page paper on AGI safety may not convince skeptics
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+TechCrunch's AI experts cover the latest news in the fast-moving field.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-Character-3 AI for various forms of content creation
+Picture describing OpenAI ChatGPT website displayed on a laptop screen is seen in this illustration photo.
+“[This new capital] enables us to push the frontiers of AI research even further, scale our compute infrastructure, and deliver increasingly powerful tools for the 500 million people who use ChatGPT every week,” OpenAI wrote in the blog post. “We’re excited to be working in partnership with SoftBank Group — few companies understand how to scale transformative technology like they do.”
+According to a blog post on the company’s website, OpenAI raised $40 billion in a round that values the company at $300 billion post-money. SoftBank led the financing, CNBC reported. Other participants included Microsoft, Coatue, Altimeter, and Thrive, all of which are earlier backers in the outfit.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Anthropic launches an AI chatbot plan for colleges and universities
+Picture describing DeepMind logo
+Add TechCrunch AI to your subscription choices
+Subscribe for the industry’s biggest tech news
+Jakub Porzycki/NurPhoto / Getty Images
+Every Monday, gets you up to speed on the latest advances in aerospace.
+Picture describing OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.
+Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+Add TechCrunch Daily News to your subscription choices
+Add TechCrunch Space to your subscription choices
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+Picture describing TechCrunch Logo
+OpenAI on Monday announced that it closed one of the largest private funding rounds in history.
+Add Startups Weekly to your subscription choices
+OpenAI seeks to convene group to advise its nonprofit goals

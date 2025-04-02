@@ -3,6 +3,10 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from concurrent.futures import ProcessPoolExecutor
+
+from logs_system import generate_logs
+
 import math
 
 from TheGreatFilter import filter_html
@@ -21,9 +25,10 @@ import dateparser
 # todo: better solution for photos
 
 # ! TheNexus.py ===========
-# todo: Check if news are AI news
-# todo: include Time + Source
+# * Check if news are AI news
+# todo: include Sources
 # todo: Multiple sources collision
+# todo: Unsubscribe Button
 
 # ! Scraping ====================
 # * Needs Better Selenium Implementation
@@ -50,7 +55,7 @@ import dateparser
 
 # > ============ Constants ======================
 WAITING_TIME = 4        # how much to wait for the page to load
-THRESHOLD = 8           # Days for news to be considered recent
+THRESHOLD = 2           # Days for news to be considered recent
 EPS = 1.2               # dkshi dyal dbscan
 MIN_SAMPLES = 8         # dkshi dyal dbscan
 SCROLL = 5              # number of times to scroll
@@ -71,9 +76,6 @@ def get_driver():
     driver = uc.Chrome(options=chrome_options) 
     return driver
 
-def scroll_and_wait(driver, scroll_times, wait_time):
-    time.sleep(wait_time)
-
 
 # Check for recent news
 def is_recent(date,threshold):
@@ -91,8 +93,9 @@ def get_news_from_post(index, Source, driver):
     driver.execute_script(f"document.querySelectorAll('{ query }')[{ index }].click();")
     time.sleep(WAITING_TIME)
     html = driver.page_source
-
-    # The Great Filter in action
+    with open("test.html", "w") as f :
+        f.write(html)
+    # The Great Filter in action    
     pure_news = filter_html(html, EPS, MIN_SAMPLES)
 
     # Close Tab if new one is created, go back if none is created
@@ -103,6 +106,7 @@ def get_news_from_post(index, Source, driver):
         driver.switch_to.window(tabs[0])
     else :
         driver.back()
+        driver.refresh()
         time.sleep(WAITING_TIME)
 
     return pure_news
@@ -110,6 +114,8 @@ def get_news_from_post(index, Source, driver):
 def get_available_posts(html, Source, driver, history):
     soup = BeautifulSoup(html, "html.parser")
     posts = soup.select(Source["post"])
+    if not posts:
+        generate_logs(Source["url"], "Post Tag Not Found", html)
 
     # Finding recent posts
     for i, post in enumerate(posts):
@@ -120,28 +126,25 @@ def get_available_posts(html, Source, driver, history):
             post_time = post.select_one(Source["time"])
             if (is_recent(post_time.get_text().strip(), THRESHOLD)):
                 history.append(post.get_text().strip()[:comparing_length] )
-                print(str(len(history)) + " | " + post.get_text(separator=" ").strip())
+                # print(str(len(history)) + " | " + post.get_text(separator=" ").strip())
                 pure_news = get_news_from_post(i,Source, driver)
 
+                print(pure_news)
+                
                 # Save Found News to a file
                 name = Source["source"] + " Post " + str(len(history))
                 with open(f"./ExtractedNews/{ name }.txt", "w") as f:
                     f.write(driver.current_url + "\n" + "\n".join(pure_news))
 
         else : 
-            print(f"Post doesn't contain expected time : {post_time}")
+            message = f"\n ============= Error finding time in {Source["source"]} ============== \n {post.select_one(Source["time"])} \n {Source["time"]} \n ======================================\n"
+            print(f"Post doesn't contain expected time : {message}")
+            generate_logs(Source["url"], "Time Tag Not Found", post)
 
 
-# Get Recent News
-def main():
-
-    # Load Sources from file
-    with open("Sources.json") as f:
-        Sources = json.loads(f.read())
-    
-    # Iterate through the sources
-    driver = get_driver()
-    for Source in Sources:
+def process_source(Source):
+    try : 
+        driver = get_driver()
         history = []
         print("="*50)
         driver.get(Source["url"])
@@ -152,9 +155,35 @@ def main():
             html = driver.page_source
             get_available_posts(html, Source, driver, history)
             driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)
-             
+        driver.quit()
+    except Exception as e:
+        generate_logs(Source["url"], "Exception", e)
 
-    driver.quit()
+
+def publish(html):
+    pass
+    # api request
+
+# Get Recent News
+def main():
+
+    # Load Sources from file
+    with open("Sources.json") as f:
+        Sources = json.loads(f.read())
+    
+    # Ahead Start
+    # Sources = Sources[3:]
+
+
+    # Iterate through the sources
+    for Source in Sources:
+        process_source(Source)
+
+    # with ProcessPoolExecutor(max_workers=len(Sources)) as executor:
+    #     results = list(executor.map(process_source, Sources))
+            
+    # code_html = nexus(results)
+    # publish(code_html)
 
 
 main()

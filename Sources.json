@@ -1,11 +1,5 @@
 [
-    {
-        "source" : "Tech Crunch",
-        "url" : "https://techcrunch.com/category/artificial-intelligence/",
-        "post":".loop-card",
-        "time":"time",
-        "click":"a.loop-card__title-link"
-    },
+    
     {
         "source" : "OpenAI on Twitter",
         "url" : "https://x.com/OpenAI",
@@ -68,6 +62,13 @@
         "post":"gdm-pagination > ul li",
         "time":"time",
         "click":"a.card"
+    },
+    {
+        "source" : "Tech Crunch",
+        "url" : "https://techcrunch.com/category/artificial-intelligence/",
+        "post":".loop-card",
+        "time":"time",
+        "click":"a.loop-card__title-link"
     }
     
 ]

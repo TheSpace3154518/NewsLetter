@@ -1,20 +1,24 @@
-https://techcrunch.com/2025/03/25/earth-ais-algorithms-found-critical-minerals-in-places-everyone-else-ignored/
-Earth AI emerged from Teslyuk’s graduate studies. Teslyuk, a native of Ukraine, was working toward a doctorate at the University of Sydney, where he became familiar with the mining industry in Australia. There, the government owns the rights to mineral deposits, and it leases them in six-year terms. Since the 1970s, he said, exploration companies are required to submit their data to a national archive.
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Earth AI discovered promising deposits of critical minerals in two regions of Australia that had been previously overlooked.
-Though the company uses AI to search for minerals like KoBold, Teslyuk says it takes a different tack. Earth AI’s algorithms, he said, are trained to scan wide areas quickly and efficiently to find deposits that might otherwise have been overlooked.
-“The actual, real frontier [in mining] is not so much geographical as it is technological,” Roman Teslyuk, founder and CEO of Earth AI, told TechCrunch.
-“For some reason, nobody’s using them,” he said. “If I could build an algorithm that can absorb all that knowledge and learn from the failures and successes of millions of geologists in the past, I can make much better predictions about where to find minerals in the future.”
-Earth AI has identified deposits of copper, cobalt, and gold in the Northern Territory and silver, molybdenum, and tin at another site in New South Wales, 310 miles (500 kilometers) northwest of Sydney.
-So Earth AI decided to develop its own drilling equipment to prove that the sites it identified were as promising as its software suggested. The company was accepted to Y Combinator’s spring 2019 cohort, and it spent the next few years refining its hardware and software. In January, Earth AI raised a $20 million Series B.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-Last summer, mining startup KoBold made a splash when it said it had discovered in Zambia one of the world’s largest copper deposits in more than a decade.
-“Mining is a very conservative industry,” Teslyuk said. “Everything outside of the approved dogma is considered heresy.”
-Now, another startup, Earth AI, exclusively told TechCrunch about its own discovery: promising deposits of critical minerals in parts of Australia that other mining outfits had ignored for decades. While it’s still not known whether they are as large as KoBold’s, the news suggests that future supplies of critical minerals are likely to emerge from a combination of field data parsed by artificial intelligence.
-Picture describing A map shows where Earth AI's discoveries are located in Australia.
-Teslyuk started Earth AI as a software company focused on making predictions about potential deposits, then approaching customers who might be interested in exploring sites further. But the customers were hesitant to invest, in part because they didn’t want to bet millions on the predictions of an unproven technology.
-“The way we used to explore for metals in the past, the 20th century, it just takes very, very long. It takes decades to find something,” Teslyuk said. “With the modern pace of the world, you just can’t wait for that long.”
-Earth AI raised a $20 million Series B
-Picture describing A large yellow dump truck carries ore out of a pit mine.
-Earth AI’s algorithms found critical minerals in places everyone else ignored
+https://techcrunch.com/category/artificial-intelligence/
+Though Apple Intelligence was introduced at the company’s Worldwide Developers Conference last year as its new generative AI offering, the reality is that Apple was not prepared to release all its AI-powered features at once. That’s led to a slow and steady rollout of numerous AI updates since the release of iOS 18.1, where Apple Intelligence first went live. For instance, features like ChatGPT integration, Image Playground, and others didn’t arrive until iOS 18.2 (and iPadOS 18.2, macOS Sequoia 15.2) months later.
+Meanwhile, Vision Pro users will be able to use AI features like Writing Tools, Image Playground, Genmoji, and more with the expansion of Apple Intelligence to the mixed reality platform.
+The recently announced recipe companion, Apple News+ Food, is arriving Monday as well, alongside new child safety features and other tweaks to the revamped Apple Photos app and other Apple services.
+Apple Intelligence, the iPhone maker’s suite of AI-powered tools and features, is gaining new features. Most notably, the company on Monday announced that Apple device owners will now be able to take advantage of Priority Notifications, which allows Apple’s AI to highlight your most time-sensitive notifications in a new format. Other updates are coming to the Image Playground app and the Mac. Plus, Apple Intelligence is now available to iPhone and iPad users in the EU and on the Apple Vision Pro headset in U.S. English.
+ChatGPT’s new image generator is really good at faking receipts
+Apple had previously announced that its AI suite would arrive in the EU in April 2025 — a delay Apple blamed on EU tech regulations, like the Digital Markets Act.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+The update also includes a handful of new emojis, including a paint splatter, a face with bags under its eyes, a fingerprint, a root vegetable, and a shovel, among others.
+Apple notes that its AI features are also available in a number of new languages, including French, German, Italian, Portuguese (Brazil), Spanish, Japanese, Korean, and Chinese (simplified). Localized English has also been added for both Singapore and India.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+on the Apple Vision Pro headset in U.S. English.
+The changes are rolling out with the release of Apple software, iOS 18.4, iPadOS 18.4, and macOS Sequoia 15.4.
+slow and steady rollout of numerous AI updates
+Vision Pro users will be able to use AI features
+NaNoWriMo shut down after AI, content moderation scandals
+as its new generative AI offering
+Other Apple Intelligence improvements arriving today include the ability to create a “memory movie” on Mac by typing a description, and an added Sketch style in Apple’s AI image-generation app, Image Playground, for the creation of academic and detailed sketches.
+Picture describing The Apple Siri and Apple Intelligence are being displayed on a smartphone screen and in the background.
+Picture describing TechCrunch Logo
+Apple rolls out Priority Notifications as Apple Intelligence expands to EU
+Among the new additions coming Monday, Priority Notifications may be the most useful if successfully implemented. Now, instead of having to dig for important updates across all your notifications — which often include nonessential updates and other marketing messages from apps — you’ll see those that deserve attention appear at the top of the stack.
+OpenAI’s new image generator is now available to all users
+Researchers suggest OpenAI trained AI models on paywalled O’Reilly books

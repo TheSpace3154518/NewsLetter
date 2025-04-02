@@ -1,17 +1,28 @@
-https://techcrunch.com/2025/03/27/google-rolls-out-new-vacation-planning-features-to-search-maps-and-gemini/
-From there, you will be able to browse through photos and reviews and see locations on an expandable map. When you’re ready to save an itinerary, you can tap “Export” to share the recommendations through Docs or Gmail. Or, you can save them as a custom list in Google Maps.
-Google Search’s AI Overviews, which display a snapshot of information at the top of the results page, can now help users get trip ideas for certain regions or countries. Starting this week, users can search for something like “create an itinerary for Costa Rica with a focus on nature.”
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Google is rolling out a slew of new features — some powered by AI — across Search, Maps, and Gemini that are designed to help people plan their summer vacations. The new features arrive as users have been turning to tools like OpenAI’s ChatGPT for help with planning trips.
-OpenAI peels back ChatGPT’s safeguards around image creation
-Google is also making Gemini’s Gems feature available to everyone for free. A Gem is a tool that lets you create custom AI experts for any task within Gemini. This means that users can now set up a trip planner that can help them pick a destination to go to and suggest what to pack.
-Now, users can give Maps access to their photos to allow the app to automatically identify places mentioned in your screenshots so you can review and save the ones you want to a list. The places that you save will show up on the map so you can get an overview of your plans.
-As for Maps, Google is rolling out the ability for users to turn their screenshots into solid vacation plans. When planning a vacation, people often take screenshots to bookmark places they want to visit, but can sometimes forget about these photos in their camera roll.
-This feature is rolling out this week in the U.S. in English on iOS, and will launch on Android soon.
-Hotel price tracking is launching globally this week on mobile and desktop browsers.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-Picture describing 31 January 2025, Bavaria, Munich: The Google logo and lettering can be seen on the facade of the company's Munich headquarters on January 31, 2025 in Munich (Bavaria). The company's development center is located in Arnulfpark. More than 2,500 employees work for the US company at various locations in Germany. The parent company of Google LLC is Alphabet Inc. Photo: Matthias Balk/dpa (Photo by Matthias Balk/picture alliance via Getty Images)
-In addition, while Google has allowed users to get alerts on price drops for flights for quite some time now, it’s now going to do the same with hotels. Users will now see a new option to track hotel prices for chosen dates and destinations. You can select filters for your hotel search, such as star ratings or beach access, for a specific area. If prices go down, Google will send you an email.
+https://techcrunch.com/category/artificial-intelligence/
+Pineau’s exit comes as Meta ramps up its AI efforts, with the company planning to spend $65 billion on AI infrastructure in 2025.
+Picture describing Anthropic Co-Founder & CEO Dario Amodei speaks onstage during TechCrunch Disrupt 2023 at Moscone Center.
+DeepMind’s 145-page paper on AGI safety may not convince skeptics
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+Epic Games acquires Loci to introduce automated 3D tagging
+TechCrunch's AI experts cover the latest news in the fast-moving field.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
-Google rolls out new vacation-planning features to Search, Maps, and Gemini
-The new feature is available for English language queries in the U.S. on mobile and desktop.
+Meta’s VP of AI research, Joelle Pineau, is planning to leave the company, she announced in a post on Facebook Tuesday. Pineau said she’s leaving in May after more than two years overseeing FAIR, Meta’s internal AI research lab led by Yann LeCun.
+$65 billion on AI infrastructure in 2025
+As for Pineau, the executive said she’ll take some time off before jumping into an unnamed “new adventure.”
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Anthropic launches an AI chatbot plan for colleges and universities
+Picture describing DeepMind logo
+Add TechCrunch AI to your subscription choices
+Subscribe for the industry’s biggest tech news
+Every Monday, gets you up to speed on the latest advances in aerospace.
+Picture describing OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.
+Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+Add TechCrunch Daily News to your subscription choices
+Add TechCrunch Space to your subscription choices
+Picture describing Epic Games/Loci
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+Picture describing TechCrunch Logo
+Meta’s head of AI research plans to leave the company
+In a statement to Bloomberg News, a Meta spokesperson said the company does not have an immediate replacement for Pineau but is conducting a search for her successor. Last year, Meta reportedly reorganized the company to have its AI research unit report to the company’s chief product officer, Chris Cox.
+Add Startups Weekly to your subscription choices
+OpenAI seeks to convene group to advise its nonprofit goals

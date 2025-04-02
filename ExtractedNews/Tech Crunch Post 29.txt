@@ -1,27 +1,34 @@
-https://techcrunch.com/2025/03/24/a-new-challenging-agi-test-stumps-most-ai-models/
-The Arc Prize Foundation, a nonprofit co-founded by prominent AI researcher François Chollet, announced in a blog post on Monday that it has created a new, challenging test to measure the general intelligence of leading AI models.
-In a post on X, Chollet claimed ARC-AGI-2 is a better measure of an AI model’s actual intelligence than the first iteration of the test, ARC-AGI-1. The Arc Prize Foundation’s tests are aimed at evaluating whether an AI system can efficiently acquire new skills outside the data it was trained on.
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-So far, the new test, called ARC-AGI-2, has stumped most models.
-“Intelligence is not solely defined by the ability to solve problems or achieve high scores,” Arc Prize Foundation co-founder Greg Kamradt wrote in a blog post. “The efficiency with which those capabilities are acquired and deployed is a crucial, defining component. The core question being asked is not just, ‘Can AI acquire [the] skill to solve a task?’ but also, ‘At what efficiency or cost?’”
-OpenAI peels back ChatGPT’s safeguards around image creation
-To address the first test’s flaws, ARC-AGI-2 introduces a new metric: efficiency. It also requires models to interpret patterns on the fly instead of relying on memorization.
-‘It was weird, man’: Zuckerberg took Facebook employees to see ‘The Social Network’ when it came out
-The version of OpenAI’s o3 model — o3 (low) — that was first to reach new heights on ARC-AGI-1, scoring 75.7% on the test, got a measly 4% on ARC-AGI-2 using $200 worth of computing power per task.
-this was a major flaw of ARC-AGI-1.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-The Arc Prize Foundation had over 400 people take ARC-AGI-2 to establish a human baseline. On average, “panels” of these people got 60% of the test’s questions right — much better than any of the models’ scores.
-o3’s performance gains on ARC-AGI-1 came with a hefty price tag
-Alongside the new benchmark, the Arc Prize Foundation announced a new Arc Prize 2025 contest, challenging developers to reach 85% accuracy on the ARC-AGI-2 test while only spending $0.42 per task.
-a sample question from Arc-AGI-2.
-Comparison of Frontier AI model performance on ARC-AGI-1 and ARC-AGI-2.
-the AI industry lacks sufficient tests to measure the key traits of artificial general intelligence
-ARC-AGI-1 was unbeaten for roughly five years until December 2024, when OpenAI released its advanced reasoning model, o3, which outperformed all other AI models and matched human performance on the evaluation. However, as we noted at the time, o3’s performance gains on ARC-AGI-1 came with a hefty price tag.
-The ARC-AGI tests consist of puzzle-like problems where an AI has to identify visual patterns from a collection of different-colored squares and generate the correct “answer” grid. The problems were designed to force an AI to adapt to new problems it hasn’t seen before.
-Chollet said that unlike ARC-AGI-1, the new test prevents AI models from relying on “brute force” — extensive computing power — to find solutions. Chollet previously acknowledged this was a major flaw of ARC-AGI-1.
-Maxwell Zeff is a senior reporter at TechCrunch specializing in AI and emerging technologies. Previously with Gizmodo, Bloomberg, and MSNBC, Zeff has covered the rise of AI and the Silicon Valley Bank crisis. He is based in San Francisco. When not reporting, he can be found hiking, biking, and exploring the Bay Area’s food scene.
-The arrival of ARC-AGI-2 comes as many in the tech industry are calling for new, unsaturated benchmarks to measure AI progress. Hugging Face’s co-founder, Thomas Wolf, recently told TechCrunch that the AI industry lacks sufficient tests to measure the key traits of artificial general intelligence, including creativity.
-a16z- and Benchmark-backed 11x has been claiming customers it doesn’t have
-A new, challenging AGI test stumps most AI models
-“Reasoning” AI models like OpenAI’s o1-pro and DeepSeek’s R1 score between 1% and 1.3% on ARC-AGI-2, according to the Arc Prize leaderboard. Powerful non-reasoning models, including GPT-4.5, Claude 3.7 Sonnet, and Gemini 2.0 Flash, score around 1%.
+https://techcrunch.com/category/artificial-intelligence/
+Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
+Perplexity CEO denies having financial issues, says no IPO before 2028
+Every Monday, gets you up to speed on the latest advances in aerospace.
+TechCrunch's AI experts cover the latest news in the fast-moving field.
+Actively AI raises $22.5M to offer sales ‘superintelligence,’ says AI SDRs failed
+Picture describing OpenAI CEO Sam Altman speaks during the Microsoft Build conference at the Seattle Convention Center Summit Building in Seattle, Washington on May 21, 2024.
+Picture describing DeepMind logo
+Perplexity CEO Aravind Srinivas recently took to Reddit to address users’ product complaints and reassure them that the company is not under serious financial pressure.
+Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Add TechCrunch AI to your subscription choices
+Kimberly White for TechCrunch / Getty Images
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+Picture describing Epic Games/Loci
+Epic Games acquires Loci to introduce automated 3D tagging
+Add TechCrunch Space to your subscription choices
+Add Startups Weekly to your subscription choices
+Parasail says its fleet of on-demand GPUs is larger than Oracle’s entire cloud
+OpenAI seeks to convene group to advise its nonprofit goals
+Picture describing Interior of a futuristic server room.
+Subscribe for the industry’s biggest tech news
+Picture describing Aravind Srinivas, Co-Founder & CEO of Perplexity, speaks onstage during TechCrunch Disrupt 2024
+Picture describing TechCrunch Logo
+address users’ product complaints and reassure them
+Anthropic launches an AI chatbot plan for colleges and universities
+Picture describing Anthropic Co-Founder & CEO Dario Amodei speaks onstage during TechCrunch Disrupt 2023 at Moscone Center.
+Add TechCrunch Daily News to your subscription choices
+Picture describing Actively AI co-founders Anshul Gupta (left) and Mihir Garimella (right.)
+On the contrary, Srinivas said Perplexity created Auto mode because “all AI products right now are shipping non-stop and adding a ton of buttons and dropdown menus and clutter,” which he said is “not sustainable.”
+As for whether Perplexity is facing pressure to cut costs or IPO, Srinivas said, “We have all the funding we’ve raised, and our revenue is only growing.” In fact, he said the company has “no plans of IPOing before 2028.”
+DeepMind’s 145-page paper on AGI safety may not convince skeptics
+Srinivas seemed to be responding, in part, to a user theory that the company is “doing horribly financially” and “making lots of changes to cut costs.” As an example, the theorizer pointed to Perplexity’s Auto mode, where the AI search engine automatically selects the model with which to answer a user’s prompt.

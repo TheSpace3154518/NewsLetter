@@ -1,32 +1,18 @@
-https://techcrunch.com/2025/03/26/nvidia-is-reportedly-in-talks-to-acquire-lepton-ai/
-1,200+ founders & VCs. One day. Unlimited growth. Join us July 15 in Boston to fuel your scaling journey—save up to $320 by March 31.
-Picture describing TechCrunch Logo
-TechCrunch's AI experts cover the latest news in the fast-moving field.
-Add TechCrunch Daily News to your subscription choices
-Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
-CoreWeave co-founder explains how a closet of crypto-mining GPUs led to a $1.5B IPO
-Picture describing Rebecca Szkutak
-Startups are the core of TechCrunch, so get our best coverage delivered weekly.
-Akio Kon/Bloomberg / Getty Images
-The semiconductor giant is reportedly nearing a deal to acquire Lepton AI, a company that rents out servers that are powered by Nvidia’s AI chips, according to The Information. Citing unnamed sources, the outlet says the deal  deal is worth several hundred million dollars.
-Nvidia reportedly acquired synthetic data startup Gretel last week.
-Subscribe for the industry’s biggest tech news
-A look at Intel Capital before the 34-year-old firm strikes out on its own
-Picture describing Wundergraph founders (left to right): Dustin Deus (CTO), Jens Neuse (CEO), Björn Schwenzer (COO), and Stefan Avram (Head of Growth)
-Add TechCrunch Space to your subscription choices
-eBay backs WunderGraph to build an open source GraphQL federation
-Lepton AI was founded two years ago and raised an $11 million seed round in May 2023 from CRV and Fusion Fund. The other big player in the server rental market is Together AI, a startup that has raised more than $500 million in venture capital despite only being about a year older than Lepton.
-Connect with 1,200+ founders and VCs for a day of actionable insights, investor connections, and growth strategies. Join us in Boston on July 15—register by March 31 to save up to $320!
-Picture describing Jensen Huang, co-founder and chief executive officer of Nvidia Corp
-Picture describing Intel Capital, Intel, startups, venture capital
-Why HoneyBook’s $140M in ARR may finally justify its $2.4B ZIRP-era valuation
-Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.
-Nvidia is reportedly in talks to acquire Lepton AI
-Picture describing CoreWeave IPO
-Picture describing Elon Musk on stage at CPAC in Maryland with sunglasses on and a MAGA hat
-Every Monday, gets you up to speed on the latest advances in aerospace.
-acquired synthetic data startup Gretel
-Nvidia is looking to get into the server rental market.
-Add Startups Weekly to your subscription choices
-Add TechCrunch AI to your subscription choices
+https://techcrunch.com/category/artificial-intelligence/
+In a 2023 interview with Forbes, Bui said that VinAI had around 200 employees spread across the startup’s offices in Hanoi, the U.S., and Australia.
 Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers. From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape. Be part of the movement.
+The VinAI acquisition is Qualcomm’s second this year following its purchase of Edge Impulse, an American AI and Internet of Things company, in early March. Qualcomm CEO Cristiano Amon recently called edge AI — AI that can run on devices without the need for data center infrastructure — a “tailwind” for the tech giant.
+VinAI, which Bui started in 2019, primarily focuses on AI-powered automotive products, but also conducts higher-level AI research. Backed by VinGroup, a Vietnamese conglomerate, the company creates solutions like in-cabin monitoring, security, and “smart parking” systems for carmakers and customers in other verticals.
+1,200+ founders & VCs. One epic day in Boston on July 15. Scale smarter, connect deeper — save $210 when you register now!
+Kyle Wiggers is TechCrunch’s AI Editor. His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers. He lives in Manhattan with his partner, a music therapist.
+Bui said that he expects VinAI will contribute to a number of Qualcomm’s product families, including its software and chips for smartphones, PCs, and vehicles. “Our team’s expertise in generative AI and machine learning will help accelerate the development of innovative solutions that can transform the way we live and work,” he added in a statement.
+The move marks Qualcomm’s continued expansion into the AI tooling sector. VinAI, which was founded by former DeepMind research scientist Hung Bui, develops a range of generative AI technologies, including computer vision algorithms and language models.
+Bui, who serves as VinAI’s CEO, will join Qualcomm following the close of the acquisition, according to the aforementioned press release.
+NaNoWriMo shut down after AI, content moderation scandals
+Picture describing Qualcomm signage at MWC
+Qualcomm acquires generative AI division of Vietnamese startup VinAI
+Updated 4/2 9:52 a.m. Pacific: An earlier version of this piece incorrectly referred to Edge Impulse as a German company; the company is based in San Jose. We regret the error.
+“This acquisition underscores our commitment to dedicating the necessary resources to R&D that makes us the driving force behind the next wave of AI innovation,” Qualcomm SVP of Engineering Jilei Hou said in a press release. “By bringing in high-caliber talent from VinAI, we are strengthening our ability to deliver cutting-edge AI solutions that will benefit a wide range of industries and consumers.”
+OpenAI’s new image generator is now available to all users
+Qualcomm has acquired the generative AI division of VinAI, an AI research company headquartered in Hanoi, for an undisclosed amount, the companies announced on Monday.
+Researchers suggest OpenAI trained AI models on paywalled O’Reilly books
