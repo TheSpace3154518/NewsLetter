@@ -1,9 +1,0 @@
-https://x.com/OpenAI
-Something went wrong. Try reloading.
-We’re releasing PaperBench, a benchmark evaluating the ability of AI agents to replicate state-of-the-art AI research, as part of our Preparedness Framework.
-
-Agents must replicate top ICML 2024 papers, including understanding the paper, writing code, and executing experiments.
-Sign up now to get your own personalized timeline!
-We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center.
-Picture describing Square profile picture
-People on X are the first to know.

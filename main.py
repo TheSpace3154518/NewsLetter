@@ -3,12 +3,13 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from concurrent.futures import ProcessPoolExecutor
+from concurrent import futures
 
 from logs_system import generate_logs
 
 import math
 
+from constants import *
 from TheGreatFilter import filter_html
 
 import json
@@ -26,42 +27,39 @@ import dateparser
 
 # ! TheNexus.py ===========
 # * Check if news are AI news
+# * Multiple sources collision
+# * Unsubscribe Button
 # todo: include Sources
-# todo: Multiple sources collision
-# todo: Unsubscribe Button
+
+# ! API ===========
+# todo: homepage html
+# todo: Subscribe / Unsubscribe button
+# todo: API Request
 
 # ! Scraping ====================
 # * Needs Better Selenium Implementation
 # * Solve The Different Sources Problem
 # * Always Check for Time
 # * Bypass CDN
+# * Split based on the dot to give more importance for bigger texts
 # todo: Pop-up ads
 
 # ! ModelAnalsis.py =============
 # todo: Parameters Tuning
 
 # ! Additional Tasks ============
-# todo: Explaining Basic Concepts
-# todo: Logging system 
+# * Logging system 
 # todo: parallel execution
+# todo: Explaining Basic Concepts
 
 # ! Testing =====================
-# todo: Testing System to check for accuracy
+# * Testing System to check for accuracy
+# * False Positives and different projections to be saved
+# * More Tests
+# todo: plots
 # todo: CI implementation
 
 # ! =============================
-
-
-
-# > ============ Constants ======================
-WAITING_TIME = 4        # how much to wait for the page to load
-THRESHOLD = 2           # Days for news to be considered recent
-EPS = 1.2               # dkshi dyal dbscan
-MIN_SAMPLES = 8         # dkshi dyal dbscan
-SCROLL = 5              # number of times to scroll
-IS_SIMILAR = 0.6        # percentage of characters that should be same for 2 posts to be considered equal
-# > =============================================
-
 
 
 # Load Web Driver
@@ -70,8 +68,6 @@ def get_driver():
     # chrome_options.add_argument("--headless=new")  
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--disable-features=IsolateOrigins,site-per-process")
-    chrome_options.add_argument("--enable-features=NetworkService,NetworkServiceInProcess")
     chrome_options.page_load_strategy = 'eager' 
     driver = uc.Chrome(options=chrome_options) 
     return driver
@@ -84,7 +80,7 @@ def is_recent(date,threshold):
     post_date = dateparser.parse(date)
     return post_date >= day_limit
 
-# Retrieve news from each post and feed it to The Grea(t Filter
+# Retrieve news from each post and feed it to The Great Filter
 def get_news_from_post(index, Source, driver):
 
     # Go To Posts Page
@@ -93,10 +89,9 @@ def get_news_from_post(index, Source, driver):
     driver.execute_script(f"document.querySelectorAll('{ query }')[{ index }].click();")
     time.sleep(WAITING_TIME)
     html = driver.page_source
-    with open("test.html", "w") as f :
-        f.write(html)
+
     # The Great Filter in action    
-    pure_news = filter_html(html, EPS, MIN_SAMPLES)
+    pure_news = filter_html(html)
 
     # Close Tab if new one is created, go back if none is created
     tabs = driver.window_handles
@@ -128,8 +123,6 @@ def get_available_posts(html, Source, driver, history):
                 history.append(post.get_text().strip()[:comparing_length] )
                 # print(str(len(history)) + " | " + post.get_text(separator=" ").strip())
                 pure_news = get_news_from_post(i,Source, driver)
-
-                print(pure_news)
                 
                 # Save Found News to a file
                 name = Source["source"] + " Post " + str(len(history))
@@ -143,6 +136,7 @@ def get_available_posts(html, Source, driver, history):
 
 
 def process_source(Source):
+    posts_gathered = []
     try : 
         driver = get_driver()
         history = []
@@ -153,11 +147,15 @@ def process_source(Source):
         for i in range(SCROLL):
             time.sleep(WAITING_TIME)
             html = driver.page_source
-            get_available_posts(html, Source, driver, history)
+            available_posts = get_available_posts(html, Source, driver, history)
+            posts_gathered.extend(available_posts)
             driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)
+            
         driver.quit()
     except Exception as e:
         generate_logs(Source["url"], "Exception", e)
+    
+    return posts_gathered
 
 
 def publish(html):
@@ -179,9 +177,12 @@ def main():
     for Source in Sources:
         process_source(Source)
 
-    # with ProcessPoolExecutor(max_workers=len(Sources)) as executor:
-    #     results = list(executor.map(process_source, Sources))
-            
+    # if __name__ == '__main__':
+    # with futures.ProcessPoolExecutor() as executor:
+    #     posts = list(executor.map(process_source, Sources))
+    # for post_by_source in posts:
+    #     print(post_by_source)
+    #     print("="*50)
     # code_html = nexus(results)
     # publish(code_html)
 

@@ -12,4 +12,4 @@ def generate_logs(*args):
     complete_log.extend(args)
     complete_log = [str(log) for log in complete_log]
     with open(f"./Logs/{name}", "a") as f:
-        f.write(" | ".join(complete_log))
+        f.write(" | ".join(complete_log) + "\n")

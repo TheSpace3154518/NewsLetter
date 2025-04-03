@@ -1,6 +1,6 @@
 from TheGreatFilter import extract_text, perform_dbscan
+from constants import *
 from main import fetch_text
-from ModelTests import TestModel
 from sentence_transformers import SentenceTransformer
 
 from sklearn.manifold import TSNE
@@ -11,13 +11,6 @@ import numpy as np
 
 
 
-# > ============ Constants ======================
-EPS = 1.2
-MIN_SAMPLES = 2
-model_name="all-MiniLM-L6-v2"
-url = "https://www.wired.com/"
-model = SentenceTransformer(model_name)
-# > =============================================
 
 
 def plot_projection(global_projection, labels, texts, Title):
@@ -61,11 +54,8 @@ def plot_projection(global_projection, labels, texts, Title):
 
 
 
-
-    
-
-
 def Projection():
+    model = SentenceTransformer(model_name)
     html = fetch_text(url, 2)
     texts = extract_text(html)
     if not texts:

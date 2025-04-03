@@ -3,4 +3,5 @@ TheGreatFilter
 __pycache__
 .github/workflows/test.yml
 Weights.csv
+.pytest_cache
 TheNexus

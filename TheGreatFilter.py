@@ -2,6 +2,10 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
 
+import re
+
+from constants import *
+
 from bs4 import BeautifulSoup
 
 # ? =========== Scraping Principles =============
@@ -10,14 +14,6 @@ from bs4 import BeautifulSoup
 # ?     - Pictures are included as " Picture describing " + alt(Picture)  
 # ?     - Trademarks are eliminated
 # ? =============================================
-
-
-# > ============ Constants ======================
-MIN_LIMIT = 32
-model_name="all-MiniLM-L6-v2"
-# > =============================================
-
-
 
 
 def extract_text(html):
@@ -32,7 +28,6 @@ def extract_text(html):
     forbidden_characters = ["™", "℠", "®", "©"]
     tags = soup.find_all(text_headers)
     text_list = [text.get_text().strip() for text in tags if text.get_text().strip()]
-
     # Get Pictures
     for img in soup.find_all("img"):
         alt_text = img.get("alt", "nothing")
@@ -42,13 +37,21 @@ def extract_text(html):
     divs = soup.find_all(["div"])
     for div in divs:
         div_text = [t.get_text(separator="\n").strip() for t in div.find_all(string=True) if t.parent.name not in text_headers]
-        contained_text = []
-        for text in div_text:
-            contained_text.extend([not_empty for not_empty in text.split("\n") if not_empty])
-        text_list.extend(contained_text)
+        text_list.extend(div_text)
+    
+    text_list = [re.sub(r"\.\ (?=[a-zA-Z0-9])", "\n", text.replace('\u00A0', ' ')) for text in text_list]
 
+    # Remove empty strings and split by new lines
+    split_text = []
+    for text in text_list:
+        if "\n" in text:
+            split_text.extend(text.split("\n"))
+        else:
+            split_text.append(text)
+    split_text = [text.strip() for text in split_text if text.strip()]
+    
     # Text Preprocessing
-    filtered_text_list = [text for text in text_list if len(text) >= MIN_LIMIT and not np.any([(symbol in text) for symbol in forbidden_characters])]
+    filtered_text_list = [text for text in split_text if len(text) >= MIN_LIMIT and not np.any([(symbol in text) for symbol in forbidden_characters])]
     return list(set(filtered_text_list))
 
 def perform_dbscan(embeddings, texts, eps=0.5, min_samples=2, metric="euclidean"):
@@ -71,7 +74,7 @@ def get_largest_cluster(texts, labels):
     return selected_texts
 
 
-def filter_html(html, eps, min_samples):
+def filter_html(html, eps=EPS, min_samples=MIN_SAMPLES):
     model = SentenceTransformer(model_name)
     texts = extract_text(html)
     if not texts:
