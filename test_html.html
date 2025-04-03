@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | markdown | safe }}</title>
+    <style>
+        body {
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            background-color: #f8fafc;
+            color: #1f2937;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .content {
+            padding: 30px 20px;
+        }
+        .category-tag {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 24px;
+            color: #1f2937;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        .email-meta {
+            color: #6b7280;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .email-content p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #1f2937;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #9ca3af;
+        }
+        .social-links {
+            margin: 15px 0;
+        }
+        .social-link {
+            color: #9ca3af;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <div class="logo">{{ company_name | markdown | safe }}</div>
+        </div>
+        <div class="content">
+            <span class="category-tag">{{ category | markdown | safe }}</span>
+            <h1>{{ title | markdown | safe }}</h1>
+            <div class="email-meta">
+                <span>{{ date | markdown | safe }}</span>
+            </div>
+            <div class="email-content">
+                {{ content | markdown | safe }}
+            </div>
+            {% if cta_link %}
+            <center>
+                <a href="{{ cta_link }}" class="cta-button">{{ cta_text | markdown | safe }}</a>
+            </center>
+            {% endif %}
+        </div>
+        <div class="footer">
+            {% if social_links is defined and social_links %}
+            <div class="social-links">
+                {% if social_links.twitter %}
+                <a href="{{ social_links.twitter }}" class="social-link">Twitter</a>
+                {% endif %}
+                {% if social_links.linkedin %}
+                <a href="{{ social_links.linkedin }}" class="social-link">LinkedIn</a>
+                {% endif %}
+                {% if social_links.website %}
+                <a href="{{ social_links.website }}" class="social-link">Website</a>
+                {% endif %}
+            </div>
+            {% endif %}
+            <p>&copy; {{ current_year | markdown | safe }} {{ company_name | markdown | safe }}. All rights reserved.</p>
+            <p>{{ address | markdown | safe }}</p>
+            <p><a href="{{ unsubscribe_link | default('#') }}" style="color: #9ca3af;">Unsubscribe</a></p>
+        </div>
+    </div>
+</body>
+</html>
