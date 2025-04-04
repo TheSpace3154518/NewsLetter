@@ -17,7 +17,7 @@ def get_url(url, method=0):
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.page_load_strategy = 'eager' 
-        driver = uc.Chrome(options=chrome_options) 
+        driver = uc.Chrome(options=chrome_options, browser_executable_path=CHROME_PATH)
         driver.get(url)
         time.sleep(WAITING_TIME)
         page_source = driver.page_source
@@ -83,7 +83,7 @@ def test_accuracy():
 
     files = ["Tests/" + f for f in os.listdir(directory) if f.endswith(extension)]
 
-    name = f"./Unit Tests/test-{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.txt"
+    name = f"./Reports/Unit Tests/test-{datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.txt"
     for file in files:
         noise, included, falsePositives, missing = TestModel(file)
         with open(name, "a") as f:

@@ -11,5 +11,5 @@ def generate_logs(*args):
     complete_log = ["> ", datetime.now().strftime("%Y-%m-%d %H:%M:%S"), uuid.uuid4()]
     complete_log.extend(args)
     complete_log = [str(log) for log in complete_log]
-    with open(f"./Logs/{name}", "a") as f:
+    with open(f"./Reports/Logs/{name}", "a") as f:
         f.write(" | ".join(complete_log) + "\n")

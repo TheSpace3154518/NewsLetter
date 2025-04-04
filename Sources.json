@@ -1,6 +1,13 @@
 [
     
     {
+        "source" : "Anthropic News",
+        "url" : "https://www.anthropic.com/news",
+        "post":"a.PostCard_post-card__z_Sqq",
+        "time":"div.PostList_post-date__djrOA",
+        "click":"<self>"
+    },
+    {
         "source" : "OpenAI on Twitter",
         "url" : "https://x.com/OpenAI",
         "post":"article",
@@ -27,13 +34,6 @@
         "post":"div.items-baseline",
         "time":"time",
         "click":"a"
-    },
-    {
-        "source" : "Anthropic News",
-        "url" : "https://www.anthropic.com/news",
-        "post":"a.PostCard_post-card__z_Sqq",
-        "time":"div.PostList_post-date__djrOA",
-        "click":"<self>"
     },
     {
         "source" : "Andrej Karpathy on Twitter",

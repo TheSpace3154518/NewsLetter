@@ -137,8 +137,8 @@ def get_available_posts(html, Source, driver, history):
 
 def process_source(Source):
     posts_gathered = []
+    driver = get_driver()
     try : 
-        driver = get_driver()
         history = []
         print("="*50)
         driver.get(Source["url"])
@@ -151,10 +151,10 @@ def process_source(Source):
             posts_gathered.extend(available_posts)
             driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)
             
-        driver.quit()
     except Exception as e:
         generate_logs(Source["url"], "Exception", e)
     
+    driver.quit()
     return posts_gathered
 
 
