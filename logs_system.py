@@ -13,3 +13,4 @@ def generate_logs(*args):
     complete_log = [str(log) for log in complete_log]
     with open(f"./Reports/Logs/{name}", "a") as f:
         f.write(" | ".join(complete_log) + "\n")
+    print("\n".join([str(arg) for arg in args]))

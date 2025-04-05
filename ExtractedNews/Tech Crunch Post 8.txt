@@ -1,0 +1,839 @@
+https://techcrunch.com/2025/04/04/chatgpt-everything-to-know-about-the-ai-chatbot/
+Elon Musk took a chainsaw to the US government
+Premium ChatGPT users — customers paying for ChatGPT Plus, Team or Enterprise — can now use an updated and enhanced version of GPT-4 Turbo
+One key topic being discussed is Reliance Jio distributing OpenAI’s ChatGPT
+Audience Development Manager
+The first developer event is to be held in San Francisco, with sessions to follow in Europe and Asia.
+OpenAI drops prices and fixes ‘lazy’ GPT-4 that refused to work
+The New York Times responds to OpenAI’s claims that it “hacked” ChatGPT for its copyright lawsuit
+In an effort to win the trust of parents and policymakers, OpenAI announced it’s partnering with Common Sense Media to collaborate on AI guidelines and education materials for parents, educators and young adults
+The goal is to have the new tool in place and ready to use by 2025.
+Operator, OpenAI’s agent tool, could be released sooner rather than later
+OpenAI launches Operator, an AI agent that performs tasks autonomously
+The model can generate videos up to 20 seconds long in 1080p based on text prompts or uploaded images, and can be “remixed” through additional user prompts
+These voices are distinct from those offered for ChatGPT, and developers can’t use third party voices, in order to prevent copyright issues.
+ChatGPT users found that ChatGPT was giving nonsensical answers for several hours, prompting OpenAI to investigate the issue
+However, users have noted that there are some character limitations after around 500 words.
+without signing up for an account
+In a series of posts on X, OpenAI CEO Sam Altman said the company’s new image-generation tool’s popularity may cause product releases to be delayed. “We are getting things under control, but you should expect new releases from OpenAI to be delayed, stuff to break, and for service to sometimes be slow as we deal with capacity challenges,” he wrote.
+Several marketplaces host and provide ChatGPT prompts, either for free or for a nominal fee
+ChatGPT usage spiked from April to May 2024, shortly after that model’s launch.
+that users have experienced.
+over half of ChatGPT’s mobile users
+OpenAI has effectively canceled the release of o3 in favor of what CEO Sam Altman is calling a “simplified” product offering
+ChatGPT’s environmental impact appears to be massive
+As part of the new deal, OpenAI will surface stories from Condé Nast properties like The New Yorker, Vogue, Vanity Fair, Bon Appétit and Wired in ChatGPT and SearchGPT
+We will see how handling troubling statements produced by ChatGPT will play out over the next few months as tech and legal experts attempt to tackle the fastest moving target in the industry.
+OpenAI detailed an incoming update
+In a blog post, OpenAI said that ChatGPT sent roughly a million people to CanIVote.org when they asked questions specific to voting in the lead-up to the election and rejected around 250,000 requests to generate images of the candidates over the same period.
+According to Reuters, OpenAI’s Sam Altman hosted hundreds of executives from Fortune 500 companies across several cities in April, pitching versions of its AI services intended for corporate use.
+In addition to these existing mitigations, we are also implementing additional safeguards specifically designed to address other forms of content that may be inappropriate for a signed out experience,” a spokesperson said.
+OpenAI has banned a cluster of ChatGPT accounts linked to an Iranian influence operation that was generating content about the U.S
+Sam Altman says a lack of compute capacity is delaying product releases
+The organization works to identify and minimize tech harms to young people and previously flagged ChatGPT as
+The feature can also understand what’s on a device’s screen through screen sharing.
+The response, signed by CEO Sam Altman and Chairman of the Board Bret Taylor, said building a complete and diverse board was one of the company’s top priorities and that it was working with an executive search firm to assist it in finding talent.
+OpenAI has suspended AI startup Delphi, which developed a bot impersonating Rep
+thinks that certain types of AI models for “reasoning” could have been developed 20 years ago
+ChatGPT was down twice in one day: one multi-hour outage in the early hours of the morning Tuesday and another outage later in the day that is still ongoing
+OpenAI inks content licensing deal with Financial Times
+OpenAI says it won’t release a model called Orion this year
+in an enthusiastic press release written with the help of ChatGPT
+After a big jump following the release of OpenAI’s new GPT-4o “omni” model, the mobile version of ChatGPT has now seen its biggest month of revenue yet
+ChatGPT users will see an updated “chain of thought” that shows more of the model’s “reasoning” steps and how it arrived at answers to questions.
+Former OpenAI director claims the board found out about ChatGPT on Twitter
+November 30, 2022 is when ChatGPT was released for public use.
+We made a config change that caused many servers to become unavailable.”
+OpenAI’s GPT Store is finally here
+GPT-4o mini will replace GPT-3.5 Turbo as the smallest model OpenAI offers.
+Dean Phillips (D-Minn.) to help bolster his presidential campaign
+OpenAI announced the ChatGPT desktop app for macOS can now read code in a handful of developer-focused coding apps, such as VS Code, Xcode, TextEdit, Terminal, and iTerm2 — meaning that developers will no longer have to copy and paste their code into ChatGPT
+ChatGPT is reportedly leaking usernames and passwords from users’ private conversations
+Winner of a literary prize reveals around 5% her novel was written by ChatGPT
+Due to the nature of how these models work
+OpenAI shuts down election influence operation that used ChatGPT
+OpenAI says it has trained an AI that’s “really good” at creative writing
+wants to incorporate Anthropic’s Model Context Protocol (MCP)
+generate “entirely positive” summaries
+OpenAI unveiled a preview of OpenAI o1, also known as “Strawberry.” The collection of models are available in ChatGPT and via OpenAI’s API: o1-preview and o1 mini
+Several tools claim to detect ChatGPT-generated text, but in our tests, they’re inconsistent at best.
+has been invited to testify
+The protocol is currently available in the Agents SDK, and support for the ChatGPT desktop app and Responses API will be coming soon, OpenAI CEO Sam Altman said.
+OpenAI launches new tools to help businesses build AI agents
+OpenAI announced a partnership with Reddit that will give the company access to “real-time, structured and unique content” from the social network
+In an effort to win the trust of parents and policymakers,
+Although OpenAI notes it may not grant every request since it must balance privacy requests against freedom of expression “in accordance with applicable laws”.
+Both the free version of ChatGPT and the paid ChatGPT Plus are regularly updated with new GPT models
+opening a new office in Tokyo
+In a conversation with Bill Gates on the
+The latest update of the image generator on OpenAI’s ChatGPT
+OpenAI says that ChatGPT Gov enables agencies to more easily manage their own security, privacy, and compliance, and could expedite internal authorization of OpenAI’s tools for the handling of non-public sensitive data.
+OpenAI inks content deal with Condé Nast
+Last year, it was reported that HubSpot co-founder and CTO Dharmesh Shah acquired Chat.com for $15.5 million, making it one of the top two all-time publicly reported domain sales — though OpenAI declined to state how much it paid for it.
+in the U.K., OpenAI submitted a plea to the House of Lords communications and digital committee
+The most recent model is GPT-4o.
+If you have any other questions, check out our ChatGPT FAQ here.
+The launch of GPT-4o has driven the company’s biggest-ever spike in revenue on mobile, despite the model being freely available on the web
+OpenAI announces new search prototype, SearchGPT
+ban on using news publications and books to train AI chatbots
+Meta also plans to bolster its presence in India by constructing a large 3GW data center in Jamnagar, Gujarat
+Appfigures estimates that across age groups, men make up 84.5% of all users.
+Lilian Weng announced on X that she is departing OpenAI
+OpenAI’s chatbot store is filling up with spam
+In a post on X, Altman said that, in the coming months, OpenAI will release a model called GPT-5 that “integrates a lot of [OpenAI’s] technology,” including o3, in ChatGPT and its API
+customize their interactions with ChatGPT.
+According to a new report from VC firm Andreessen Horowitz (a16z), OpenAI’s AI chatbot, ChatGPT, experienced solid growth in the second half of 2024
+OpenAI partners with Dublin City Council to use GPT-4 for tourism
+OpenAI expects its revenue to triple to $12.7 billion in 2025, fueled by the performance of its paid AI software, Bloomberg reported, citing an anonymous source
+the FT wrote in a press release.
+users will not be allowed to build applications for political campaigning and lobbying until the company works out how effective their tools are for “personalized persuasion.”
+The Arc Prize Foundation, which develops the AI benchmark tool ARC-AGI, has updated the estimated computing costs for OpenAI’s o3 “reasoning” model managed by ARC-AGI
+ChatGPT is a general-purpose chatbot that uses artificial intelligence to generate text after a user enters a prompt, developed by tech startup OpenAI
+The report also says the company could spend as much as $7 billion in 2024 to train and operate ChatGPT.
+OpenAI is introducing a new way for users to customize their interactions with ChatGPT
+OpenAI announced that its GPT-4o model has been updated to feature more “natural” and “engaging” creative writing abilities as well as more thorough responses and insights when accessing files uploaded by users.
+She oversaw the creation of Orion, the impressive augmented reality prototype that Meta recently showed off at its annual Connect conference.
+New York-based law firm Cuddy Law was criticized by a judge for
+court filing opposing OpenAI’s motion to dismiss The New York Times’ lawsuit
+OpenAI inks deal to train AI on Reddit data
+In a conversation with Bill Gates on the Unconfuse Me podcast, Sam Altman confirmed an upcoming release of GPT-5 that will be “fully multimodal with speech, image, code, and video support.” Altman said users can expect to see GPT-5 drop sometime in 2024.
+telemetry service it deployed
+an injunction from Elon Musk
+OpenAI has suspended AI startup Delphi, which
+Alyssa Stringer was formerly the Audience Development Manager for TechCrunch
+ChatGPT users discovered an interesting phenomenon: the popular chatbot refused to answer questions asked about a “David Mayer,” and asking it to do so caused it to freeze up instantly
+OpenAI to remove ChatGPT’s Scarlett Johansson-like voice
+its step-by-step “thought” process.
+You won’t be able to save or share chats, use custom instructions, or other features associated with a persistent account
+The changes aren’t yet publicly visible, but a user on X who goes by Choi spotted these updates in ChatGPT’s client-side code
+A hacker was able to trick ChatGPT into giving instructions on how to make bombs
+to The New York Times’s lawsuit against them and Microsoft for allegedly violating copyright law, claiming that the case is without merit.
+What are some advanced uses for ChatGPT?
+After some back and forth over the last few months,
+OpenAI’s o3 model could cost more to run than initial estimate
+specific, internal definition of AGI
+Most recently, Microsoft announced at its 2023 Build conference that it is integrating its ChatGPT-based Bing experience into Windows 11
+OpenAI has closed the largest VC round of all time
+Multi-factor authentication also isn’t supported without a valid email.
+There have also been cases of ChatGPT accusing individuals of false crimes.
+More teens report using ChatGPT for schoolwork, despite the tech’s faults
+Dev Day brings Realtime API to AI app developers
+He lives in Manhattan with his partner, a music therapist.
+OpenAI announced “12 Days of OpenAI,” which will feature livestreams every weekday starting December 5 at 10 a.m
+be used to help employees with work-related tasks
+OpenAI says it plans to bring o1-mini access to all free users of ChatGPT, but hasn’t set a release date.
+will also be available through Apple devices
+Noyb, a privacy rights advocacy group, is supporting an individual in Norway who was shocked to discover that ChatGPT was providing false information about him, stating that he had been found guilty of killing two of his children and trying to harm the third. “The GDPR is clear
+OpenAI releases “more direct, less verbose” version of GPT-4 Turbo
+Mobile users are being pushed to upgrade to its $19.99 monthly subscription, ChatGPT Plus, if they want to experiment with OpenAI’s most recent launch.
+GPT-4o with voice capabilities,
+Condé Nast CEO Roger Lynch implied that the “multi-year” deal will involve payment from OpenAI in some form and a Condé Nast spokesperson told TechCrunch that OpenAI will have permission to train on Condé Nast content.
+OpenAI is testing SearchGPT, a new AI search experience to compete with Google
+OpenAI will surface stories from Condé Nast properties
+Screenshots provided to Ars Technica found that ChatGPT is potentially leaking unpublished research papers, login credentials and private information from its users
+the upgraded image generator
+OpenAI and Stack Overflow announce partnership
+You can make ChatGPT sound like Santa for a limited time
+Users can call 1-800-CHATGPT, and ChatGPT will respond to your queries in an experience that is more or less identical to Advanced Voice Mode — minus the multimodality.
+Brad Lightcap, OpenAI’s chief operating officer, will lead the company’s global expansion and manage corporate partnerships as CEO Sam Altman shifts his focus to research and products, according to a blog post from OpenAI
+OpenAI unveils plan to combat election misinformation
+This includes the ability to make requests for deletion of AI-generated references about you
+Operator will be available as an early research preview
+The move appears to be intended to shrink its regulatory risk in the European Union, where the company has been under scrutiny over ChatGPT’s impact on people’s privacy.
+Think boomy, jolly — more or less like every Santa you’ve ever heard.
+OpenAI has introduced o1-pro in its developer API
+OpenAI and TIME announced a multi-year strategic partnership that brings the magazine’s content, both modern and archival, to ChatGPT
+OpenAI announced in a blog post that it has recently begun training its next flagship model to succeed GPT-4
+In a Reddit AMA, OpenAI CEO Sam Altman admitted that a lack of compute capacity is one major factor preventing the company from shipping products as often as it’d like, including the vision capabilities for Advanced Voice Mode first teased in May
+OpenAI debuts GPT-4o “omni” model now powering ChatGPT
+In return, OpenAI will include attributions to Stack Overflow in ChatGPT
+It’s not documented anywhere that ChatGPT has a character limit
+OpenAI pauses Sora sign-ups due to high demand
+Search gives ChatGPT the ability to access real-time information on the web to better answer your queries, but was only available for paid users when it launched in October
+OpenAI raises $6.6B and is now valued at $157B
+Canadian news companies sue OpenAI
+ChatGPT releases app for Mac
+made a notable change to its content moderation policies
+ChatGPT has experienced significant growth recently due to the launch of new models and features, such as GPT-4o, with multimodal capabilities
+The company said that nearly half of OpenAI’s corporate users are based in the US.
+an unannounced update to its usage policy
+ChatGPT’s Advanced Voice Mode feature is expanding to the web, allowing users to talk to the chatbot through their browser
+OpenAI intends to release several “agent” products tailored for different applications, including sorting and ranking sales leads and software engineering, according to a report from The Information
+After receiving the prestigious Akutagawa Prize for her novel The Tokyo Tower of Sympathy, author Rie Kudan admitted that around 5% of the book quoted ChatGPT-generated sentences “verbatim.” Interestingly enough, the novel revolves around a futuristic world with a pervasive presence of AI.
+OpenAI is giving users their first access to GPT-4o’s updated realistic audio responses
+its biggest month of revenue yet.
+Reliance has proposed selling OpenAI’s models to businesses in India through an application programming interface (API) so they can incorporate AI into their operations
+OpenAI CTO Mira Murati announced that she is leaving the company after more than six years
+ChatGPT is potentially leaking unpublished research papers, login credentials and private information
+In a new partnership, OpenAI will get access to developer platform Stack Overflow’s API and will get feedback from developers to improve the performance of their AI models
+OpenAI reportedly plans to charge up to $20,000 a month for specialized AI ‘agents’
+allow creators to better control how their content is being used
+However, the analysis doesn’t consider the additional energy costs incurred by ChatGPT with features like image generation or input processing.
+The news came in an announcement of its new safety and security committee, which is responsible for informing safety and security decisions across OpenAI’s products.
+admitted that around 5% of the book quoted ChatGPT-generated sentences
+A chatbot can be any software/system that holds dialogue with you/a person but doesn’t necessarily have to be AI-powered
+ChatGPT Search can be fooled into generating completely misleading summaries, The Guardian has found
+OpenAI denied reports that it is intending to release an AI model, code-named Orion, by December of this year
+A commonly cited stat is that ChatGPT requires around 3 watt-hours of power to answer a single question
+GPT-4 Turbo also got a new preview model for API use, which includes an interesting fix that
+newspapers file copyright lawsuit against OpenAI and Microsoft
+OpenAI VP doesn’t say whether artists should be paid for training data
+There are still more reveals to come from OpenAI through December 23
+ChatGPT told 2M people to get their election news elsewhere
+In response to pressure from rivals like DeepSeek, OpenAI is changing the way its o3-mini model communicates its step-by-step “thought” process
+The ban comes just weeks after OpenAI published a plan to combat election misinformation, which listed “chatbots impersonating candidates” as against its policy.
+The feature allows users to speak with ChatGPT’s Advanced Voice Mode, but with a Christmas twist
+With the release of iOS 18.1, Apple Intelligence features powered by ChatGPT are now available to users
+The private equity company that owns CNET, Red Ventures, was accused of using ChatGPT for SEO farming, even if the information was incorrect.
+reportedly lays the groundwork
+OpenAI rolls out Advanced Voice Mode with more voices and a new look
+Altman also admitted to using ChatGPT “sometimes” to answer questions throughout the AMA.
+OpenAI also faced its share of internal drama, including the notable exits of high-level execs like co-founder and longtime chief scientist Ilya Sutskever and CTO Mira Murati
+questioned the lack of diversity in OpenAI’s board, the company
+Microsoft and OpenAI have a very specific, internal definition of AGI based on the startup’s profits, according to a new report from The Information
+OpenAI announced it’s rolling out a feature that allows users to search through their ChatGPT chat histories on the web
+The company is also testing out a tool that detects DALL-E generated images and will incorporate access to real-time news, with attribution, in ChatGPT.
+The startup announced it raised $6.6 billion in a funding round that values OpenAI at $157 billion post-money
+Hours after the announcement, OpenAI’s chief research officer, Bob McGrew, and a research VP, Barret Zoph, also left the company
+its new omni model, GPT-4o,
+ChatGPT’s weekly active users increased to 300 million by December 2024 and 400 million by February 2025
+Kate Park is a reporter at TechCrunch, with a focus on technology, startups and venture capital in Asia
+While ChatGPT can write workable Python code, it can’t necessarily program an entire app’s worth of code
+Yes, there is a free ChatGPT mobile app for iOS and Android users.
+The dating app giant home to Tinder, Match and OkCupid announced an enterprise agreement with OpenAI in an enthusiastic press release written with the help of ChatGPT
+multiple AI-powered chatbot
+OpenAI announced it has trained a model off of GPT-4, dubbed CriticGPT, which aims to find errors in ChatGPT’s code output so they can make improvements and better help so-called human “AI trainers” rate the quality and accuracy of ChatGPT responses.
+But OpenAI recently disclosed a bug, since fixed, that exposed the titles of some users’ conversations to other people on the service.
+OpenAI is toying with the idea of getting into ads
+The company says the app is an early version and is currently only available to ChatGPT Plus, Team, Enterprise, and Edu users with a “full experience” set to come later this year.
+What companies use ChatGPT?
+From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape
+OpenAI brings ChatGPT to your landline
+OpenAI struck a content deal with Hearst, the newspaper and magazine publisher known for the San Francisco Chronicle, Esquire, Cosmopolitan, ELLE, and others
+One, a “high-income knowledge worker” agent, will reportedly be priced at $2,000 a month
+OpenAI signs 100K PwC workers to ChatGPT’s enterprise tier
+After receiving the prestigious Akutagawa Prize for her novel The Tokyo Tower of Sympathy, author Rie Kudan
+The latest update of the image generator on OpenAI’s ChatGPT has triggered a flood of AI-generated memes in the style of Studio Ghibli, the Japanese animation studio behind blockbuster films like “My Neighbor Totoro” and “Spirited Away.” The burgeoning mass of Ghibli-esque images have sparked concerns about whether OpenAI has violated copyright laws, especially since the company is already facing legal action for using source material without authorization.
+Developing AI models would be “impossible” without copyrighted materials, OpenAI claims
+A video from YouTube creator ChromaLock showcased how to modify a TI-84 graphing calculator so that it can connect to the internet and access ChatGPT, touting it as the “ultimate cheating device.” As demonstrated in the video, it’s a pretty complicated process for the average high school student to follow — but it might stoke more concerns from teachers about the ongoing concerns about ChatGPT and cheating in schools.
+It took ChatGPT nine months to increase its weekly active users from 100 million in November 2023 to 200 million in August 2024, but it only took less than six months to double that number once more, according to the report
+As part of a new partnership with OpenAI, the Dublin City Council will use GPT-4 to craft personalized itineraries for travelers, including recommendations of unique and cultural destinations, in an effort to support tourism across Europe.
+What are some sample everyday uses for ChatGPT?
+OpenAI finds that GPT-4o does some weird stuff sometimes
+Apple is including an option to upgrade to ChatGPT Plus inside its Settings app, according to an update to the iOS 18.2 beta spotted by 9to5Mac
+Picture describing ChatGPT welcome screen
+A cursory search pulls up GPTs that claim to generate art in the style of Disney and Marvel properties, but serve as little more than funnels to third-party paid services and advertise themselves as being able to bypass AI content detection tools.
+, OpenAI announced price drops for GPT-3.5’s API, with input prices dropping to 50% and output by 25%, to $0.0005 per thousand tokens in, and $0.0015 per thousand tokens out
+A law firm used ChatGPT to justify a six-figure bill for legal services
+OpenAI argued that it would be “impossible” to train AI models without using copyrighted materials, and that they believe copyright law “does not forbid training.”
+who was shocked to discover that ChatGPT
+Apple users will soon be able to upgrade to ChatGPT Plus in the Settings app
+licensing and product partnerships with OpenAI
+per a report by The Information
+Timeline of the most recent ChatGPT updates
+You can now search through your ChatGPT history
+In an unannounced update to its usage policy, OpenAI removed language previously prohibiting the use of its products for the purposes of “military and warfare.” In an additional statement, OpenAI confirmed that the language was changed in order to accommodate military customers and projects that do not violate their ban on efforts to use their tools to “harm people, develop weapons, for communications surveillance, or to injure others or destroy property.”
+Another, a software developer agent, is said to cost $10,000 a month
+Operator promises to automate tasks such as booking travel accommodations, making restaurant reservations, and shopping online.
+OpenAI loses another lead safety researcher
+Midjourney releases V7, its first new AI image model in nearly a year
+collaboration-focused interface
+The blog post went on to explain how the company chose its voices: Breeze, Cove, Ember, Juniper and Sky.
+Using OpenAI’s latest default model for ChatGPT, GPT-4o, as a reference, nonprofit AI research institute Epoch AI found the average ChatGPT query consumes around 0.3 watt-hours
+OpenAI is now allowing anyone to use ChatGPT web search without having to log in
+100 million in November 2023
+a spokesperson from OpenAI told TechCrunch
+and come as part of Match’s $20 million-plus bet on AI in 2024.
+Its ChatGPT-integrated Plus Speech voice assistant is an AI chatbot based on Cerence’s Chat Pro product and a LLM from OpenAI and will begin rolling out on September 6 with the 2025 Jetta and Jetta GLI models.
+After being delayed in December, OpenAI plans to launch its GPT Store sometime in the coming week, according to an email viewed by TechCrunch
+OpenAI is reportedly planning to build its first AI chip
+The report notes that a steeper increase could come over the next five years; by 2029, OpenAI expects it’ll charge $44 per month for ChatGPT Plus.
+The chatbot uses GPT-4, a large language model that uses deep learning to produce human-like text.
+closed the largest VC round of all time.
+surpassed 300 million weekly active users.
+Alden Global Capital-owned newspapers, including the New York Daily News, the Chicago Tribune, and the Denver Post, are suing OpenAI and Microsoft for copyright infringement
+now bring GPTs into a conversation
+What does GPT mean in ChatGPT?
+Meta’s former hardware lead for Orion is joining OpenAI
+In a blog post, OpenAI announced price drops for GPT-3.5’s API, with input prices dropping to 50% and output by 25%, to $0.0005 per thousand tokens in, and $0.0015 per thousand tokens out
+But considering the ways ChatGPT can fall short, the results are possibly cause for alarm.
+Not only is Search available now for free users, but it’s also been integrated into Advanced Voice Mode.
+Scale smarter, connect deeper — save $210 when you register now!
+OpenAI launches o3-mini, its latest ‘reasoning’ model
+It marks OpenAI’s first partnership with a higher education institution.
+The company’s CEO Sam Altman said on Wednesday, however, that the release of the image generation feature to free users would be delayed due to higher demand than the company expected.
+Alden Global Capital-owned newspapers
+The company says GPT-4o mini, which is cheaper and faster than OpenAI’s current AI models, outperforms industry leading small AI models on reasoning tasks involving text and vision
+Text-generating AI models like ChatGPT have a tendency to regurgitate content from their training data.
+Adding to its collection of high-profile domain names, Chat.com now redirects to ChatGPT
+, OpenAI removed language previously prohibiting the use of its products for the purposes of “military and warfare.” In an additional statement, OpenAI confirmed that the language was changed in order to accommodate military customers and projects that do not violate their ban on efforts to use their tools to “harm people, develop weapons, for communications surveillance, or to injure others or destroy property.”
+OpenAI bans developer of a bot impersonating a presidential candidate
+lacking in transparency and privacy
+Several major school systems and colleges, including New York City Public Schools, have banned ChatGPT from their networks and devices
+nonsensical answers for several hours
+OpenAI wants to incorporate Anthropic’s Model Context Protocol (MCP) into all of its products, including the ChatGPT desktop app
+OpenAI charges $150 for every million tokens (about 750,000 words) input into the model and $600 for every million tokens the model produces
+The former head of Meta’s augmented reality glasses efforts is joining OpenAI to lead robotics and consumer hardware
+OpenAI rolled out new tools designed to help developers and businesses build AI agents — automated systems that can independently accomplish tasks — using the company’s own AI models and frameworks
+Sora is available starting today to ChatGPT Pro and Plus subscribers (except in the EU).
+The Atlantic and Vox Media ink content deals with OpenAI
+Picture describing TechCrunch
+The feature is currently in beta in the U.S
+The latest version of the macOS ChatGPT app allows users to edit code directly in supported developer tools, including Xcode, VS Code, and JetBrains
+OpenAI has launched o1-pro, a more powerful version of its o1
+the idea of getting into ads.
+Picture describing Cody Corrall
+In a blog post, OpenAI announced
+However, the company has now “evolved” its approach, as stated in a blog post published by Joanne Jang, the lead for OpenAI’s model behavior.
+by typing “@” and selecting a GPT from the list
+released as a preview in September,
+to help developers and businesses build AI agents
+the successors to its o1 reasoning model family:
+OpenAI is highlighting improvements in conversational speed, accents in foreign languages, and five new voices as part of the rollout.
+The company notes that standard carrier fees may apply.
+, OpenAI reiterates its view that training AI models using publicly available data from the web is fair use
+OpenAI introduced a new way to interact with ChatGPT called “Canvas.” The canvas workspace allows for users to generate writing or code, then highlight sections of the work to have the model edit
+TechCrunch found that the OpenAI’s GPT Store is flooded with bizarre, potentially copyright-infringing GPTs
+OpenAI announced a partnership with the Los Alamos National Laboratory to study how AI can be employed by scientists in order to advance research in healthcare and bioscience
+OpenAI announces leadership updates
+The company released Sora as part of its “12 Days of OpenAI” event following nearly a year of teasing the product.
+The Atlantic and Vox Media have announced licensing and product partnerships with OpenAI
+Be sure to check heading and document order.
+OpenAI just made its first cybersecurity investment
+Solana officially integrated the chatbot
+A new report from app analytics firm Appfigures found that over half of ChatGPT’s mobile users are under age 25, with users between ages 50 and 64 making up the second largest age demographic
+What is the latest version of ChatGPT?
+OpenAI launches its Google search challenger
+artists whose work was used to train generative AI models should be compensated
+OpenAI is forming a Collective Alignment team of researchers and engineers to create a system for collecting and “encoding” public input on its models’ behaviors into OpenAI products and services
+OpenAI makes CriticGPT to find mistakes in GPT-4
+400 million by February 2025
+It costs twice as much as OpenAI’s GPT-4.5 for input and 10 times the price of regular o1.
+In a new “red teaming” report, OpenAI reveals some of GPT-4o’s weirder quirks, like mimicking the voice of the person speaking to it or randomly shouting in the middle of a conversation.
+OpenAI has said that individuals in “certain jurisdictions” (such as the EU) can object to the processing of their personal information by its AI models by filling out this form
+OpenAI released new research outlining the company’s approach to ensure AI reasoning models stay aligned with the values of their human developers
+experienced solid growth in the second half of 2024.
+new updates for easier data analysis within ChatGPT
+OpenAI and Meta have separately engaged in discussions with Indian conglomerate Reliance Industries regarding potential collaborations to enhance their AI services in the country, per a report by The Information
+Recently, Discord announced that it had integrated OpenAI’s technology into its bot named Clyde where two users tricked Clyde into providing them with instructions for making the illegal drug methamphetamine (meth) and the incendiary mixture napalm.
+ChatGPT experiences two outages in a single day
+ChatGPT lets you add files from Google Drive and Microsoft OneDrive
+ChatGPT Pro is a $200-per-month tier that provides unlimited access to all of OpenAI’s models, including the full version of its o1 “reasoning” model.
+OpenAI published a public response to The New York Times’s lawsuit against them and Microsoft for allegedly violating copyright law, claiming that the case is without merit.
+OpenAI says that it might store chats and associated screenshots from customers who use Operator, the company’s AI “agent” tool, for up to 90 days — even after a user manually deletes them
+In addition to gaining access to GPT-4, GPT-4 with Vision and DALL-E3, ChatGPT Team lets teams build and share GPTs for their business needs.
+Sam Altman pitches ChatGPT Enterprise to Fortune 500 companies
+The gender gap among ChatGPT users is even more significant
+ChatGPT Gov includes many of the capabilities found in OpenAI’s corporate-focused tier, ChatGPT Enterprise
+They found ChatGPT could be prompted to ignore negative reviews and generate “entirely positive” summaries by inserting hidden text into websites it created and that ChatGPT Search could also be made to spit out malicious code using this method.
+sign up with only a phone number
+OpenAI could potentially catch students who cheat with ChatGPT
+The Responses API effectively replaces OpenAI’s Assistants API, which the company plans to discontinue in the first half of 2026.
+Showing ChatGPT users a tiny disclaimer that the chatbot can make mistakes clearly isn’t enough
+ChatGPT and Sora hit with a major outage
+Teen with 4.0 GPA who built the viral Cal AI app was rejected by 15 top universities
+a user on X who goes by Choi
+Both agreements allow OpenAI to use the publishers’ current content to generate responses in ChatGPT, which will feature citations to relevant articles
+has added new transcription and voice-generating AI models to its APIs
+to collaborate on AI guidelines and education materials for parents, educators and young adults
+OpenAI cancels its o3 AI model in favor of a ‘unified’ next-gen release
+This only applies through ChatGPT.com, however
+OpenAI launches $200 monthly ChatGPT Pro subscription — and full version of o1
+OpenAI launched ChatGPT Search, an evolution of the SearchGPT prototype it unveiled this summer
+Noam Brown, who heads AI reasoning research at OpenAI, thinks that certain types of AI models for “reasoning” could have been developed 20 years ago if researchers had understood the correct approach and algorithms.
+And it turns out that it might not be that great at creative writing at all.
+OpenAI begins rolling out “Temporary Chat” feature
+relationship with Washington
+linked to an Iranian influence operation
+OpenAI identified five website fronts
+the company’s AI “agent” tool,
+bringing ChatGPT to Siri and other first-party apps
+Read aloud is available on both GPT-4 and GPT-3.5 models.
+OpenAI CEO Sam Altman said, in a post on X, that the company has trained a “new model” that’s “really good” at creative writing
+ChatGPT’s Apple Intelligence integration.
+OpenAI on Tuesday rolled out a major upgrade to ChatGPT’s image-generation capabilities: ChatGPT can now use the GPT-4o model to generate and edit images and photos directly
+Arizona State University will have full access to ChatGPT’s Enterprise tier
+A new report estimates that ChatGPT uses more than half a million kilowatt-hours of electricity per day
+That’s because ChatGPT lacks context awareness — in other words, the generated code isn’t always appropriate for the specific context in which it’s being used.
+To use ChatGPT in any form through the native mobile app, you will still need to be logged in.
+unveiled a preview of OpenAI o1
+The alpha version is now available to a small group of ChatGPT Plus users, and the company says the feature will gradually roll out to all Plus users in the fall of 2024
+ChatGPT users found that ChatGPT was giving
+The full version of o1, which was released as a preview in September, can now reason about image uploads and has been trained to be “more concise in its thinking” to improve response times.
+The company has updated its policies to allow ChatGPT to generate images of public figures, hateful symbols, and racial features when requested
+he may sue OpenAI for defamation
+it’s suspected of violating European Union privacy
+biggest-ever spike in revenue on mobile
+An OpenAI spokesperson confirmed to TechCrunch that the company is researching tools that can detect writing from ChatGPT, but said it’s taking a “deliberate approach” to releasing it.
+Users can now upload files directly from Google Drive and Microsoft OneDrive, interact with tables and charts, and export customized charts for presentations
+The company will become OpenAI’s biggest customer to date, covering 100,000 users, and will become OpenAI’s first partner for selling its enterprise offerings to other businesses.
+The feature allows ChatGPT to read its responses to queries in one of five voice options and can speak 37 languages, according to the company
+OpenAI CEO says capacity issues will cause product delays
+AVM is also getting a revamped design — the feature is now represented by a blue animated sphere instead of the animated black dots that were presented back in May
+Paid users of ChatGPT can now bring GPTs into a conversation by typing “@” and selecting a GPT from the list
+AI model, code-named Orion,
+While OpenAI lets artists “opt out” of and remove their work from the datasets that the company uses to train its image-generating models, some artists have described the tool as onerous.
+With the app, users can quickly call up ChatGPT by using the keyboard combination of Option + Space
+Beginning in February, Arizona State University will have full access to ChatGPT’s Enterprise tier, which the university plans to use to build a personalized AI tutor, develop AI avatars, bolster their prompt engineering course and more
+Ads might be headed to ChatGPT
+When did ChatGPT get released?
+OpenAI also said Mark Chen would step into the expanded role of chief research officer, and Julia Villagra will take on the role of chief people officer.
+ChatGPT Plus inside its Settings app,
+The ChatGPT integrations, powered by GPT-4o, will arrive on iOS 18, iPadOS 18 and macOS Sequoia later this year, and will be free without the need to create a ChatGPT or OpenAI account
+Younger Gen Zers are embracing ChatGPT, for schoolwork, according to a new survey by the Pew Research Center
+a report from The Information
+OpenAI moves to shrink regulatory risk in EU around data privacy
+Our first impressions of ChatGPT’s Advanced Voice Mode
+OpenAI plans to launch its GPT Store
+ChatGPT’s advanced Voice Mode starts rolling out to some users
+SearchGPT aims to elevate search queries with “timely answers” from across the internet, as well as the ability to ask follow-up questions
+OpenAI made a notable change to its content moderation policies after the success of its new image generator in ChatGPT, which went viral for being able to create Studio Ghibli-style images
+The company also announced the ability to integrate Python code within Canvas as well as bringing Canvas to custom GPTs.
+At the New York Times’ Dealbook Summit, OpenAI CEO Sam Altman said that ChatGPT has surpassed 300 million weekly active users
+The issue was resolved by OpenAI the following morning.
+The lawsuit alleges that the companies stole millions of copyrighted articles “without permission and without payment” to bolster ChatGPT and Copilot.
+government agencies an additional way to access the tech
+OpenAI announces new o3 reasoning models
+As part of a new partnership with OpenAI,
+Powered by a fine-tuned version of OpenAI’s GPT-4o model, ChatGPT Search serves up information and photos from the web along with links to relevant sources, at which point you can ask follow-up questions to refine an ongoing search.
+How good is ChatGPT at writing code?
+previewed the model in December
+a 1-800 number to call the chatbot
+The company has been trying to shore up its relationship with Washington as it simultaneously pursues an ambitious data center project, and as it reportedly lays the groundwork for one of the largest funding rounds in history.
+On the The TED AI Show podcast, former OpenAI board member Helen Toner revealed that the board did not know about ChatGPT until its launch in November 2022
+a multi-year strategic partnership
+While OpenAI has a similar deleted data retention policy for ChatGPT, the retention period for ChatGPT is only 30 days, which is 60 days shorter than Operator’s.
+What is the ChatGPT character limit?
+OpeanAI intends to release its “first” open language model since GPT-2 “in the coming months.” The company plans to host developer events to gather feedback and eventually showcase prototypes of the model
+Some users found they can specify a preferred name or nickname and “traits” they’d like the chatbot to have
+Match Group announced deal with OpenAI with a press release co-written by ChatGPT
+ChatGPT Plus, Team, and Pro subscribers can use the app to point their phones at objects and have ChatGPT respond in near-real-time
+At the first of its 2024 Dev Day events, OpenAI announced a new API tool that will let developers build nearly real-time, speech-to-speech experiences in their apps, with the choice of using six voices provided by OpenAI
+After a letter from the Congressional Black Caucus questioned the lack of diversity in OpenAI’s board, the company responded
+Kalinowski is a hardware executive who began leading Meta’s AR glasses team in March 2022
+The controls let you tell ChatGPT explicitly to remember something, see what it remembers or turn off its memory altogether
+Anthropic’s Claude and Perplexity also experienced some issues.
+The conversational feature is rolling out to ChatGPT’s paying Plus, Enterprise, Teams, or Edu subscribers.
+ChatGPT is AI-powered and utilizes LLM technology to generate text after a prompt.
+Cody Corrall was the Audience Development Producer at TechCrunch until March 2025.  They also previously ran social media accounts for BuzzFeed News and WTTW’s daily flagship program on PBS, “Chicago Tonight.” When they’re not tweeting, Cody, based out of Chicago, can be found yelling about vampires on the Into the Twilight podcast.
+OpenAI suggests traits like “Chatty,” “Encouraging,” and “Gen Z.” However, some users reported that the new options have disappeared, so it’s possible they went live prematurely.
+lingering issues forced it to postpone
+None specifically targeting ChatGPT
+peek behind the curtain of its AI’s secret instructions
+now available for all users
+raise the price of individual ChatGPT subscriptions
+For Mac users, that means that both ChatGPT’s Advanced Voice Mode can coexist with Siri on the same device, leading the way for ChatGPT’s Apple Intelligence integration.
+a new experimental product called Atlantic Labs
+recently begun training its next flagship model
+sometime in the coming week, according to an email viewed by TechCrunch
+The tools are part of OpenAI’s new Responses API, which enables enterprises to develop customized AI agents that can perform web searches, scan through company files, and navigate websites, similar to OpenAI’s Operator product
+a “deliberate approach” to releasing it.
+, ChatGPT uses an estimated 17,000 times the amount of electricity than the average U.S
+The most expensive rumored agents, which are said to be aimed at supporting “PhD-level research,” are expected to cost $20,000 per month
+Interestingly enough, the novel revolves around a futuristic world with a pervasive presence of AI.
+election, and instead recommended trusted news sources like Reuters and the Associated Press.
+The Wall Street Journal reports
+that she is leaving the company
+handling troubling statements produced by ChatGPT
+OpenAI inks content deal with TIME
+accusing individuals of false crimes
+OpenAI planned to start rolling out its advanced Voice Mode feature to a small group of ChatGPT Plus users in late June, but it says lingering issues forced it to postpone the launch to July
+At a SXSW 2024 panel, Peter Deng, OpenAI’s VP of consumer product dodged a question on whether artists whose work was used to train generative AI models should be compensated
+Prior to her experience in audience development, Alyssa worked as a content writer and holds a Bachelor’s in Journalism at the University of North Texas.
+YouTuber finds a way to run ChatGPT on a graphing calculator
+nearly a year of teasing the product.
+OpenAI is launching a research preview of Operator, a general-purpose AI agent that can take control of a web browser and independently perform certain actions
+to help bolster his presidential campaign
+ChatGPT’s mobile app revenue saw biggest spike yet following GPT-4o launch
+A new report from The Information, based on undisclosed financial information, claims OpenAI could lose up to $5 billion due to how costly the business is to operate
+OpenAI, Meta in talks with Reliance in India
+OpenAI changes policy to allow military applications
+OpenAI announces 12 days of reveals for the holidays
+Everyday examples include programming, scripts, email replies, listicles, blog ideas, summarization, etc.
+COO of OpenAI Brad Lightcap
+ChatGPT’s new beta feature, called tasks, allows users to set simple reminders
+He posted a lengthy sample from the model given the prompt “Please write a metafictional literary short story about AI and grief.” OpenAI has not extensively explored the use of AI for writing fiction
+OpenAI launches ChatGPT plan for US government agencies
+until its launch in November 2022.
+On day one of its 12 Days of OpenAI event, the company announced a new — and expensive — subscription plan
+The company announced it’s building a tool, Media Manager, that will allow creators to better control how their content is being used to train generative AI models — and give them an option to opt out
+Incidents varied from repetitive phrases to confusing and incorrect answers to queries
+In a blog post, OpenAI announced users will not be allowed to build applications for political campaigning and lobbying until the company works out how effective their tools are for “personalized persuasion.”
+longtime chief scientist Ilya Sutskever
+For example, you can ask ChatGPT to remind you when your passport expires in six months, and the AI assistant will follow up with a push notification on whatever platform you have tasks enabled
+Below, you’ll find a timeline of ChatGPT product updates and releases, starting with the latest, which we’ve been updating throughout the year
+, the new plan provides a dedicated workspace for teams of up to 149 people using ChatGPT as well as admin tools for team management
+Altman also indicated that the next major release of DALL-E, OpenAI’s image generator, has no launch timeline, and that Sora, OpenAI’s video-generating tool, has also been held back.
+OpenAI brings its ChatGPT Search to more users
+ChatGPT for macOS is now available for all users
+OpenAI has begun previewing a dedicated Windows app for ChatGPT
+, following a multi-month investigation of ChatGPT by Italy’s data protection authority
+Can you save a ChatGPT chat?
+You can now use ChatGPT web search without logging in
+A group of Canadian media companies, including the Toronto Star and the Globe and Mail, have filed a lawsuit against OpenAI
+It’s unclear when these agentic tools might launch or which customers will be eligible to buy them.
+The ChatGPT features include integrated writing tools, image cleanup, article summaries, and a typing input for the redesigned Siri experience.
+take control of a web browser and independently perform certain actions.
+OpenAI announced a new AI “agent” called deep research that’s designed to help people conduct in-depth, complex research using ChatGPT
+OpenAI tests phone number-only ChatGPT signups
+While the strange behavior spawned conspiracy theories, and a slew of other names being impacted, a much more ordinary reason may be at the heart of it: digital privacy requests.
+OpenAI identified five website fronts presenting as both progressive and conservative news outlets that used ChatGPT to draft several long-form articles, though it doesn’t seem that it reached much of an audience.
+In the response, OpenAI reiterates its view that training AI models using publicly available data from the web is fair use
+His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers
+OpenAI plans to release a new ‘open’ AI language model
+She previously was a financial journalist at Mergermarket covering M&A, private equity and venture capital.
+OpenAI wrote in a postmortem that the outage wasn’t caused by a security incident or recent product launch, but by a telemetry service it deployed to collect Kubernetes metrics.
+The feature will start rolling out to ChatGPT Plus, Team, and Pro users around the globe this week.
+is joining OpenAI to lead robotics and consumer hardware.
+But the feature falls short as an effective replacement for virtual assistants.
+In a court filing opposing OpenAI’s motion to dismiss The New York Times’ lawsuit alleging copyright infringement, the newspaper asserted that “OpenAI’s attention-grabbing claim that The Times ‘hacked’ its products is as irrelevant as it is false.” The New York Times also claimed that some users of ChatGPT used the tool to bypass its paywalls.
+As part of a test, OpenAI began rolling out new “memory” controls for a small portion of ChatGPT free and paid users, with a broader rollout to follow
+The move underscores how OpenAI will likely need to localize its technology to different languages as it expands.
+300 million weekly active users.
+An OpenAI representative told Ars Technica that the company was investigating the report.
+GPT-4o’s updated realistic audio responses.
+The milestone comes just a few months after the chatbot hit 200 million weekly active users in August 2024 and just over a year after reaching 100 million weekly active users in November 2023.
+ChatGPT users have generated over 700M images so far
+“think” about OpenAI’s safety policy.
+OpenAI has partnered with another news publisher in Europe, London’s Financial Times, that the company will be paying for content access. “Through the partnership, ChatGPT users will be able to see select attributed summaries, quotes and rich links to FT journalism in response to relevant queries,” the FT wrote in a press release.
+How does ChatGPT handle data privacy?
+hit 200 million weekly active users
+pursues an ambitious data center project,
+OpenAI is blaming one of the longest outages in its history on a “new telemetry service” gone awry
+Volkswagen rolls out its ChatGPT assistant to the US
+is flooded with bizarre, potentially copyright-infringing GPTs
+OpenAI stated that it told around 2 million users of ChatGPT to go elsewhere for information about the 2024 U.S
+OpenAI had previously declined such prompts due to the potential controversy or harm they may cause
+The two companies reportedly signed an agreement stating OpenAI has only achieved AGI when it develops AI systems that can generate at least $100 billion in profit, which is far from the rigorous technical and philosophical definition of AGI many would expect.
+OpenAI has also been hit with lawsuits from Alden Global Capital-owned newspapers alleging copyright infringement, as well as an injunction from Elon Musk to halt OpenAI’s transition to a for-profit.
+TechCrunch’s Maxwell Zeff has been playing around with OpenAI’s Advanced Voice Mode, in what he describes as “the most convincing taste I’ve had of an AI-powered future yet.” Compared to Siri or Alexa, Advanced Voice Mode stands out with faster response times, unique answers and the ability to answer complex questions
+in place and ready to use by 2025.
+Vox Media says it will use OpenAI’s technology to build “audience-facing and internal applications,” while The Atlantic will build a new experimental product called Atlantic Labs.
+“The signed out experience will benefit from the existing safety mitigations that are already built into the model, such as refusing to generate harmful content
+The startup used “deliberative alignment” to make o1 and o3 “think” about OpenAI’s safety policy
+as CEO Sam Altman shifts his focus to research and products
+to craft personalized itineraries for travelers, including recommendations of unique and cultural destinations, in an effort to support tourism across Europe.
+Looking Glass utilizes ChatGPT
+ChatGPT now lets you schedule reminders and recurring tasks
+An OpenAI spokesperson told TechCrunch that they “don’t have plans to release a model code-named Orion this year,” but that leaves OpenAI substantial wiggle room.
+OpenAI brings ChatGPT’s Advanced Voice Mode to the web
+OpenAI offers ChatGPT Plus for free to US, Canadian college students
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers
+consumes around 0.3 watt-hours.
+OpenAI’s AI voice assistant now has advanced feature
+which is 60 days shorter than Operator’s.
+Details of the draft findings haven’t been disclosed, but in a response, OpenAI said: “We want our AI to learn about the world, not about private individuals.”
+OpenAI began rolling out new “memory” controls
+a letter from the Congressional Black Caucus
+What started as a tool to supercharge productivity through writing essays and code with short text prompts has evolved into a behemoth with 300 million weekly active users.
+This would be the first defamation lawsuit against the text-generating service.
+Picture describing Alyssa Stringer
+ChatGPT can now read its answers aloud
+the Dublin City Council will use GPT-4
+With Temporary Chat, ChatGPT won’t be aware of previous conversations or access memories but will follow custom instructions if they’re enabled.
+Content from Reddit will be incorporated into ChatGPT, and the companies will work together to bring new AI-powered features to Reddit users and moderators.
+But OpenAI is involved in at least one lawsuit that has implications for AI systems trained on publicly available data, which would touch on ChatGPT.
+The models are not widely available yet, but safety researchers can sign up for a preview
+OpenAI published a public response
+CFO Sarah Friar told the Financial Times it’s weighing an ads business model, with plans to be “thoughtful” about when and where ads appear — though she later stressed that the company has “no active plans to pursue advertising.” Still, the exploration may raise eyebrows given that Sam Altman recently said ads would be a “last resort.”
+ChatGPT can now read some of your Mac’s desktop apps
+Users discovered the name ‘David Mayer’ crashed ChatGPT
+ChatGPT surpasses 300M weekly active users, Sam Altman says
+This comes as a part of OpenAI’s public program to award grants to fund experiments in setting up a “democratic process” for determining the rules AI systems follow.
+Tune in to our live blog to stay updated.
+ChatGPT may not be as power-hungry as once assumed
+There is a free version of ChatGPT that only requires a sign-in in addition to the paid version, ChatGPT Plus.
+After demoing its new GPT-4o model last week, OpenAI announced it is pausing one of its voices, Sky, after users found that it sounded similar to Scarlett Johansson in “Her.”
+Are there alternatives to ChatGPT?
+Weng served as VP of research and safety since August, and before that was the head of OpenAI’s safety systems team
+asked about a “David Mayer,”
+OpenAI announced that ChatGPT users could access a new “Santa Mode” voice during December
+New ChatGPT feature lets users assign it traits like ‘chatty’ and ‘Gen Z’
+The new feature will let users bring up an old chat to remember something or pick back up a chat right where it was left off.
+for the web version of ChatGPT as well as the iOS and Android apps
+report from The Information.
+AI research institute Epoch AI
+The feature went live earlier this week in ChatGPT and Sora, OpenAI’s AI video-generation tool, for subscribers of the company’s Pro plan, priced at $200 a month, and will be available soon to ChatGPT Plus subscribers and developers using the company’s API service
+Led by previous investor Thrive Capital, the new cash brings OpenAI’s total raised to $17.9 billion, per Crunchbase.
+After a delay, OpenAI is finally rolling out Advanced Voice Mode to an expanded set of ChatGPT’s paying customers
+At a SXSW 2024 panel, Peter Deng, OpenAI’s VP of consumer product dodged a question on whether
+OpenAI announced new updates for easier data analysis within ChatGPT
+Initially limited to a small subset of free and subscription users, Temporary Chat lets you have a dialogue with a blank slate
+Microsoft reportedly pulls back on its data center plans
+The update enables real-time conversations, and the AI assistant is said to be more personable and interrupts users less often
+In Monday’s “12 Days of OpenAI” livestream, CEO Sam Altman said that ChatGPT Plus members will get 50 video generations a month, while ChatGPT Pro users will get “unlimited” generations in their “slow queue mode” and 500 “normal” generations per month.
+ChatGPT is violating Europe’s privacy laws, Italian DPA tells OpenAI
+OpenAI removes ChatGPT’s restrictions on image generation
+OpenAI adds vision to Advanced Voice Mode
+OpenAI CEO Sam Altman posted on X that due to higher than expected demand, they are pausing new sign-ups for its video generator Sora and that video generations will be slower for the time being
+The web form for making a deletion of data about you request is entitled “OpenAI Personal Data Removal Request”.
+The reveal marks the end of the “12 Days of OpenAI” event, which saw announcements for real-time vision capabilities, ChatGPT Search, and even a Santa voice for ChatGPT.
+One epic day in Boston on July 15
+ChatGPT, OpenAI’s text-generating AI chatbot, has taken the world by storm since its launch in November 2022
+ChatGPT has a new ‘Canvas’ interface for writing and coding projects
+Multiple enterprises utilize ChatGPT, although others may limit the use of the AI-powered tool.
+MCP, an open-source standard, helps AI models generate more accurate and suitable responses to specific queries, and lets developers create bidirectional links between data sources and AI applications like chatbots
+According to a report from The New Yorker, ChatGPT uses an estimated 17,000 times the amount of electricity than the average U.S
+That’s a problem when you’re using it to do your homework, sure, but when it accuses you of a crime you didn’t commit, that may well at this point be libel.
+possibly around $30,000 per task.
+When TechCrunch asked for more details, however, the response was unclear:
+“audience-facing and internal applications,”
+Due to the nature of how these models work, they don’t know or care whether something is true, only that it looks true
+What controversies have surrounded ChatGPT?
+ChatGPT has upgraded its image-generation feature
+However, users who create an account using their number can’t upgrade to one of OpenAI’s paid plans without verifying their account via an email
+The AI tech will be used to help employees with work-related tasks and come as part of Match’s $20 million-plus bet on AI in 2024.
+, which the university plans to use to build a personalized AI tutor, develop AI avatars, bolster their prompt engineering course and more
+there is a free ChatGPT mobile app
+OpenAI might raise the price of ChatGPT to $44 by 2029
+announced a partnership with Reddit
+Nancy Mace said Johansson’s testimony could “provide a platform” for concerns around deepfakes.
+leading to some sabotaging their answer in protest
+its annual Connect conference.
+Where can I find examples of ChatGPT prompts?
+The company then shows the responses to testers, who assess how persuasive the argument is, and finally OpenAI compares the AI models’ responses to human replies for that same post.
+It’s the latest in a long string of AI safety researchers,policy researchers, and other executives who have exited the company in the last year.
+for a small portion of ChatGPT free and paid users, with a broader rollout to follow
+OpenAI reaches 1 million paid users of its corporate offerings
+The organization works to identify and minimize tech harms to young people and previously flagged ChatGPT as lacking in transparency and privacy.
+OpenAI releases Sora for ChatGPT Plus and Pro subscribers
+Each day’s stream is said to include either a product launch or a demo in varying sizes.
+But, OpenAI says it may keep a copy of Temporary Chat conversations for up to 30 days for “safety reasons.”
+controversy surrounding OpenAI’s Sky voice
+rolling out Advanced Voice Mode
+OpenAI inks new content deal with Hearst
+It also makes the case that regurgitation is less likely to occur with training data from a single source and places the onus on users to “act responsibly.”
+Over the next few weeks, we’ll be updating all the news from OpenAI as it happens on our live blog
+ChatGPT voice assistant experiment
+She previously worked for HW Media as Audience Development Manager across HousingWire, RealTrends and FinLedger media brands
+allows users to set simple reminders
+including New York City Public Schools
+Scarlett Johansson has been invited to testify about the controversy surrounding OpenAI’s Sky voice at a hearing for the House Oversight Subcommittee on Cybersecurity, Information Technology, and Government Innovation
+The app pulled in $28 million in net revenue from the App Store and Google Play in July, according to data provided by app intelligence firm Appfigures.
+Features exclusive to paying ChatGPT users will also be available through Apple devices.
+OpenAI delays ChatGPT’s new Voice Mode
+The jaw-dropping figure is indicative of how much cash OpenAI needs right now: The company lost roughly $5 billion last year after paying for costs related to running its services and other expenses
+What lawsuits are there surrounding ChatGPT?
+Picture describing Kyle Wiggers
+Changes to ChatGPT’s code base suggest that Operator will be available as an early research preview to users on the $200 Pro subscription plan
+OpenAI explores allowing AI porn
+OpenAI announces OpenAI o1, a new model that can fact-check itself
+The app allows users to upload files and other photos, as well as speak to ChatGPT from their desktop and search through their past conversations.
+The voice sounds, well, “merry and bright,” as OpenAI described it
+can now read code in a handful of developer-focused coding apps,
+The company says these improvements will be added to GPT-4o in the coming weeks.
+Apple announced at WWDC 2024 that it is bringing ChatGPT to Siri and other first-party apps and capabilities across its operating systems
+Canvas is rolling out in beta to ChatGPT Plus and Teams, with a rollout to come to Enterprise and Edu tier users next week.
+alleging copyright infringement, the newspaper asserted that “OpenAI’s attention-grabbing claim that The Times ‘hacked’ its products is as irrelevant as it is false.” The New York Times also claimed that some users of ChatGPT used the tool to bypass its paywalls.
+To access the GPT Store, users must be subscribed to one of OpenAI’s premium ChatGPT plans — ChatGPT Plus, ChatGPT Enterprise or the newly launched ChatGPT Team.
+developed a bot impersonating Rep
+OpenAI says Advanced Voice Mode might not launch for all ChatGPT Plus customers until the fall, depending on whether it meets certain internal safety and reliability checks.
+2:17 AM PDT · April 4, 2025
+This will give Apple users a direct route to sign up for OpenAI’s premium subscription plan, which costs $20 a month.
+Can I use ChatGPT for free?
+What is the difference between ChatGPT and a chatbot?
+OpenAI says its o1-pro uses more computing than its o1 “reasoning” AI model to deliver “consistently better responses.” It’s only accessible to select developers who have spent at least $5 on OpenAI API services
+ChatGPT: Everything you need to know about the AI-powered chatbot
+It depends on the nature of the program
+interact with ChatGPT called “Canvas.”
+The firm submitted a $113,500 bill to the court, which was then halved by District Judge Paul Engelmayer, who called the figure “well above” reasonable demands.
+In an effort to make ChatGPT accessible to as many people as possible, OpenAI announced a 1-800 number to call the chatbot — even from a landline or a flip phone
+The feature lives in a new tab in the ChatGPT web client, and includes a range of GPTs developed both by OpenAI’s partners and the wider dev community.
+Users on ChatGPT’s free tier can now access the new version of Advanced Voice Mode, while paying users will receive answers that are “more direct, engaging, concise, specific, and creative,” a spokesperson from OpenAI told TechCrunch.
+and Canada through the end of May
+for information about the 2024 U.S
+In 2025, OpenAI is battling the perception that it’s ceding ground in the AI race to Chinese rivals like DeepSeek
+real-time video capabilities for ChatGPT
+The company claims they are improved versions of what was already there and that they hallucinate less.
+OpenAI opens Tokyo hub, adds GPT-4 model optimized for Japanese
+OpenAI announced it has surpassed 1 million paid users for its versions of ChatGPT intended for businesses, including ChatGPT Team, ChatGPT Enterprise and its educational offering, ChatGPT Edu
+Sam Altman hosted hundreds of executives
+an updated and enhanced version of GPT-4 Turbo
+OpenAI may preview its agent tool for users on the $200-per-month Pro plan
+The companies behind the suit said that OpenAI infringed their copyrights and are seeking to win monetary damages — and ban OpenAI from making further use of their work.
+OpenAI will get access to developer platform Stack Overflow’s API
+OpenAI CEO Sam Altman announced the successors to its o1 reasoning model family: o3 and o3-mini
+Users will also be banned from creating chatbots that impersonate candidates or government institutions, and from using OpenAI tools to misrepresent the voting process or otherwise discourage voting.
+a dedicated Windows app for ChatGPT.
+OpenAI partners with Los Alamos National Laboratory for bioscience research
+OpenAI announced a new deal with management consulting giant PwC
+intends to release its “first” open language model
+CEO Sam Altman revealed the two latest resignations in a post on X, along with leadership transition plans.
+OpenAI upgrades its transcription and voice-generating AI models
+Chat.com now redirects to ChatGPT.
+The company has mostly concentrated on challenges in rigid, predictable areas such as math and programming
+ChatGPT’s weekly active users doubled in less than 6 months, thanks to new releases
+OpenAI announced it’s partnering with Common Sense Media
+Toner also said that Sam Altman gave the board inaccurate information about the safety processes the company had in place and that he didn’t disclose his involvement in the OpenAI Startup Fund.
+In a new peek behind the curtain of its AI’s secret instructions, OpenAI also released a new NSFW policy
+OpenAI claims The New York Times’ copyright lawsuit is without merit
+OpenAI blames massive ChatGPT outage on a ‘new telemetry service’
+While the startup doesn’t expect to reach positive cash flow until 2029, it expects revenue to increase significantly in 2026 to surpass $29.4 billion, the report said.
+ChatGPT Plus, Pro, and Team subscribers can use the feature now, and the company plans to roll it out to more users like Enterprise, Edu, and free users.
+Personal data has to be accurate,” said Joakim Söderberg, data protection lawyer at Noyb, in a statement. “If it’s not, users have the right to have it changed to reflect the truth
+However, the deal was not favorable to some Stack Overflow users — leading to some sabotaging their answer in protest.
+Though it’s intended to start a conversation about how it might allow explicit images and text in its AI products, it raises questions about whether OpenAI — or any generative AI vendor — can be trusted to handle sensitive content ethically.
+OpenAI’s GPT store officially launches
+CNET found itself in the midst of controversy after Futurism reported the publication was publishing articles under a mysterious byline completely generated by AI
+GPT stands for Generative Pre-Trained Transformer.
+OpenAI unveils a new ChatGPT agent for ‘deep research’
+intends to release several “agent” products
+As a result of that roadmap decision, OpenAI no longer plans to release o3 as a standalone model.
+OpenAI is bringing ChatGPT Search to free, logged in users
+OpenAI released a new Read Aloud feature for the web version of ChatGPT as well as the iOS and Android apps
+OpenAI is pitching its new model as both “powerful” and “affordable.”
+ads would be a “last resort.”
+More than 130 million users have created over 700 million images since ChatGPT got the upgraded image generator on March 25, according to COO of OpenAI Brad Lightcap
+Lightcap, who previously worked with Altman at Y Combinator, joined the Microsoft-backed startup in 2018
+playing around with OpenAI’s Advanced Voice Mode,
+House Oversight subcommittee invites Scarlett Johansson to testify about ‘Sky’ controversy
+GPT-4 Turbo also got a new preview model for API use, which includes an interesting fix that aims to reduce “laziness” that users have experienced.
+ChatGPT experienced a bizarre bug for several hours
+This follows other health-related research collaborations at OpenAI, including Moderna and Color Health.
+OpenAI has begun testing a feature that lets new ChatGPT users sign up with only a phone number — no email required
+It appears, at least for now, the company has abandoned plans to establish a network of factories for chip manufacturing and is instead focusing on in-house chip design.
+OpenAI could lose $5 billion this year, report claims
+ChatGPT users can now invoke GPTs directly in chats
+OpenAI partners with Common Sense Media to collaborate on AI guidelines
+ChatGPT subscription aimed at small teams debuts
+ChatGPT no longer requires an account  —  but there’s a catch
+OpenAI is offering its $20-per-month ChatGPT Plus subscription tier for free to all college students in the U.S
+OpenAI released its latest small AI model, GPT-4o mini
+, prompting OpenAI to investigate the issue
+OpenAI has added new transcription and voice-generating AI models to its APIs: a text-to-speech model, “gpt-4o-mini-tts,” that delivers more nuanced and realistic sounding speech, as well as two speech-to-text models called “gpt-4o-transcribe” and “gpt-4o-mini-transcribe”
+According to OpenAI’s research, the method decreased the rate at which o1 answered “unsafe” questions while improving its ability to answer benign ones.
+OpenAI has rolled out Advanced Voice Mode to ChatGPT’s desktop apps for macOS and Windows
+ChatGPT’s mobile app reports its biggest month yet
+There are multiple AI-powered chatbot competitors such as Together, Google’s Gemini and Anthropic’s Claude, and developers are creating open source alternatives.
+Screenshots provided to Ars Technica found that
+rejected around 250,000 requests to generate images
+ChatGPT rolls out with Apple Intelligence in iOS 18.1 update
+Microsoft and OpenAI reportedly have a finance-centric definition of AGI
+OpenAI expects revenue to triple to $12.7 billion this year
+Chinese rivals like DeepSeek
+Sam Altman said on Wednesday,
+Canvas rolls out to everyone
+Sora, OpenAI’s video-generating tool,
+Kyle Wiggers is TechCrunch’s AI Editor
+OpenAI has been told it’s suspected of violating European Union privacy, following a multi-month investigation of ChatGPT by Italy’s data protection authority
+OpenAI announced it is pausing one of its voices
+The organization originally estimated that the best-performing configuration of o3 it tested, o3 high, would cost approximately $3,000 to address a single problem
+according to a new survey by the Pew Research Center.
+reaching 100 million weekly active users
+OpenAI adopts Anthropic’s standard for linking AI models with data
+Sam Altman teases video capabilities for ChatGPT and the release of GPT-5
+OpenAI first previewed the model in December alongside a more capable system called o3
+Aptly called ChatGPT Team, the new plan provides a dedicated workspace for teams of up to 149 people using ChatGPT as well as admin tools for team management
+While OpenAI had previously allowed users to ask ChatGPT questions without signing in, responses were restricted to the chatbot’s last training update
+Following a proposed ban on using news publications and books to train AI chatbots in the U.K., OpenAI submitted a plea to the House of Lords communications and digital committee
+Volkswagen is taking its ChatGPT voice assistant experiment to vehicles in the United States
+two users tricked Clyde into providing them with instructions for making the illegal drug methamphetamine
+Canvas, OpenAI’s collaboration-focused interface for writing and code projects, is now rolling out to all users after being in beta for ChatGPT Plus members since October 2024
+OpenAI explained in a blog post that Sky’s voice is “not an imitation” of the actress and that AI voices should not intentionally mimic the voice of a celebrity
+ChatGPT’s mobile users are 85% male, report says
+measure the persuasive abilities
+We’re partnering with Condé Nast to deepen the integration of quality journalism into ChatGPT and our SearchGPT prototype
+ChatGPT and Sora both experienced a major outage Wednesday
+ChatGPT can directly edit your code
+OpenAI used a subreddit to test AI persuasion
+OpenAI launched a new AI “reasoning” model, o3-mini, the newest in the company’s o family of models
+not every educator agrees with
+are suing OpenAI and Microsoft for copyright infringement.
+OpenAI to build a tool that lets content creators opt out of AI training
+2024 was a big year for OpenAI, from its partnership with Apple for its generative AI offering, Apple Intelligence, the release of GPT-4o with voice capabilities, and the highly-anticipated launch of its text-to-video model Sora.
+OpenAI has built a watermarking tool that could potentially catch students who cheat by using ChatGPT — but The Wall Street Journal reports that the company is debating whether to actually release it
+ChatGPT Search can be tricked into misleading users, new research reveals
+when it launched in October.
+OpenAI’s app store for GPTs planned to launch next week
+OpenAI Personal Data Removal Request
+Picture describing TechCrunch Logo
+An explosives expert who reviewed the chatbot’s output told TechCrunch that the instructions could be used to make a detonatable product and was too sensitive to be released.
+OpenAI announces team to build ‘crowdsourced’ governance ideas into its models
+to ask follow-up questions.
+After some back and forth over the last few months, OpenAI’s GPT Store is finally here
+OpenAI says it may store deleted Operator data for up to 90 days
+OpenAI trained o1 and o3 to ‘think’ about its safety policy
+OpenAI’s viral Studio Ghibli-style images could raise AI copyright concerns
+The Foundation now thinks the cost could be much higher, possibly around $30,000 per task.
+allows users to edit code directly in supported developer tools
+OpenAI has updated its AI voice assistant with improved chatting capabilities, according to a video posted on Monday (March 24) to the company’s official media channels
+voice’s similarity to Scarlett Johansson,
+OpenAI, Meta, and Reliance have not yet officially announced these plans.
+An Australian mayor has publicly announced he may sue OpenAI for defamation due to ChatGPT’s false claims that he had served time in prison for bribery
+Twenty-six percent said that they had, double the number two years ago
+to build an in-house AI chip,
+Yes, it was released March 1, 2023.
+are now available to users.
+have filed a lawsuit against OpenAI.
+Reuters reports that OpenAI is working with TSMC and Broadcom to build an in-house AI chip, which could arrive as soon as 2026
+limit the use of the AI-powered tool
+Apple brings ChatGPT to its apps, including Siri
+You can now use ChatGPT without signing up for an account, but it won’t be quite the same experience
+OpenAI faces privacy complaint in Europe for chatbot’s defamatory hallucinations
+There’s more to come from OpenAI through December 23
+A Brooklyn-based 3D display startup Looking Glass utilizes ChatGPT to produce holograms you can communicate with by using ChatGPT.  And nonprofit organization Solana officially integrated the chatbot into its network with a ChatGPT plug-in geared toward end users to help onboard into the web3 space.
+In a follow-up to its 2023 poll on ChatGPT usage among young people, Pew asked ~1,400 U.S.-based teens ages 13 to 17 whether they’ve used ChatGPT for homework or other school-related assignments
+OpenAI used the subreddit r/ChangeMyView to measure the persuasive abilities of its AI reasoning models
+Unlike ChatGPT, o1 can’t browse the web or analyze files yet, is rate-limited and expensive compared to other models
+OpenAI announces partnership with Arizona State University
+OpenAI says it’ll release o3 after all, delays GPT-5
+This version of ChatGPT will have “slightly more restrictive content policies,” according to OpenAI
+AI “reasoning” model, o3-mini,
+OpenAI’s update notably didn’t include any information on the expected monetization opportunities for developers listing their apps on the storefront.
+300 million by December 2024
+The partnership will allow OpenAI to surface stories from Hearst publications with citations and direct links.
+Note that deleting a chat from chat history won’t erase ChatGPT’s or a custom GPT’s memories — you must delete the memory itself.
+Los Alamos National Laboratory
+Amazon’s new AI agent will shop third-party sites for you
+ChatGPT will now remember — and forget — things you tell it to
+OpenAI says it collects user posts from the subreddit and asks its AI models to write replies, in a closed environment, that would change the Reddit user’s mind on a subject
+Though users suspected the outage was due to the rollout of ChatGPT in Apple Intelligence, OpenAI developer community lead Edwin Arbus denied it in a post on X, saying the “outage was unrelated to 12 Days of OpenAI or Apple Intelligence
+The image generator was made available  to all ChatGPT users on March 31, and went viral for being able to create Ghibli-style photos.
+“12 Days of OpenAI” livestream,
+TechCrunch separately identified the same references to Operator on OpenAI’s website.
+The dating app giant home to Tinder, Match and OkCupid announced an enterprise agreement with OpenAI
+They claim that the AI impedes the learning process by promoting plagiarism and misinformation, a claim that not every educator agrees with.
+The company claims that o1 can more effectively reason through math and science and fact-check itself by spending more time considering all parts of a command or question.
+The release follows controversy surrounding the voice’s similarity to Scarlett Johansson, leading OpenAI to delay its release.
+OpenAI’s spring update event saw the reveal of its new omni model, GPT-4o, which has a black hole-like interface, as well as voice and vision capabilities that feel eerily like something out of “Her.” GPT-4o is set to roll out “iteratively” across its developer and consumer-facing products over the next few weeks.
+OpenAI is opening a new office in Tokyo and has plans for a GPT-4 model optimized specifically for the Japanese language
+OpenAI says it is training its GPT-4 successor
+OpenAI launched ChatGPT Gov designed to provide U.S
+OpenAI is planning to raise the price of individual ChatGPT subscriptions from $20 per month to $22 per month by the end of the year, according to a report from The New York Times
+In an email, OpenAI detailed an incoming update to its terms, including changing the OpenAI entity providing services to EEA and Swiss residents to OpenAI Ireland Limited
+What is ChatGPT? How does it work?
+OpenAI released the real-time video capabilities for ChatGPT that it demoed nearly seven months ago
+As part of the deal, TIME will also gain access to OpenAI’s technology in order to develop new audience-based products.
+OpenAI research lead Noam Brown thinks AI “reasoning” models could’ve arrived decades ago
+An artist and hacker found a way to jailbreak ChatGPT to produce instructions for making powerful explosives, a request that the chatbot normally refuses
+You can’t just spread false information and in the end add a small disclaimer saying that everything you said may just not be true.”
+When the feature is enabled, OpenAI will automatically send the section of code you’re working on through its chatbot as context, alongside your prompt.
+The chosen GPT will have an understanding of the full conversation, and different GPTs can be “tagged in” for different use cases and needs.
+using ChatGPT to calculate their hourly billing rate
+Are there issues regarding plagiarism with ChatGPT?
+Advanced Voice Mode comes to Mac and PC
+trained a “new model” that’s “really good” at creative writing
+OpenAI has found that GPT-4o, which powers the recently launched alpha of Advanced Voice Mode in ChatGPT, can behave in strange ways
+OpenAI allows users to save chats in the ChatGPT interface, stored in the sidebar of the screen
+household to respond to roughly 200 million requests each day.
+OpenAI says developers building GPTs will have to review the company’s updated usage policies and GPT brand guidelines to ensure their GPTs are compliant before they’re eligible for listing in the GPT Store
+There are no built-in sharing features yet.
+The new model brings with it improvements in writing, math, logical reasoning and coding, OpenAI claims, as well as a more up-to-date knowledge base.
+The temporary prototype is currently only available to a small group of users and its publisher partners, like The Atlantic, for testing and feedback.
+The offer will let millions of students use OpenAI’s premium service, which offers access to the company’s GPT-4o model, image generation, voice interaction, and research tools that are not available in the free version.
+to its terms, including changing the OpenAI entity providing services to EEA and Swiss residents to OpenAI Ireland Limited
+Just over half of teens responding to the poll said they think it’s acceptable to use ChatGPT for researching new subjects
+In its privacy policy, the ChatGPT maker makes a passing acknowledgement of the objection requirements attached to relying on “legitimate interest” (LI), pointing users towards more information about requesting an opt out — when it writes: “See here for instructions on how you can opt out of our use of your information to train our models.”
+of researchers and engineers to create a system for collecting and “encoding” public input on its models’ behaviors into OpenAI products and services
+OpenAI now reveals more of its o3-mini model’s thought process
+OpenAI responds to Congressional Black Caucus about lack of diversity on its board
+Advanced use examples include debugging code, programming languages, scientific concepts, complex problem solving, etc.
+For example, there are chatbots that are rules-based in the sense that they’ll give canned responses to questions.
+Picture describing Kate Park
+has surpassed 1 million paid users
+OpenAI says the “agent” is intended for instances where you don’t just want a quick answer or summary, but instead need to assiduously consider information from multiple websites and other sources.
+New York-based law firm Cuddy Law was criticized by a judge for using ChatGPT to calculate their hourly billing rate
+podcast, Sam Altman confirmed an upcoming release of GPT-5 that will be “fully multimodal with speech, image, code, and video support.” Altman said users can expect to see GPT-5 drop sometime in 2024.
+OpenAI is offering 15 minutes of free calling for U.S
+Anyone can use ChatGPT! More and more tech companies and search engines are utilizing the chatbot to automate text or quickly answer user questions/concerns.
+OpenAI has finally released its text to video model, Sora

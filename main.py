@@ -2,8 +2,11 @@ from bs4 import BeautifulSoup
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from concurrent import futures
+import traceback
 
 from logs_system import generate_logs
 
@@ -30,6 +33,7 @@ import dateparser
 # * Multiple sources collision
 # * Unsubscribe Button
 # todo: include Sources
+# todo: Languages
 
 # ! API ===========
 # todo: homepage html
@@ -42,6 +46,7 @@ import dateparser
 # * Always Check for Time
 # * Bypass CDN
 # * Split based on the dot to give more importance for bigger texts
+# * better logging for time tag
 # todo: Pop-up ads
 
 # ! ModelAnalsis.py =============
@@ -56,8 +61,8 @@ import dateparser
 # * Testing System to check for accuracy
 # * False Positives and different projections to be saved
 # * More Tests
+# * CI implementation
 # todo: plots
-# todo: CI implementation
 
 # ! =============================
 
@@ -76,12 +81,12 @@ def get_driver():
 # Check for recent news
 def is_recent(date,threshold):
     current_date = datetime.now()
-    day_limit = current_date - timedelta(days=threshold)
+    day_limit = current_date - timedelta(days=threshold + 1)
     post_date = dateparser.parse(date)
     return post_date >= day_limit
 
 # Retrieve news from each post and feed it to The Great Filter
-def get_news_from_post(index, Source, driver):
+def get_news_from_post(index, Source, driver, hist_index):
 
     # Go To Posts Page
     query = Source["post"] + (f" {Source["click"]}" if Source["click"] != "<self>" else "")
@@ -92,6 +97,11 @@ def get_news_from_post(index, Source, driver):
 
     # The Great Filter in action    
     pure_news = filter_html(html)
+
+    # Save Found News to a file
+    name = Source["source"] + " Post " + str(hist_index)
+    with open(f"./ExtractedNews/{ name }.txt", "w") as f:
+        f.write(driver.current_url + "\n" + "\n".join(pure_news))
 
     # Close Tab if new one is created, go back if none is created
     tabs = driver.window_handles
@@ -107,32 +117,34 @@ def get_news_from_post(index, Source, driver):
     return pure_news
 
 def get_available_posts(html, Source, driver, history):
+    # Process HTML content to find and extract new posts within time threshold while avoiding duplicates
     soup = BeautifulSoup(html, "html.parser")
     posts = soup.select(Source["post"])
-    if not posts:
-        generate_logs(Source["url"], "Post Tag Not Found", html)
 
     # Finding recent posts
+    post_gathered = []
     for i, post in enumerate(posts):
-        comparing_length = math.floor(len(post.get_text().strip()) * IS_SIMILAR)
-        if (post.get_text().strip()[:comparing_length] in history):
+
+        # Check if the post is already in history
+        comparing_length = math.floor(len(post.get_text(separator=" ").strip()) * IS_SIMILAR)
+        if any(post.get_text(separator=" ").strip()[:comparing_length] in history_log for history_log in history):
             continue
+        
+        # Check if the post contains the expected time tag and if it's recent
         if (post.select_one(Source["time"])):
             post_time = post.select_one(Source["time"])
-            if (is_recent(post_time.get_text().strip(), THRESHOLD)):
-                history.append(post.get_text().strip()[:comparing_length] )
-                # print(str(len(history)) + " | " + post.get_text(separator=" ").strip())
-                pure_news = get_news_from_post(i,Source, driver)
-                
-                # Save Found News to a file
-                name = Source["source"] + " Post " + str(len(history))
-                with open(f"./ExtractedNews/{ name }.txt", "w") as f:
-                    f.write(driver.current_url + "\n" + "\n".join(pure_news))
+            if (is_recent(post_time.get_text(separator=" ").strip(), THRESHOLD)):
+                history.append(post.get_text(separator=" ").strip())
+                print(str(len(history)) + " | " + post.get_text(separator=" ").strip())
+                pure_news = get_news_from_post(i,Source, driver, len(history))
+                post_gathered.append(pure_news)
 
-        else : 
+        elif len(post_gathered) == 0 and i == len(posts) - 1: 
             message = f"\n ============= Error finding time in {Source["source"]} ============== \n {post.select_one(Source["time"])} \n {Source["time"]} \n ======================================\n"
             print(f"Post doesn't contain expected time : {message}")
             generate_logs(Source["url"], "Time Tag Not Found", post)
+    
+    return post_gathered
 
 
 def process_source(Source):
@@ -145,14 +157,19 @@ def process_source(Source):
 
         # scroll and wait for posts to load
         for i in range(SCROLL):
+            WebDriverWait(driver, WAITING_TIME*3).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, Source["post"]))
+            )
             time.sleep(WAITING_TIME)
             html = driver.page_source
             available_posts = get_available_posts(html, Source, driver, history)
-            posts_gathered.extend(available_posts)
+            if len(available_posts) != 0:
+                posts_gathered.extend(available_posts)
+            
             driver.find_element(By.TAG_NAME, "body").send_keys(Keys.PAGE_DOWN)
             
     except Exception as e:
-        generate_logs(Source["url"], "Exception", e)
+        generate_logs(Source["url"], "Exception", e, traceback.format_exc())
     
     driver.quit()
     return posts_gathered
@@ -170,7 +187,7 @@ def main():
         Sources = json.loads(f.read())
     
     # Ahead Start
-    # Sources = Sources[3:]
+    Sources = Sources[2::6]
 
 
     # Iterate through the sources

@@ -1,0 +1,12 @@
+https://www.anthropic.com/news/Introducing-code-with-claude
+The conference will showcase how developers are maximizing Claude's capabilities across our models, products, and API
+Code with Claude is a hands-on, one-day event focused on exploring real-world implementations and best practices using the Anthropic API, CLI tools, and Model Context Protocol (MCP)
+Applicants will be notified on a rolling basis and will receive information in the coming weeks
+Claude on Google Cloud's Vertex AI
+You'll learn about our product roadmap, Claude Code, MCP, development methodologies, AI agent implementation strategies, and tool use patterns from the technical teams building Claude-powered applications at leading companies.
+Today, we’re announcing Code with Claude—our first developer conference—taking place on May 22, 2025 in San Francisco
+You'll hear directly from Anthropic's executive and product teams, participate in interactive labs and sessions, meet our technical teams during office hours, and connect with a community of developers building with Claude.
+Registration opens today—apply now to secure your place at what promises to be an essential event for anyone building with AI.
+It is open to a select group of developers and founders.
+Introducing Anthropic's first developer conference: Code with Claude
+Code with Claude will offer interactive workshops centered on real-world applications, helping you make the most of frontier AI.

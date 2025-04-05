@@ -1,0 +1,30 @@
+https://techcrunch.com/2025/04/04/github-copilot-introduces-new-limits-charges-for-premium-ai-models/
+Customers on the Copilot Pro ($20 per month) tier will receive 300 monthly premium requests beginning on May 5, GitHub said in a blog post
+As for Copilot Business and Copilot Enterprise users, they’ll receive 300 and 1,000 monthly premium requests, respectively, starting between May 12 and May 19.
+His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers
+Amazon’s new AI agent will shop third-party sites for you
+On Friday, GitHub announced “premium requests” for GitHub Copilot, a new system that imposes rate limits when users switch to AI models other than the base model for tasks such as “agentic” coding and multi-file edits
+While GitHub Copilot subscribers can still take unlimited actions with the base model (OpenAI’s GPT-4o), tasks and actions with newer models, like Anthropic’s 3.7 Sonnet, will now be capped.
+Picture describing TechCrunch Logo
+From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape
+GitHub Copilot introduces new limits, charges for ‘premium’ AI models
+Scale smarter, connect deeper — save $210 when you register now!
+Customers on any of those plans can purchase additional premium requests at $0.04 per request or upgrade to GitHub’s new Copilot Pro+ plan
+Yet Copilot isn’t unprofitable
+Reasoning models like 3.7 Sonnet take more time to fact-check their answers, making them more reliable — but also increasing the computing needed to run them.
+Microsoft CEO Satya Nadella said last August that Copilot accounted for over 40% of GitHub’s revenue growth in 2024 and is already a larger business than all of GitHub when the tech giant acquired it roughly seven years ago.
+Picture describing GitHub Inc
+Picture describing TechCrunch
+Teen with 4.0 GPA who built the viral Cal AI app was rejected by 15 top universities
+Starting at $39 per month, Copilot Pro+ offers 1,500 premium requests and “access to the best models,” GitHub says, including OpenAI’s GPT-4.5.
+a day after AI coding platform Devin increased rates for some users
+GitHub Copilot, Microsoft-owned GitHub’s AI coding assistant, could soon become costlier for some users.
+Kyle Wiggers is TechCrunch’s AI Editor
+Picture describing Kyle Wiggers
+Midjourney releases V7, its first new AI image model in nearly a year
+OpenAI says it’ll release o3 after all, delays GPT-5
+Lionel Ng/Bloomberg / Getty Images
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers
+OpenAI just made its first cybersecurity investment
+The effective price hike for Copilot’s more capable models, which comes a day after AI coding platform Devin increased rates for some users, is perhaps a reflection of the higher computing costs these models incur
+Microsoft reportedly pulls back on its data center plans

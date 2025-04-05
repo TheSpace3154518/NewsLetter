@@ -1,0 +1,50 @@
+https://www.deeplearning.ai/the-batch/openai-promises-a-more-open-model/
+Twice a week, Data Points brings you the latest AI news, tools, models, and research in brief
+In today’s edition, you’ll find:
+Cloudflare unveiled an AI-powered defense system
+Claude goes back to school with program for higher ed
+Data Points: OpenAI promises a more open model
+Google DeepMind slows down publication of AI research
+Launched with several high-profile university and educational technology partners, the program suggests different approaches to chatbot interaction may be more pedagogically useful, potentially smoothing AI adoption for teachers and students. (Anthropic)
+Picture describing The Batch
+This represents a significant shift for both the AI research community and for Google, whose public research has long been seen as essential in kickstarting the AI boom. (Financial Times)
+Picture describing Generative AI for Everyone
+Amazon gets into browser use with Nova Act
+This greater narrative and dramatic continuity in generated videos could make them more useful for individual users and the entertainment industry. (Runway)
+Claude Sonnet 3.5-based agent tops new OpenAI ML research benchmark
+ChatGPT may help reduce feelings of loneliness
+These scenes can then be edited together to create coherent short videos
+Nova Act is available for developers for free in a research preview as part of a new website for its family of Nova models. (Amazon)
+Your accelerated guide to AI news and research
+Anthropic debuted a new program targeting students, instructors, and administrators in higher education
+Amazon says Nova Act outperforms Claude 3.7 Sonnet and OpenAI’s Computer Use Agent at interacting with text, icons, and UI elements on the web
+a method to animate 3D interactions
+OpenAI promises a more open model Runway seeks to stabilize scenes in AI video
+Google becomes a harder place for AI researchers to publish
+Read this week’s issue of The Batch for in-depth analysis of news and research.
+The new model would be OpenAI’s first open multipurpose language model since 2019’s GPT-2 and should give individual developers and large organizations more ability to customize their own versions and make them available for commercial or noncommercial use. (Sam Altman on X and OpenAI)
+Claude for Education gives universities special chatbot access
+Evaluating models’ ability to replicate cutting-edge AI research
+MoshiVis introduced interactive voice-to-voice conversations
+The new model uses a single reference image for characters or objects, plus text instructions for scenes, to generate scenes where the characters and objects do not morph into similar shapes, or transform into suddenly new styles, in the manner of many previous video models
+“Contrary to standard prompting advice that you should give LLMs the context they need to succeed, I find it’s sometimes faster to be lazy and dash off a quick, imprecise prompt and see what happens
+OpenAI noted that none of the tested models outperform the human baseline
+Current and former DeepMind researchers say that the company has introduced a tougher vetting process and more bureaucracy to make it harder to publish new AI and machine learning studies, especially if the results or methods might tip information to Google’s competitors
+This week, Andrew Ng shared his approach to “lazy prompting”—a technique where you start with minimal extra input and refine only as needed.
+Amazon releases a research preview of its Nova Act model and SDK
+Picture describing Classroom with students using laptops and a large server rack in the front of the room.
+Runway seeks to stabilize scenes in AI video
+The key is whether you can quickly assess the output quality.”
+Runway rolled out its new Gen-4 model to paid individual and enterprise customers
+CEO Sam Altman announced the company would be publishing a new open weight model with reasoning capabilities sometime in “the coming months.” OpenAI plans to host developer events in the U.S., Asia, and Europe to demonstrate the model, and published a web form soliciting developer ideas feedback
+Other top AI news and research stories we covered in depth: MoshiVis introduced interactive voice-to-voice conversations enhanced with image understanding; Cloudflare unveiled an AI-powered defense system called Labyrinth that thwarts web scrapers using decoy pages; new studies revealed that while ChatGPT may help reduce feelings of loneliness, it can also lead to emotional dependence; and Stanford researchers developed a method to animate 3D interactions between humans and objects using generated video, eliminating the need for motion capture.
+OpenAI researchers released PaperBench, a new dataset and benchmark that tests large language models’ ability to recreate AI and machine learning papers from scratch, including understanding related research, creating and executing a codebase, and producing a version of the paper
+Still want to know more about what matters in AI right now?
+Claude for Education would give university users access to Anthropic’s chatbots, including a new Learning Mode that would try to guide students’ reasoning through problems rather than presenting answers
+Runway’s new video generation model improves consistency of characters
+Claude Sonnet 3.5 led all tested models by replicating 21 percent of selected papers, broken down into sub-components
+Keep me updated on the latest news, courses, and workshops and events announcements
+Amazon AGI unveiled Nova Act, a new model designed for agentic computer use
+OpenAI solicits feedback on a forthcoming model with open weights
+One new policy includes a six month embargo on research related to the company’s strategic AI priorities
+The benchmark could be useful in evaluating models’ overall performance in replicating technical research or at AI engineering, but public test materials like top conference articles often find themselves in models’ training data, contaminating future results. (OpenAI and GitHub)

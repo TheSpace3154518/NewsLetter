@@ -77,8 +77,6 @@ def get_largest_cluster(texts, labels):
 def filter_html(html, eps=EPS, min_samples=MIN_SAMPLES):
     model = SentenceTransformer(model_name)
     texts = extract_text(html)
-    if not texts:
-        raise Exception("No text content extracted from the page.")
 
     # Compute embeddings for each text segment
     embeddings = model.encode(texts)

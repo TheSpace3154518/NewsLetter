@@ -1,0 +1,54 @@
+https://techcrunch.com/2025/04/04/microsofts-copilot-can-now-browse-the-web-and-perform-actions-for-you/
+Microsoft gave few details on how the capability works, and, unlike some of its competitors, didn’t publish data indicating areas where Copilot might struggle or need a human to intervene.
+On Android and iOS, Copilot can now see what’s within view of your phone’s camera or in your photo gallery, and answer questions about it (e.g. “What’s this weird flower?”)
+Microsoft says the bot will note your preferences as you interact with it, offering “tailored solutions,” “proactive suggestions,” and reminders.
+similar to OpenAI’s ChatGPT
+His writing has appeared in VentureBeat and Digital Trends, as well as a range of gadget blogs including Android Police, Android Authority, Droid-Life, and XDA-Developers
+Enter a prompt — e.g. “send a bouquet to my partner” — and Copilot will attempt to check that particular to-do item off your list.
+The improved Copilot can generate “podcasts” akin to the Audio Overviews in Google’s NotebookLM
+Elsewhere, Copilot has a new project-consolidating Pages function that draws heavy inspiration from ChatGPT Canvas and Anthropic’s Claude Artifacts tool
+Taking a page from search engine Perplexity’s book, Copilot can also now track online deals for you
+Amazon’s new AI agent will shop third-party sites for you
+Complementary to pages, Copilot’s new Deep Research feature finds, analyzes, and combines information from online sources, documents, and images to answer more complex queries, much like ChatGPT deep research and Gemini’s Deep Research.
+Given a website, study, or some other source, Copilot will create a back-and-forth dialogue between two synthetic hosts
+From groundbreaking main-stage talks to deep-dive breakout sessions and high-impact networking, this is where AI’s future takes shape
+This reporter would hope there are reasonable safeguards in place to prevent Copilot from reading private files or making desktop-breaking mistakes
+Picture describing TechCrunch Logo
+And on Windows, the revamped Copilot app can view what’s on your desktop’s screen to search, change settings, organize files, and more
+A company might do so if it’s worried, for instance, that fewer people visiting its app directly could hurt its ad revenue.
+For its 50th birthday, Microsoft is teaching its AI-powered Copilot chatbot a few new tricks.
+worried, for instance, that fewer people visiting its app directly
+Scale smarter, connect deeper — save $210 when you register now!
+Copilot has often lagged behind rivals ChatGPT and Google’s Gemini, which in recent months have only ramped up the pace of feature rollouts.
+If the prospect of a chatbot remembering intimate details about your past conversations bothers you, there’s a way to delete individual “memories” or opt out entirely, Microsoft notes.
+Copilot can now take action on “most websites,” Microsoft says, enabling it to book tickets, reserve restaurants, and more
+Just how well Copilot performs various chores isn’t clear
+Aleksander Kalka/NurPhoto / Getty Images
+Microsoft’s Copilot can now browse the web and perform actions for you
+The upgrades come as Microsoft is reportedly mulling a revamp of Copilot, which has historically been powered by AI models from OpenAI, with more of its own in-house technology
+Picture describing Microsoft signage is being pictured in Warsaw, Poland, on June 26, 2024.
+Picture describing TechCrunch
+Teen with 4.0 GPA who built the viral Cal AI app was rejected by 15 top universities
+Taking a page from search engine Perplexity’s book
+Lastly, as alluded to earlier, Copilot can now remember more about you
+And it can now analyze real-time video from your phone, answering questions in the context of what it “sees.”
+“Copilot [gives] you control through the user dashboard and the option to choose which types of information it remembers about you or to opt out entirely,” Microsoft wrote in a blog post provided to TechCrunch. “You remain in control.”
+Anthropic’s Claude Artifacts
+Tell the bot to look for price drops and sales on an item, and it’ll notify you when they happen — and present you with a link to buy.
+But information was tough to come by prior to press time.
+Fortunately, Copilot’s other new features are less nebulous and potentially controversy-fraught.
+Pages puts notes and research into a canvas that Copilot can help organize and turn into a document.
+Kyle Wiggers is TechCrunch’s AI Editor
+Presumably, it’s possible for websites to block Copilot, too, just as they’re able to block OpenAI’s Operator
+The bot has gained the ability to remember specific things about you, similar to OpenAI’s ChatGPT, like your favorite food and films
+As with Audio Overviews, you can interrupt the hosts at any point to ask a question, and they’ll acknowledge it and respond.
+As of Friday, Copilot can complete tasks on the web along the lines of how “agentic” tools like OpenAI’s Operator do it
+Picture describing Kyle Wiggers
+Midjourney releases V7, its first new AI image model in nearly a year
+Microsoft says it partnered with 1-800-Flowers.com, Booking.com, Expedia, Kayak, OpenTable, Priceline, Tripadvisor, Skyscanner, Viator, and Vrbo for day-one compatibility
+OpenAI says it’ll release o3 after all, delays GPT-5
+Picture describing Microsoft Copilot
+Immerse yourself in the world of AI with 1,200 visionaries, VCs, and industry pioneers
+OpenAI just made its first cybersecurity investment
+Microsoft reportedly pulls back on its data center plans
+It’ll roll out first for members of the Windows Insiders program beginning next week.
