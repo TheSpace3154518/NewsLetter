@@ -4,7 +4,7 @@ import datetime
 # Initialize OpenRouter API client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.getenv("TOKEN"),  # Replace with your actual API key
+    api_key=os.getenv("TOKEN"),
 )
 
 Test =[
@@ -117,8 +117,9 @@ def generate_title(Summary):
 
 # Main execution
 
-for element in Test:
-    summary = summarize_news(element)
+# for element in Test:
+#     summary = summarize_news(element)
+#     print(summary)
 
 
 
