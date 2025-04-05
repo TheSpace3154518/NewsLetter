@@ -34,7 +34,6 @@ def get_url(url, method=0):
 def process_post(url):
     
     html = get_url(url, 0)
-    
     if ("Verify you are human" in html):
         generate_logs(url, "Captcha detected", html)
         html = get_url(url, 1)

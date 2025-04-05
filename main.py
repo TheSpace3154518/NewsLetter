@@ -36,8 +36,10 @@ import dateparser
 # todo: Languages
 
 # ! API ===========
-# todo: homepage html
-# todo: Subscribe / Unsubscribe button
+# * homepage html
+# * Subscribe / Unsubscribe button
+# todo: Deployment
+# todo: Emails Handling
 # todo: API Request
 
 # ! Scraping ====================
