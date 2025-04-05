@@ -1,12 +1,25 @@
-import smtplib
 import datetime
 import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import jinja2
-from jinja2 import Template, Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader
 from TheNexus import generate_title, summarize_news
 import markdown
+
+# ! TheNexus.py ===========
+# * Check if news are AI news
+# * Multiple sources collision
+# * Unsubscribe Button
+# todo: include Sources
+# todo: Languages
+
+# ! API ===========
+# * homepage html
+# * Subscribe / Unsubscribe button
+# todo: Deployment
+# todo: Emails Handling
+# todo: API Request
 
 def generate_logs(*args):
     print("\n".join(args))
@@ -54,7 +67,9 @@ def fill_email(recipient_email, subject, template_path, template_data):
 # Generate content with error handling
 def get_content_safely():
     try:
-        with open("D:/dev/projects/Las9/TGT.txt", "r", encoding='utf-8') as file:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        template_path = os.path.join(current_dir, "TGT.txt")
+        with open(template_path, "r", encoding='utf-8') as file:
             template_content = file.read()
         title = generate_title(template_content)
         content = summarize_news(template_content)
@@ -73,20 +88,20 @@ if __name__ == "__main__":
         'company_name': 'Made in Morocco AI',
         'title': title,
         'category': 'Technology',
-        'content': content,  # Markdown will be applied automatically
+        'content': content,
         'address': '123 Tech Street, Innovation City, TC 12345',
-        'unsubscribe_link': 'https://example.com/unsubscribe'
+        'id': 'Tmjnina Had NewsLetter' # ! Hna zid l id dyal target email 
     }
     
     # Render email HTML
     html_page = fill_email(
         recipient_email="anass.amchaar14@gmail.com",
         subject=f"Latest Tech Newsletter: {title}",
-        template_path="D:/dev/projects/Las9/test_html.html",
+        template_path=os.path.join(os.path.dirname(__file__), "template.html"),
         template_data=template_data
     )
 
     # Save the generated HTML
     if html_page:
-        with open("anas_generated_html.html", "w", encoding="utf-8") as f:
+        with open("generated.html", "w", encoding="utf-8") as f:
             f.write(html_page)

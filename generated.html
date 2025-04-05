@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>NewsLetter</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title | markdown | safe }}</title>
+    <script src="script.js"></script>
     <style>
         body {
             font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -90,40 +91,24 @@
 <body>
     <div class="email-container">
         <div class="header">
-            <div class="logo">{{ company_name | markdown | safe }}</div>
+            <div class="logo"><p>Made in Morocco AI</p></div>
         </div>
         <div class="content">
-            <span class="category-tag">{{ category | markdown | safe }}</span>
-            <h1>{{ title | markdown | safe }}</h1>
+            <span class="category-tag"><p>Technology</p></span>
+            <h1><p><strong>Syria's Descent: Violence Surges, Peace Plea Falls Flat</strong></p></h1>
             <div class="email-meta">
-                <span>{{ date | markdown | safe }}</span>
+                <span><p>April 05, 2025</p></span>
             </div>
             <div class="email-content">
-                {{ content | markdown | safe }}
+                <p>Okay, so Syria's having a *bit* of a rough patch. Interim President Ahmed al-Sharaa is calling for peace and unity – a nice thought, honestly – but things are falling apart at the seams. We're talking clashes between Syria's security forces and loyalists of the ousted Bashar al-Assad, leaving over 1,000 people dead in Latakia and Tartous as of Sunday. The Syrian Observatory for Human Rights puts the civilian death toll at a grim 745, adding to the 125 security forces and 148 pro-Assad fighters who have also perished. <br><br> The fighting started with attacks by Assad supporters, escalating into what officials are calling a hunt for "remnants of the former regime." It’s gotten so messy, there’s even fighting around a gas power plant. UN rights chief Volker Turk wants investigations and accountability, while the US is urging Syria's authorities to hold those responsible for "massacres" accountable. <br><br> Meanwhile, things are complicated by infrastructure attacks; internet and telecommunications were down in Deraa and Sweida after a vital optic cable was damaged. Al-Sharaa insists Syria can survive these "expected challenges," and is attempting to form an inclusive cabinet including representatives from various ethnic and religious communities – a good strategy, considering how divided the country is right now. Basically, it’s a complicated situation, and the death toll is likely to climb.</p>
             </div>
-            {% if cta_link %}
-            <center>
-                <a href="{{ cta_link }}" class="cta-button">{{ cta_text | markdown | safe }}</a>
-            </center>
-            {% endif %}
+            
         </div>
         <div class="footer">
-            {% if social_links is defined and social_links %}
-            <div class="social-links">
-                {% if social_links.twitter %}
-                <a href="{{ social_links.twitter }}" class="social-link">Twitter</a>
-                {% endif %}
-                {% if social_links.linkedin %}
-                <a href="{{ social_links.linkedin }}" class="social-link">LinkedIn</a>
-                {% endif %}
-                {% if social_links.website %}
-                <a href="{{ social_links.website }}" class="social-link">Website</a>
-                {% endif %}
-            </div>
-            {% endif %}
-            <p>&copy; {{ current_year | markdown | safe }} {{ company_name | markdown | safe }}. All rights reserved.</p>
-            <p>{{ address | markdown | safe }}</p>
-            <p><a href="{{ unsubscribe_link | default('#') }}" style="color: #9ca3af;">Unsubscribe</a></p>
+            
+            <p>&copy; <p>2025</p> <p>Made in Morocco AI</p>. All rights reserved.</p>
+            <p><p>123 Tech Street, Innovation City, TC 12345</p></p>
+            <p><a href="#" onClick="unsubscribe('Tmjnina Had NewsLetter')" style="color: #9ca3af;">Unsubscribe</a></p>
         </div>
     </div>
 </body>
