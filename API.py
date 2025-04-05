@@ -48,3 +48,4 @@ if __name__ == "__main__":
     # Use absolute path or path relative to script location
     html_file = os.path.join(os.path.dirname(__file__), "anas_generated_html.html")
     send_html_email("anass.amchaar14@gmail.com", "HTML Email", html_file)
+    
