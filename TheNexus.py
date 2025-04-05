@@ -1,7 +1,9 @@
 from openai import OpenAI
 import os
 import datetime
+import dotenv
 # Initialize OpenRouter API client
+dotenv.load_dotenv()
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("TOKEN"),
@@ -65,7 +67,7 @@ def summarize_news(news_text):
 
     ### Instructions:
     1. **Make it funny** → Your article should be funny, engaging, and informative.
-    2. **ONLY AI NEWS** → Your article should be about AI NEWS, if the input isn't related to AI, write: "NO AI NEWS DETECTED.". 
+    2. **ONLY AI NEWS** → Your article should be about AI NEWS, if the input isn't related to AI, write: "NO AI NEWS DETECTED.", this is an important order. 
     3. **Keep it Objectif: Avoid Bias** → Your article should be neutral and unbiased.
     4. **Keep It Informative & Objectif** → All key facts and events must be present but Objectively.
     5. **Make It Engaging** → Use **punchy sentences, a casual tone, and a sprinkle of humor** to keep the reader hooked.
@@ -126,7 +128,6 @@ def generate_title(Summary):
 
 
 # * OLCHI FDE9A W7DA
-# todo: KAYDE77EK
-# todo: sources flekher
+# * KAYDE77EK
 # todo: Api
 

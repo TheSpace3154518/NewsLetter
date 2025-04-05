@@ -1,111 +1,50 @@
-import datetime
 import os
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-import jinja2
-from jinja2 import Environment, FileSystemLoader
-from TheNexus import generate_title, summarize_news
-import markdown
+from dotenv import load_dotenv
+from sib_api_v3_sdk import Configuration, ApiClient, TransactionalEmailsApi, SendSmtpEmail
 
-# ! TheNexus.py ===========
-# * Check if news are AI news
-# * Multiple sources collision
-# * Unsubscribe Button
-# * OLCHI FDE9A W7DA
-# todo: include Sources
-# todo: Languages
-# todo: incorporate memes and have funny tone
-# todo: Nexus' opinion as introduction (b7al Today was a wild day, no one thought ....)
-# todo: sources flekher
+# Load environment variables
+load_dotenv()
 
-# ! API ===========
-# * homepage html
-# * Subscribe / Unsubscribe button
-# todo: Deployment
-# todo: Emails Handling
-# todo: API Request
+# Configure API key with validation
+api_key = os.getenv('BREVO_API_KEY')
+if not api_key:
+    raise ValueError("BREVO_API_KEY not found in environment variables")
 
-def generate_logs(*args):
-    print("\n".join(args))
-    pass
+configuration = Configuration()
+configuration.api_key['api-key'] = api_key
 
-def fill_email(recipient_email, subject, template_path, template_data):
-    """
-    Send an HTML email using a Jinja2 template with Markdown rendering.
-
-    Args:
-        recipient_email (str): Email address to send to.
-        subject (str): Email subject line.
-        template_path (str): Path to the HTML template file.
-        template_data (dict): Data to render in the template.
-    """
-    
-    # Add current year & date
-    template_data['current_year'] = datetime.datetime.now().year
-    template_data['date'] = datetime.datetime.now().strftime('%B %d, %Y')
-    
+def send_html_email(to_email, subject, html_file_path):
     try:
-        env = Environment(loader=FileSystemLoader(os.path.dirname(template_path)))
-
-        # Register Markdown filter
-        env.filters['markdown'] = lambda text: markdown.markdown(str(text))
-
-        # Load the template
-        template = env.get_template(os.path.basename(template_path))
-
-        # Render template with Markdown support
-        html_content = template.render(**template_data)      
-        print(f"{html_content}")
-        return html_content
+        # Convert to absolute path if it's not already
+        if not os.path.isabs(html_file_path):
+            html_file_path = os.path.join(os.path.dirname(__file__), html_file_path)
         
-    except FileNotFoundError:
-        generate_logs("fill_html", "FileNotFound", f"Template file not found: {template_path}")
-        return False
-    except jinja2.exceptions.TemplateError as e:
-        generate_logs(f"Template rendering error: {e}")
-        return False
+        # Verify file exists
+        if not os.path.exists(html_file_path):
+            raise FileNotFoundError(f"HTML file not found: {html_file_path}")
+            
+        # Read HTML file
+        with open(html_file_path, 'r', encoding='utf-8') as file:
+            html_content = file.read()
+            
+        api_instance = TransactionalEmailsApi(ApiClient(configuration))
+        send_smtp_email = SendSmtpEmail(
+            to=[{"email": to_email}],
+            sender={"name": "MadeInMorocco", "email": "madeinmoroccoai@gmail.com"},
+            subject=subject,
+            html_content=html_content
+        )
+        
+        response = api_instance.send_transac_email(send_smtp_email)
+        print(f"Email sent successfully to {to_email}")
+        return response
     except Exception as e:
-        generate_logs(f"Failed to send email: {e}")
-        return False
+        print(f"Error sending email: {e}")
+        # Return error information instead of raising
+        return {"error": str(e)}
 
-# Generate content with error handling
-def get_content_safely():
-    try:
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        template_path = os.path.join(current_dir, "TGT.txt")
-        with open(template_path, "r", encoding='utf-8') as file:
-            template_content = file.read()
-        title = generate_title(template_content)
-        content = summarize_news(template_content)
-        return title, content
-    except Exception as e:
-        print(f"Error generating content: {e}")
-        return "Latest Tech News", "<p>Content generation failed. Please check your content generation functions.</p>"
-
-# Main execution
+# Example usage
 if __name__ == "__main__":
-    # Generate title and content
-    title, content = get_content_safely()
-    
-    # Template data with Markdown support
-    template_data = {
-        'company_name': 'Made in Morocco AI',
-        'title': title,
-        'category': 'Technology',
-        'content': content,
-        'address': '123 Tech Street, Innovation City, TC 12345',
-        'id': 'Tmjnina Had NewsLetter' # ! Hna zid l id dyal target email 
-    }
-    
-    # Render email HTML
-    html_page = fill_email(
-        recipient_email="anass.amchaar14@gmail.com",
-        subject=f"Latest Tech Newsletter: {title}",
-        template_path=os.path.join(os.path.dirname(__file__), "template.html"),
-        template_data=template_data
-    )
-
-    # Save the generated HTML
-    if html_page:
-        with open("generated.html", "w", encoding="utf-8") as f:
-            f.write(html_page)
+    # Use absolute path or path relative to script location
+    html_file = os.path.join(os.path.dirname(__file__), "anas_generated_html.html")
+    send_html_email("anass.amchaar14@gmail.com", "HTML Email", html_file)
