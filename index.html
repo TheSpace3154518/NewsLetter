@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="formTitle">Subscribe to Our Newsletter</h1>
+            <p id="formSubtitle">Stay updated with our latest news and updates</p>
+        </div>
+        
+        <form id="subscriptionForm">
+            <div class="form-group">
+                <label for="fullName" id="nameLabel">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email" id="emailLabel">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="language" id="languageLabel">Preferred Language</label>
+                <select id="language" name="language" required>
+                    <option value="" disabled selected id="selectOption">Select your preferred language</option>
+                    <option value="arabic">Arabic (العربية)</option>
+                    <option value="darija">Moroccan Dialect (الدارجة)</option>
+                    <option value="french">French (Français)</option>
+                    <option value="english">English</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="submit-btn" id="submitButton">Subscribe Now</button>
+        </form>
+        
+        <div id="successMessage" class="success-message">
+            Thank you for subscribing!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
