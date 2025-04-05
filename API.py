@@ -11,8 +11,12 @@ import markdown
 # * Check if news are AI news
 # * Multiple sources collision
 # * Unsubscribe Button
+# * OLCHI FDE9A W7DA
 # todo: include Sources
 # todo: Languages
+# todo: incorporate memes and have funny tone
+# todo: Nexus' opinion as introduction (b7al Today was a wild day, no one thought ....)
+# todo: sources flekher
 
 # ! API ===========
 # * homepage html
