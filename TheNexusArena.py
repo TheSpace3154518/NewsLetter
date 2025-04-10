@@ -8,6 +8,11 @@ import time
 import numpy as np
 import pandas as pd
 from math import inf
+from dotenv import load_dotenv
+import openpyxl
+# Load environment variables
+load_dotenv()
+
 # OpenRouter API client setup
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
@@ -15,10 +20,22 @@ client = OpenAI(
 )
 
 def read_from_excel():
-    models = pd.read_excel('model_arena_results.xlsx')
-    models = pd.DataFrame(models)  
-    models["Model"] = models['Model'].unique()
-    return models
+    try:
+        models = pd.read_excel('model_arena_results.xlsx')
+        models = pd.DataFrame(models)
+        
+        # Filter out any invalid model names if needed
+        # This is optional but could help prevent API errors
+        valid_models = models[models['Model'].notna()]
+        
+        if valid_models.empty:
+            print("Warning: No valid models found in the Excel file.")
+            
+        return valid_models
+    except Exception as e:
+        print(f"Error reading Excel file: {e}")
+        # Return empty DataFrame instead of None to avoid errors
+        return pd.DataFrame(columns=["Model", "ELO", "Response_Time", "Tokens", "Runs", "Failures"])
 
 # results will have the Model, the score, the response time, the total runs, and winner(0) or loser(1)
 # Update the excel file with the new results
@@ -47,7 +64,9 @@ def generate_response(prompt, system_prompt, model_name):
         # Handle cases where response is empty
         if not generated_text:
             print(f"⚠️  Warning: Model {model_name} returned an empty response.")
-            models.loc[model_name, "Failures"] += 1
+            # Only update failures if the model exists in the DataFrame
+            if model_name in models.index:
+                models.loc[model_name, "Failures"] += 1
             response_time = inf
             return "Error: Empty response", -1, response_time
 
@@ -58,7 +77,9 @@ def generate_response(prompt, system_prompt, model_name):
 
     except Exception as e:
         print(f"❌  Exception for model {model_name}: {str(e)}")
-        models.loc[model_name, "Failures"] += 1
+        # Only update failures if the model exists in the DataFrame
+        if model_name in models.index:
+            models.loc[model_name, "Failures"] += 1
         return f"Error: {str(e)}", -1, 0
 
 def expected_score(model_a, model_b):
@@ -107,8 +128,13 @@ def test_models(models, system_prompt, prompt):
         verdict = " It was a tie "
         a_state = 0.5
         b_state = 0.5
-    first_data[1] = round(first_data[1] + ELO_COEFICCIENT *  (a_state - expected_score(second_data[1], first_data[1])))
-    second_data[1] = round(second_data[1] + ELO_COEFICCIENT *  (b_state - expected_score(first_data[1], second_data[1])))
+
+    # Update ELO with consistent parameter ordering
+    first_expected = expected_score(second_data[1], first_data[1])
+    second_expected = expected_score(first_data[1], second_data[1])
+
+    first_data[1] = round(first_data[1] + ELO_COEFICCIENT * (a_state - first_expected))
+    second_data[1] = round(second_data[1] + ELO_COEFICCIENT * (b_state - second_expected))
 
     # Update Local Runs
     first_data[4] += 1
@@ -171,10 +197,14 @@ while True:
     print()
     system_prompt = "You are a helpful assistant"
 
-    #Arena
-    test_models(models,system_prompt, prompt)
+    # Check if models DataFrame is not empty before testing
+    if not models.empty:
+        # Arena
+        test_models(models, system_prompt, prompt)
 
-    #Write to History
-    elo_models = [str(i) for i in models.loc[: ,"ELO"].values]
-    elo_hist_to_csv(elo_models, 'elo_history.csv')
-    models.to_excel('model_arena_results.xlsx', index=False)
+        # Write to History
+        elo_models = [str(i) for i in models.loc[:, "ELO"].values]
+        elo_hist_to_csv(elo_models, 'elo_history.csv')
+        models.to_excel('model_arena_results.xlsx', index=False)
+    else:
+        print("Error: No valid models found in the Excel file.")

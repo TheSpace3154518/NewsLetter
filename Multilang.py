@@ -25,3 +25,11 @@ def MultiLanguage(news_text, language):
 
     except Exception as e:
         return f"❌ Error occurred: {str(e)}"
+    
+
+# Example usage
+if __name__ == "__main__":
+    news_text = "This is a sample news article."
+    language = "Spanish"
+    translated_text = MultiLanguage(news_text, language)
+    print(translated_text)

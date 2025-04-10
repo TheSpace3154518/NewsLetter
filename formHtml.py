@@ -74,7 +74,7 @@ if __name__ == "__main__":
         'title': title,
         'category': 'Technology',
         'content': content,  # Markdown will be applied automatically
-        'address': '123 Tech Street, Innovation City, TC 12345',
+        'address': 'MOROCCO, RABAT, ENSAM, INDIA 2027',
         'unsubscribe_link': 'https://example.com/unsubscribe'
     }
     
