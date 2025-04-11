@@ -8,11 +8,12 @@ from jinja2 import Template, Environment, FileSystemLoader
 from TheNexus import generate_title, summarize_news
 import markdown
 
+
 def generate_logs(*args):
     print("\n".join(args))
     pass
 
-def fill_email(recipient_email, subject, template_path, template_data):
+def fill_email(template_path, template_data):
     """
     Send an HTML email using a Jinja2 template with Markdown rendering.
 
@@ -52,12 +53,12 @@ def fill_email(recipient_email, subject, template_path, template_data):
         return False
 
 # Generate content with error handling
-def get_content_safely():
+def get_content_safely(language):
     try:
         with open("D:/dev/projects/Las9/TGT.txt", "r", encoding='utf-8') as file:
             template_content = file.read()
         title = generate_title(template_content)
-        content = summarize_news(template_content)
+        content = summarize_news(template_content,language)
         return title, content
     except Exception as e:
         print(f"Error generating content: {e}")
@@ -66,27 +67,27 @@ def get_content_safely():
 # Main execution
 if __name__ == "__main__":
     # Generate title and content
-    title, content = get_content_safely()
     
-    # Template data with Markdown support
-    template_data = {
-        'company_name': 'Made in Morocco AI',
-        'title': title,
-        'category': 'Technology',
-        'content': content,  # Markdown will be applied automatically
-        'address': 'MOROCCO, RABAT, ENSAM, INDIA 2027',
-        'unsubscribe_link': 'https://example.com/unsubscribe'
-    }
-    
-    # Render email HTML
-    html_page = fill_email(
-        recipient_email="anass.amchaar14@gmail.com",
-        subject=f"Latest Tech Newsletter: {title}",
-        template_path="D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template.html",
-        template_data=template_data
-    )
+    languages = [("Arabic","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_ar.html", "ar"), ("Moroccan Dialect","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_dr.html", "dr"), ("English","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_en.html", "en"), ("French","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_fr.html", "fr")]
 
-    # Save the generated HTML
-    if html_page:
-        with open("anas_generated_html.html", "w", encoding="utf-8") as f:
-            f.write(html_page)
+    for lang, path, code in languages:
+        title, content = get_content_safely(lang)
+        
+        # Template data with Markdown support
+        template_data = {
+            'company_name': 'Made in Morocco AI',
+            'title': title,
+            'category': 'Technology',
+            'content': content,
+            'address': 'MOROCCO, RABAT, ENSAM, INDIA 2027'
+        }
+        # Render email HTML
+        html_page = fill_email(
+            template_path=path,
+            template_data=template_data
+        )
+
+        # Save the generated HTML
+        if html_page:
+            with open(f"generated_{code}.html", "w", encoding="utf-8") as f:
+                f.write(html_page)

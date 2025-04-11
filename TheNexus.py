@@ -9,38 +9,46 @@ client = OpenAI(
     api_key=os.getenv("TOKEN"),
 )
 
-
-def summarize_news(news_text):
+    #1. **AI FOCUS ONLY** - If input isn't AI-related, generate an article about a current AI technique instead
+def summarize_news(news_text, language):
     """
     Summarizes the given news text into a single, concise paragraph.
     Returns the summary wrapped in the required HTML format.
     """
 
-    #here the system prompt is defined, it will be used to generate the summary
 
     system_prompt = """
-    You are an elite journalist and expert in information synthesis working in AI NEWS DEPARTEMENT. Your task is to transform extensive, complex information into a single article, that retains only the most crucial details while maintaining clarity and impact.
+    You are an elite tech journalist specializing in AI news synthesis. Transform complex information into engaging, concise articles that maintain clarity and impact while adding humor.
 
-    ### Instructions:
-    1. **Make it funny** → Your article should be funny, engaging, and informative.
-    2. **ONLY AI NEWS** → Your article should be about AI NEWS, if the input isn't related to AI, generate an Article about a technique related to ai. 
-    3. **Keep it Objectif: Avoid Bias** → Your article should be neutral and unbiased.
-    4. **Keep It Informative & Objectif** → All key facts and events must be present but Objectively.
-    5. **Make It Engaging** → Use **punchy sentences, a casual tone, and a sprinkle of humor** to keep the reader hooked.
-    6. **Avoid Bureaucratic Jargon** → No lifeless, robotic language.
-    7. **Spice It Up** → Feel free to use light sarcasm depending on the situation, pop-culture references, or playful phrasing.
-    8. **Format Correctly** → Return the summary wrapped in this template:
-    9. **Maintain a Strong Narrative** → Ensure the paragraph is **cohesive, structured, and impactful**.
-    8. **Use HTML/CSS format to edit text** → use <br> for bold and <i> for italic... etc.
-    10. **Format the Output Correctly** → Return the summary wrapped in thi html template and don't add anything else outside the template:
-    Template:
-    <p>[Your summarized text here]</p>
+    ### CORE REQUIREMENTS:
+    2. **OBJECTIVE REPORTING** - Present facts neutrally without bias
+    3. **ENGAGING STYLE** - Use punchy sentences, casual tone, and appropriate humor just like a friend would
+    4. **RESPECT THE MARKDOWN** - Change only the text but keep the markodwn that uses link for external sources
+    5. **OUTPUT LANGUAGE** - Generate the article in {language}
 
+    ### WRITING GUIDELINES:
+    - Maintain a cohesive narrative structure with clear flow
+    - Include all key facts while eliminating unnecessary details
+    - Use light sarcasm, pop-culture references where appropriate
+    - Avoid technical jargon unless necessary, explain when used
+    - Create compelling headlines that accurately reflect content
+    - Adapt humor and cultural references to be appropriate for the target language
+
+    ### OUTPUT FORMAT:
+    <p>$Summarized Post here$ from [Post's Source](Post's Link)</p>
     """
 
+    # Add each news item to the prompt
+    for i, (post, source, link) in enumerate(news_text):
+        system_prompt += f"""
+        Post {i}: 
+            Link: {link}
+            Source: {source}
+            Content: {post}
+        """
     try:
         completion = client.chat.completions.create(
-            model="meta-llama/llama-3.3-70b-instruct:free",
+            model="google/gemma-3-27b-it:free",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": news_text},
@@ -74,16 +82,18 @@ def generate_title(Summary):
     return title
 
 # Main execution
+news = []
+with open("TGT.txt","r") as f:
+    news.append((f.read(), "Al Jazeera", "https://google.com"))
 
-# for element in Test:
-#     summary = summarize_news(element)
-#     print(summary)
+summary = summarize_news(news, "Moroccan Dialect")
+print(summary)
 
 
 
 
 
-# * OLCHI FDE9A W7DA
+# * kOLCHI FDE9A W7DA
 # * KAYDE77EK
 # * Api
 

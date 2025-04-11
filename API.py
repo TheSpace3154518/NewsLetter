@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from sib_api_v3_sdk import Configuration, ApiClient, TransactionalEmailsApi, SendSmtpEmail
+from manage_emails import get_emails, delete_emails_by_ids
 
 # Load environment variables
 load_dotenv()
@@ -45,7 +46,28 @@ def send_html_email(to_email, subject, html_file_path):
 
 # Example usage
 if __name__ == "__main__":
+   
     # Use absolute path or path relative to script location
-    html_file = os.path.join(os.path.dirname(__file__), "anas_generated_html.html")
-    send_html_email("anass.amchaar14@gmail.com", "HTML Email", html_file)
+    langs = [("ar", "arabic"), ("dr", "darija"), ("en", "english"), ("fr", "french")]
+    templates = {}
+    for code, language in langs : 
+        with open(f"generated_{code}.html", "w") as f:
+            templates[language] = f.read()
+    
+    if not delete_emails_by_ids():
+        print(" Problema mi amigo ")
+
+    emails_df = get_emails()
+    for i in emails_df.index:
+        email = emails_df.loc[i, 'email']
+        current_html = templates[emails_df.loc[i,"Language"]]
+        current_html = current_html.replace("IDENTIFIANT", emails_df.loc[i,"Id"])
+        send_html_email(email, "HTML Email", current_html)
+
+# ! ===============
+# todo: Translate templates
+# todo: Make sure bli TheNexus kaytransliti **
+# * kml dict dyal formHTML 
+# *
+#  
     
