@@ -1,4 +1,3 @@
-import smtplib
 import datetime
 import os
 from email.mime.multipart import MIMEMultipart
@@ -6,7 +5,23 @@ from email.mime.text import MIMEText
 import jinja2
 from jinja2 import Template, Environment, FileSystemLoader
 from TheNexus import generate_title, summarize_news
+import time
 import markdown
+
+current_directory = os.getcwd()
+
+# Specify your HTML file name or path
+html_folder = "html"
+
+# Combine the current directory with the HTML file path
+html_path = os.path.join(current_directory, html_folder)
+
+# temp debugger
+def debugger(*args):
+    for i, arg in enumerate(args) :
+        print(">"*50)
+        print(f"Arg num {i}:\n")
+        print(arg)
 
 
 def generate_logs(*args):
@@ -18,16 +33,14 @@ def fill_email(template_path, template_data):
     Send an HTML email using a Jinja2 template with Markdown rendering.
 
     Args:
-        recipient_email (str): Email address to send to.
-        subject (str): Email subject line.
         template_path (str): Path to the HTML template file.
         template_data (dict): Data to render in the template.
     """
-    
+
     # Add current year & date
     template_data['current_year'] = datetime.datetime.now().year
     template_data['date'] = datetime.datetime.now().strftime('%B %d, %Y')
-    
+
     try:
         env = Environment(loader=FileSystemLoader(os.path.dirname(template_path)))
 
@@ -38,10 +51,9 @@ def fill_email(template_path, template_data):
         template = env.get_template(os.path.basename(template_path))
 
         # Render template with Markdown support
-        html_content = template.render(**template_data)      
-        print(f"{html_content}")
+        html_content = template.render(**template_data)
         return html_content
-        
+
     except FileNotFoundError:
         generate_logs("fill_html", "FileNotFound", f"Template file not found: {template_path}")
         return False
@@ -53,26 +65,26 @@ def fill_email(template_path, template_data):
         return False
 
 # Generate content with error handling
-def get_content_safely(language):
+def get_content_safely(language, template_content, model_name):
     try:
-        with open("D:/dev/projects/Las9/TGT.txt", "r", encoding='utf-8') as file:
-            template_content = file.read()
-        title = generate_title(template_content,language)
-        content = summarize_news(template_content,language)
+        content = summarize_news(template_content, language, model_name)
+        title = generate_title(content,language, model_name)
         return title, content
     except Exception as e:
         print(f"Error generating content: {e}")
         return "Latest Tech News", "<p>Content generation failed. Please check your content generation functions.</p>"
 
 # Main execution
-if __name__ == "__main__":
+def formHTML(posts):
     # Generate title and content
-    
-    languages = [("Arabic","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_ar.html", "ar"), ("Moroccan Dialect","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_dr.html", "dr"), ("English","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_en.html", "en"), ("French","D:/dev/projects/ikhbarIA/TheNexus/NewsLetter/template_fr.html", "fr")]
+    models = ["google/gemma-3-27b-it:free", "google/gemma-3-27b-it:fre", "sophosympatheia/rogue-rose-103b-v0.2:free", "qwen/qwq-32b:free"]
+    languages = [("Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
 
-    for lang, path, code in languages:
-        title, content = get_content_safely(lang)
-        
+    for i, (lang, path, code) in enumerate(languages):
+        time.sleep(5)
+        title, content = get_content_safely(lang, posts, models[i])
+
+        debugger(title, content)
         # Template data with Markdown support
         template_data = {
             'company_name': 'ikhbarIA',
@@ -87,7 +99,16 @@ if __name__ == "__main__":
             template_data=template_data
         )
 
-        # Save the generated HTML
         if html_page:
-            with open(f"generated_{code}.html", "w", encoding="utf-8") as f:
+            with open(os.path.join(html_path, f"generated_{code}.html"), "w") as f:
                 f.write(html_page)
+
+
+if __name__ == "__main__":
+    with open(os.path.join(current_directory,"TGT.txt"), "r", encoding='utf-8') as file:
+                    template_content = file.read()
+    posts = [(template_content, "Al Jazeera", "https://www.aljazeera.com/")]
+    formHTML(posts)
+
+# Form HTML
+# Send Emails

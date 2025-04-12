@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+    <!-- Added lang="ar" and dir="rtl" -->
+    <head>
+        <title>نشرة إخبارية</title>
+        <!-- Translated Title -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="email-container">
+            <div class="header">
+                <div class="logo">{{ company_name | markdown | safe }}</div>
+            </div>
+            <div class="content">
+                <span class="category-tag"
+                    >{{ category | markdown | safe }}</span
+                >
+                <h1>{{ title | markdown | safe }}</h1>
+                <div class="email-meta">
+                    <span>{{ date | markdown | safe }}</span>
+                </div>
+                <div class="email-content">{{ content | markdown | safe }}</div>
+                {% if cta_link %}
+                <center>
+                    <a href="{{ cta_link }}" class="cta-button"
+                        >{{ cta_text | markdown | safe }}</a
+                    >
+                </center>
+                {% endif %}
+            </div>
+            <div class="footer">
+                {% if social_links is defined and social_links %}
+                <div class="social-links">
+                    {% if social_links.twitter %}
+                    <a href="{{ social_links.twitter }}" class="social-link"
+                        >تويتر</a
+                    >
+                    <!-- Translated -->
+                    {% endif %} {% if social_links.linkedin %}
+                    <a href="{{ social_links.linkedin }}" class="social-link"
+                        >لينكدإن</a
+                    >
+                    <!-- Translated -->
+                    {% endif %} {% if social_links.website %}
+                    <a href="{{ social_links.website }}" class="social-link"
+                        >الموقع الإلكتروني</a
+                    >
+                    <!-- Translated -->
+                    {% endif %}
+                </div>
+                {% endif %}
+                <p>
+                    © {{ current_year | markdown | safe }} {{ company_name |
+                    markdown | safe }}. جميع الحقوق محفوظة.
+                </p>
+                <!-- Translated -->
+                <p>{{ address | markdown | safe }}</p>
+                <p>
+                    <a
+                        href="#"
+                        onClick="unsubscribe('IDENTIFIANT')"
+                        style="color: #9ca3af"
+                        >إلغاء الاشتراك</a
+                    >
+                </p>
+                <!-- Translated -->
+            </div>
+        </div>
+    </body>
+</html>

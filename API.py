@@ -19,15 +19,15 @@ def send_html_email(to_email, subject, html_file_path):
         # Convert to absolute path if it's not already
         if not os.path.isabs(html_file_path):
             html_file_path = os.path.join(os.path.dirname(__file__), html_file_path)
-        
+
         # Verify file exists
         if not os.path.exists(html_file_path):
             raise FileNotFoundError(f"HTML file not found: {html_file_path}")
-            
+
         # Read HTML file
         with open(html_file_path, 'r', encoding='utf-8') as file:
             html_content = file.read()
-            
+
         api_instance = TransactionalEmailsApi(ApiClient(configuration))
         send_smtp_email = SendSmtpEmail(
             to=[{"email": to_email}],
@@ -35,7 +35,7 @@ def send_html_email(to_email, subject, html_file_path):
             subject=subject,
             html_content=html_content
         )
-        
+
         response = api_instance.send_transac_email(send_smtp_email)
         print(f"Email sent successfully to {to_email}")
         return response
@@ -45,15 +45,14 @@ def send_html_email(to_email, subject, html_file_path):
         return {"error": str(e)}
 
 # Example usage
-if __name__ == "__main__":
-   
+def send_all_emails():
     # Use absolute path or path relative to script location
     langs = [("ar", "arabic"), ("dr", "darija"), ("en", "english"), ("fr", "french")]
     templates = {}
-    for code, language in langs : 
+    for code, language in langs :
         with open(f"generated_{code}.html", "w") as f:
             templates[language] = f.read()
-    
+
     if not delete_emails_by_ids():
         print(" Problema mi amigo ")
 
@@ -64,10 +63,10 @@ if __name__ == "__main__":
         current_html = current_html.replace("IDENTIFIANT", emails_df.loc[i,"Id"])
         send_html_email(email, "HTML Email", current_html)
 
+
+if __name__ == "__main__":
+    send_all_emails()
 # ! ===============
 # * Translate templates
-# ! todo: Make sure bli TheNexus kaytransliti **
-# * kml dict dyal formHTML 
-# *
-#  
-    
+# * Make sure bli TheNexus kaytransliti **
+# * kml dict dyal formHTML
