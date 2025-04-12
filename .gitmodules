@@ -1,0 +1,12 @@
+[submodule "The_Great_Filter"]
+	path = The_Great_Filter
+	url = ./The_Great_Filter/
+	branch = The_Great_Filterhttps://github.com/TheSpace3154518/NewsLetter.git
+[submodule "TheNexus"]
+	path = TheNexus
+	url = https://github.com/TheSpace3154518/NewsLetter.git
+	branch = The_Nexus
+[submodule "Subscribing_Page"]
+	path = Subscribing_Page
+	url = https://github.com/TheSpace3154518/NewsLetter.git
+	branch = Subscribing-Page
