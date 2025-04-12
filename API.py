@@ -65,8 +65,8 @@ if __name__ == "__main__":
         send_html_email(email, "HTML Email", current_html)
 
 # ! ===============
-# todo: Translate templates
-# todo: Make sure bli TheNexus kaytransliti **
+# * Translate templates
+# ! todo: Make sure bli TheNexus kaytransliti **
 # * kml dict dyal formHTML 
 # *
 #  

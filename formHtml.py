@@ -46,10 +46,10 @@ def fill_email(template_path, template_data):
         generate_logs("fill_html", "FileNotFound", f"Template file not found: {template_path}")
         return False
     except jinja2.exceptions.TemplateError as e:
-        generate_logs(f"Template rendering error: {e}")
+        generate_logs("fill_html","jinja2Exception",f"Template rendering error: {e}")
         return False
     except Exception as e:
-        generate_logs(f"Failed to send email: {e}")
+        generate_logs("fill_html","OtherException",f"Failed to send email: {e}")
         return False
 
 # Generate content with error handling
@@ -57,7 +57,7 @@ def get_content_safely(language):
     try:
         with open("D:/dev/projects/Las9/TGT.txt", "r", encoding='utf-8') as file:
             template_content = file.read()
-        title = generate_title(template_content)
+        title = generate_title(template_content,language)
         content = summarize_news(template_content,language)
         return title, content
     except Exception as e:
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         
         # Template data with Markdown support
         template_data = {
-            'company_name': 'Made in Morocco AI',
+            'company_name': 'ikhbarIA',
             'title': title,
             'category': 'Technology',
             'content': content,

@@ -24,7 +24,9 @@ def summarize_news(news_text, language):
     2. **OBJECTIVE REPORTING** - Present facts neutrally without bias
     3. **ENGAGING STYLE** - Use punchy sentences, casual tone, and appropriate humor just like a friend would
     4. **RESPECT THE MARKDOWN** - Change only the text but keep the markodwn that uses link for external sources
-    5. **OUTPUT LANGUAGE** - Generate the article in {language}
+    5. **OUTPUT LANGUAGE** - Generate the article in {language}, Respecting the given language and dialect is crucial.
+    6. **NO PLAGIARISM** - Ensure originality, avoid copying from the sources
+
 
     ### WRITING GUIDELINES:
     - Maintain a cohesive narrative structure with clear flow
@@ -68,8 +70,8 @@ def summarize_news(news_text, language):
         return f"❌ Error occurred: {str(e)}"
 
 # Function to generate a title for the article
-def generate_title(Summary):
-    prompt = """ Generate one catchy title without adding any other content for the following article:"""
+def generate_title(Summary, language):
+    prompt = f""" Generate one catchy title in {language} without adding any other content for the following article:"""
     completion = client.chat.completions.create(
             model="google/gemma-3-27b-it:free",
             messages=[

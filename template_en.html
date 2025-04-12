@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl"> <!-- Added lang="ar" and dir="rtl" -->
+<html lang="en">
 <head>
-    <title>نشرة إخبارية</title> <!-- Translated Title -->
+    <title>NewsLetter</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <style>
         body {
-            /* Added Tajawal/Cairo fonts, direction, and text-align */
-            font-family: 'Tajawal', 'Cairo', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
             background-color: #f8fafc;
             color: #1f2937;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            direction: rtl;
-            text-align: right;
         }
         .email-container {
             max-width: 600px;
@@ -25,7 +22,7 @@
         .header {
             background: linear-gradient(135deg, #2563eb, #1e40af);
             padding: 20px;
-            text-align: center; /* Center alignment often kept for headers */
+            text-align: center;
         }
         .logo {
             font-size: 24px;
@@ -34,7 +31,6 @@
         }
         .content {
             padding: 30px 20px;
-            text-align: right; /* Ensure content aligns right */
         }
         .category-tag {
             display: inline-block;
@@ -50,19 +46,16 @@
             font-size: 24px;
             color: #1f2937;
             margin-bottom: 15px;
-            line-height: 1.3; /* Adjusted line-height slightly for Arabic */
-            text-align: right;
+            line-height: 1.2;
         }
         .email-meta {
             color: #6b7280;
             font-size: 14px;
             margin-bottom: 20px;
-            text-align: right;
         }
         .email-content p {
             margin-bottom: 15px;
             font-size: 16px;
-            text-align: right;
         }
         .cta-button {
             display: inline-block;
@@ -78,7 +71,7 @@
             background-color: #1f2937;
             color: white;
             padding: 20px;
-            text-align: center; /* Center alignment often kept for footers */
+            text-align: center;
         }
         .footer p {
             margin: 5px 0;
@@ -92,10 +85,6 @@
             color: #9ca3af;
             text-decoration: none;
             margin: 0 10px;
-        }
-        /* Ensure links within RTL text flow correctly if needed */
-        .footer a, .social-link {
-             unicode-bidi: embed; /* Helps maintain directionality context */
         }
     </style>
 </head>
@@ -123,19 +112,19 @@
             {% if social_links is defined and social_links %}
             <div class="social-links">
                 {% if social_links.twitter %}
-                <a href="{{ social_links.twitter }}" class="social-link">تويتر</a> <!-- Translated -->
+                <a href="{{ social_links.twitter }}" class="social-link">Twitter</a>
                 {% endif %}
                 {% if social_links.linkedin %}
-                <a href="{{ social_links.linkedin }}" class="social-link">لينكدإن</a> <!-- Translated -->
+                <a href="{{ social_links.linkedin }}" class="social-link">LinkedIn</a>
                 {% endif %}
                 {% if social_links.website %}
-                <a href="{{ social_links.website }}" class="social-link">الموقع الإلكتروني</a> <!-- Translated -->
+                <a href="{{ social_links.website }}" class="social-link">Website</a>
                 {% endif %}
             </div>
             {% endif %}
-            <p>© {{ current_year | markdown | safe }} {{ company_name | markdown | safe }}. جميع الحقوق محفوظة.</p> <!-- Translated -->
+            <p>&copy; {{ current_year | markdown | safe }} {{ company_name | markdown | safe }}. All rights reserved.</p>
             <p>{{ address | markdown | safe }}</p>
-            <p><a href="#" onClick="unsubscribe('IDENTIFIANT')" style="color: #9ca3af;">إلغاء الاشتراك</a></p> <!-- Translated -->
+            <p><a href="#" onClick="unsubscribe('IDENTIFIANT')" style="color: #9ca3af;">Unsubscribe</a></p>
         </div>
     </div>
 </body>
