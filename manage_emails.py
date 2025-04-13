@@ -41,11 +41,11 @@ def delete_emails_by_ids():
             spreadsheetId=EMAILS_SPREADSHEET_ID, range='A:ZZ').execute()
         headers = result.get('values', [])[0]
         rows = result.get('values', [])[1:]
-        
+
         # Filter out rows with matching IDs
         id_index = headers.index('Id')
         updated_rows = [row for row in rows if row[id_index] not in ids_to_delete]
-        
+
         # Get sheet ID first
         sheet_metadata = service.spreadsheets().get(spreadsheetId=EMAILS_SPREADSHEET_ID).execute()
         sheet_id = sheet_metadata['sheets'][0]['properties']['sheetId']
@@ -108,6 +108,3 @@ def delete_emails_by_ids():
     except Exception as e:
         print(f"Error occurred: {str(e)}")
         return False
-    
-
-print(get_emails())

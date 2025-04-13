@@ -20,6 +20,7 @@
                 <div class="email-meta">
                     <span>{{ date | markdown | safe }}</span>
                 </div>
+                <div class="email-content">Welcome, USERNAME</div>
                 <div class="email-content">{{ content | markdown | safe }}</div>
                 {% if cta_link %}
                 <center>
@@ -51,7 +52,6 @@
                     &copy; {{ current_year | markdown | safe }} {{ company_name
                     | markdown | safe }}. All rights reserved.
                 </p>
-                <p>{{ address | markdown | safe }}</p>
                 <p>
                     <a
                         href="#"

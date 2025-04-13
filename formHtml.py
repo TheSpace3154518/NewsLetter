@@ -8,13 +8,7 @@ from TheNexus import generate_title, summarize_news
 import time
 import markdown
 
-current_directory = os.getcwd()
 
-# Specify your HTML file name or path
-html_folder = "html"
-
-# Combine the current directory with the HTML file path
-html_path = os.path.join(current_directory, html_folder)
 
 # temp debugger
 def debugger(*args):
@@ -76,9 +70,17 @@ def get_content_safely(language, template_content, model_name):
 
 # Main execution
 def formHTML(posts):
+    current_directory = os.getcwd()
+
+    # Specify your HTML file name or path
+    html_folder = "html"
+
+    # Combine the current directory with the HTML file path
+    html_path = os.path.join(current_directory, html_folder)
+
     # Generate title and content
-    models = ["google/gemma-3-27b-it:free", "google/gemma-3-27b-it:fre", "sophosympatheia/rogue-rose-103b-v0.2:free", "qwen/qwq-32b:free"]
-    languages = [("Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
+    models = ["deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free"]
+    languages = [("Classical Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
 
     for i, (lang, path, code) in enumerate(languages):
         time.sleep(5)
@@ -90,8 +92,7 @@ def formHTML(posts):
             'company_name': 'ikhbarIA',
             'title': title,
             'category': 'Technology',
-            'content': content,
-            'address': 'MOROCCO, RABAT, ENSAM, INDIA 2027'
+            'content': content
         }
         # Render email HTML
         html_page = fill_email(
@@ -105,6 +106,7 @@ def formHTML(posts):
 
 
 if __name__ == "__main__":
+    current_directory = os.getcwd()
     with open(os.path.join(current_directory,"TGT.txt"), "r", encoding='utf-8') as file:
                     template_content = file.read()
     posts = [(template_content, "Al Jazeera", "https://www.aljazeera.com/")]

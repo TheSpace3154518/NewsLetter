@@ -22,6 +22,7 @@
                 <div class="email-meta">
                     <span>{{ date | markdown | safe }}</span>
                 </div>
+                <div class="email-content">مرحبا, USERNAME</div>
                 <div class="email-content">
                     {{ content | markdown | safe }}
                     <!-- Ensure this content is in Darija -->
@@ -60,8 +61,6 @@
                     © {{ current_year | markdown | safe }} {{ company_name |
                     markdown | safe }}. جميع الحقوق محفوظة.
                 </p>
-                <!-- Using Standard Arabic phrase -->
-                <p>{{ address | markdown | safe }}</p>
                 <!-- Using Standard Arabic phrase, or could use "حيد الاشتراك" (Hayed l'ichtirak) or "حيد لابونمو" (Hayed l'abonnement) -->
                 <p>
                     <a

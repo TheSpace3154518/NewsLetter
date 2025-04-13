@@ -22,29 +22,31 @@ def summarize_news(news_text, language, model_name):
 
     ### CORE REQUIREMENTS:
     2. **OBJECTIVE REPORTING** - Present facts neutrally without bias
-    3. **ENGAGING STYLE** - Use punchy sentences, casual tone, and appropriate humor just like a friend would
+    3. **ENGAGING STYLE** - Use punchy sentences, casual tone, and appropriate humor just like a friend would unless the events are tragic
     4. **RESPECT THE MARKDOWN** - Change only the text but keep the markodwn that uses link for external sources
-    6. **NO PLAGIARISM** - Ensure originality, avoid copying from the sources
+    5. **NO PLAGIARISM** - Ensure originality, avoid copying from the sources
+    6. **OUTPUT LANGUAGE** - Make sure the output is written in {language}
+    7. **EXTERNAL SOURCES** - always provide the sources for each information you got using the following markdown template: [Post's Source from user query](Post's Link from user query)
+
 
 
     ### WRITING GUIDELINES:
     - Maintain a cohesive narrative structure with clear flow
     - Include all key facts while eliminating unnecessary details
-    - Use light sarcasm, pop-culture references where appropriate
+    - Use light sarcasm, pop-culture references where appropriate unless the events are tragic
     - Avoid technical jargon unless necessary, explain when used
-    - Create compelling headlines that accurately reflect content
     - Adapt humor and cultural references to be appropriate for the target language
 
     ### OUTPUT FORMAT:
-    <p>$Summarized Post here$ from [Post's Source](Post's Link)</p>
+    <p>$Summarized Posts here$</p>
     """
     user_prompt = ""
     # Add each news item to the prompt
     for i, (post, source, link) in enumerate(news_text):
         user_prompt += f"""
         Post {i}:
-            Link: {link}
-            Source: {source}
+            Post's Link: {link}
+            Post's Source: {source}
             Content: {post}
         """
     try:
@@ -66,7 +68,7 @@ def summarize_news(news_text, language, model_name):
         return f"{summary}"
 
     except Exception as e:
-        return f"❌ Error occurred: {str(e)}"
+        return f"❌ Error occurred: {str(e)} \n {completion}"
 
 # Function to generate a title for the article
 def generate_title(Summary, language, model_name):
