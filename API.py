@@ -6,6 +6,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from sib_api_v3_sdk import Configuration, ApiClient, TransactionalEmailsApi, SendSmtpEmail
 from manage_emails import get_emails, delete_emails_by_ids
+from functools import lru_cache
 
 # Configure logging
 logging.basicConfig(
@@ -22,7 +23,7 @@ logger = logging.getLogger("newsletter_api")
 load_dotenv()
 
 class EmailSender:
-    def __init__(self, sender_name: str = "ANAS AMCHAAR", sender_email: str = "madeinmoroccoai@gmail.com"):
+    def __init__(self, sender_name: str = "IkhbarIA Newsletter", sender_email: str = "ikhbaria1@gmail.com"):
         # Configure API key with validation
         self.api_key = os.getenv('BREVO_API_KEY')
         if not self.api_key:
@@ -35,7 +36,9 @@ class EmailSender:
         self.max_retries = 3
         self.retry_delay = 2  # seconds
         self.results = {"success": [], "failed": []}
-
+        # Cache templates on initialization
+        self.templates = {}
+        
     def send_html_email(self, to_email: str, subject: str, html_content: str, max_retries: int = None) -> dict:
         """Send HTML email to a single recipient with retry logic"""
         if max_retries is None:
@@ -70,52 +73,90 @@ class EmailSender:
                     self.results["failed"].append({"email": to_email, "reason": str(e)})
                     return {"error": str(e)}
 
-    def load_templates(self, html_folder: str = "html") -> Dict[str, str]:
+    def _read_file_safely(self, file_path: str, default="") -> str:
+        """Safely read file content with proper error handling"""
+        try:
+            with open(file_path, "r", encoding='utf-8') as f:
+                return f.read()
+        except FileNotFoundError:
+            logger.warning(f"File not found: {file_path}")
+            return default
+        except Exception as e:
+            logger.error(f"Error reading file {file_path}: {e}")
+            return default
+            
+    def load_templates(self, html_folder: str = "html", force_reload: bool = False) -> Dict[str, str]:
         """Load all email templates from the specified folder"""
+        # Return cached templates if available and not forced to reload
+        if self.templates and not force_reload:
+            return self.templates
+            
         current_directory = os.getcwd()
         html_path = os.path.join(current_directory, html_folder)
         
         langs = [("ar", "arabic"), ("dr", "darija"), ("en", "english"), ("fr", "french")]
-        templates = {}
+        self.templates = {}
         
         for code, language in langs:
             template_path = os.path.join(html_path, f"generated_{code}.html")
-            try:
-                with open(template_path, "r", encoding='utf-8') as f:
-                    templates[language] = f.read()
-                logger.info(f"Loaded template for {language}")
-            except FileNotFoundError:
-                logger.error(f"Template file not found: {template_path}")
-                templates[language] = ""  # Empty template as fallback
-            except Exception as e:
-                logger.error(f"Error loading template for {language}: {e}")
-                templates[language] = ""  # Empty template as fallback
+            css_path = os.path.join(html_path, "style.css")
+            
+            # Read HTML content
+            html_content = self._read_file_safely(template_path)
+            if not html_content:
+                logger.error(f"Template file not found or empty: {template_path}")
+                self.templates[language] = ""
+                continue
                 
-        return templates
+            # Read CSS content
+            css_content = self._read_file_safely(css_path)
+            if css_content:
+                logger.info(f"Loaded CSS for {language}")
+                
+                # Inject CSS into HTML using optimized approach
+                if "<!-- CSS_STYLES -->" in html_content:
+                    html_content = html_content.replace("<!-- CSS_STYLES -->", f"<style>\n{css_content}\n</style>")
+                elif "<head>" in html_content:
+                    html_content = html_content.replace("<head>", f"<head>\n<style>\n{css_content}\n</style>")
+                else:
+                    html_content = f"<style>\n{css_content}\n</style>\n{html_content}"
+            
+            self.templates[language] = html_content
+            logger.info(f"Loaded template for {language}")
+                
+        return self.templates
 
     def personalize_template(self, template: str, user_data: Dict[str, str]) -> str:
         """Personalize template with user data"""
-        personalized = template
-        if not personalized:
-            return personalized
+        if not template:
+            return ""
             
-        # Replace placeholders with user data
-        personalized = personalized.replace("IDENTIFIANT", str(user_data.get("Id", "")))
-        personalized = personalized.replace("USERNAME", str(user_data.get("Full Name", "")))
+        # Use single pass replacement for performance
+        replacements = {
+            "IDENTIFIANT": str(user_data.get("Id", "")),
+            "USERNAME": str(user_data.get("Full Name", ""))
+        }
         
-        return personalized
+        result = template
+        for placeholder, value in replacements.items():
+            result = result.replace(placeholder, value)
+            
+        return result
 
     def send_all_emails(self, subject: str = "NewsLetter") -> Dict[str, List]:
         """Send emails to all recipients from the database"""
-        # Load templates
-        templates = self.load_templates()
-        
-        # Clear previous results
+        # Reset results
         self.results = {"success": [], "failed": []}
         
+        # Load templates if not already loaded
+        if not self.templates:
+            self.load_templates()
+        
         # Delete previous emails if needed
-        if not delete_emails_by_ids():
-            logger.error("Failed to delete previous emails")
+        try:
+            delete_emails_by_ids()
+        except Exception as e:
+            logger.error(f"Failed to delete previous emails: {e}")
             
         # Get email recipients
         try:
@@ -131,7 +172,7 @@ class EmailSender:
                 email = emails_df.loc[i, 'email']
                 language = emails_df.loc[i, "Language"]
                 
-                if language not in templates:
+                if language not in self.templates or not self.templates[language]:
                     logger.warning(f"No template found for language: {language}. Skipping {email}")
                     self.results["failed"].append({"email": email, "reason": f"No template for language: {language}"})
                     continue
@@ -141,13 +182,13 @@ class EmailSender:
                     "Full Name": emails_df.loc[i, "Full Name"]
                 }
                 
-                personalized_html = self.personalize_template(templates[language], user_data)
+                personalized_html = self.personalize_template(self.templates[language], user_data)
                 self.send_html_email(email, subject, personalized_html)
                 
             except Exception as e:
-                logger.error(f"Error processing recipient {i}: {e}")
-                if 'email' in locals():
-                    self.results["failed"].append({"email": email, "reason": str(e)})
+                email = emails_df.loc[i, 'email'] if 'i' in locals() and i in emails_df.index else "unknown"
+                logger.error(f"Error processing recipient {email}: {e}")
+                self.results["failed"].append({"email": email, "reason": str(e)})
         
         # Report results
         logger.info(f"Email sending complete. Success: {len(self.results['success'])}, Failed: {len(self.results['failed'])}")
