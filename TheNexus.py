@@ -27,7 +27,7 @@ def summarize_news(news_text, language, model_name):
     5. **NO PLAGIARISM** - Ensure originality, avoid copying from the sources
     6. **OUTPUT LANGUAGE** - Make sure the output is written in {language}
     7. **EXTERNAL SOURCES** - always provide the sources for each information you got using the following markdown template: [Post's Source from user query](Post's Link from user query)
-
+    8. **KEEP IT RESPECTFUL** - Maintain a respectful tone and avoid offensive language, humour or any cursing / bad words
 
 
     ### WRITING GUIDELINES:
