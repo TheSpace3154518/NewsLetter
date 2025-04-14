@@ -79,8 +79,8 @@ def formHTML(posts):
     html_path = os.path.join(current_directory, html_folder)
 
     # Generate title and content
-    models = ["deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free", "deepseek/deepseek-chat-v3-0324:free"]
-    languages = [("Classical Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
+    models = ["google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free"]
+    languages = [("Old Classical Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect in Arabic",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
 
     for i, (lang, path, code) in enumerate(languages):
         time.sleep(5)
