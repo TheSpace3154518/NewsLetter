@@ -108,3 +108,4 @@ def delete_emails_by_ids():
     except Exception as e:
         print(f"Error occurred: {str(e)}")
         return False
+print(get_emails())
