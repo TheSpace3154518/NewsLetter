@@ -1,0 +1,37 @@
+>  | 2025-04-12 10:19:39 | b39e9637-789c-4418-b57a-51430fdbe401 | https://www.anthropic.com/news | Exception | Message: 
+ | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/./main.py", line 162, in process_source
+    WebDriverWait(driver, WAITING_TIME*3).until(
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/TheGreatFilter/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+>  | 2025-04-12 10:24:20 | 92ba4d91-2356-44af-86f0-94d7cf359671 | https://www.anthropic.com/news | Exception | Message: 
+ | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/./main.py", line 163, in process_source
+    WebDriverWait(driver, WAITING_TIME*3).until(
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/TheGreatFilter/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+>  | 2025-04-12 10:32:37 | 0671212d-3814-4b17-929f-55ef50d314d5 | https://www.anthropic.com/news | Exception | visibility_of_element_located() takes 1 positional argument but 2 were given | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/./main.py", line 171, in process_source
+    EC.visibility_of_element_located(By.CSS_SELECTOR, Source["post"])
+TypeError: visibility_of_element_located() takes 1 positional argument but 2 were given
+
+>  | 2025-04-12 10:32:41 | b4e3b63a-124c-4914-8dd7-2302ec0c1cc2 | https://www.deeplearning.ai/the-batch/tag/data-points/ | Exception | visibility_of_element_located() takes 1 positional argument but 2 were given | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/./main.py", line 171, in process_source
+    EC.visibility_of_element_located(By.CSS_SELECTOR, Source["post"])
+TypeError: visibility_of_element_located() takes 1 positional argument but 2 were given
+
+>  | 2025-04-12 10:34:12 | 305090ab-4c8f-477d-81a3-981013fc82d0 | https://www.anthropic.com/news | Exception | Message: 
+ | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/./main.py", line 170, in process_source
+    WebDriverWait(driver, WAITING_TIME*3).until(
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/TheGreatFilter/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+

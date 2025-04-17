@@ -5,3 +5,4 @@ __pycache__
 Weights.csv
 .pytest_cache
 TheNexus
+.zed

@@ -1,0 +1,18 @@
+>  | 2025-04-11 20:16:46 | 40849eff-7d20-4ff3-906c-cdf8eecb785e | https://www.anthropic.com/news | Exception | Message: 
+ | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/main.py", line 165, in process_source
+    WebDriverWait(driver, WAITING_TIME*3).until(
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/TheGreatFilter/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+>  | 2025-04-11 20:19:04 | 44492cbf-bcd7-4fd4-81cb-d353f4d63830 | https://www.anthropic.com/news | Exception | Message: 
+ | Traceback (most recent call last):
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/main.py", line 165, in process_source
+    WebDriverWait(driver, WAITING_TIME*3).until(
+  File "/home/kas-d-attay/Documents/ML/NewsLetter/The_Great_Filter/TheGreatFilter/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+

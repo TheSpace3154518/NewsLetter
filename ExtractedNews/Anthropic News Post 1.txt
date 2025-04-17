@@ -1,12 +1,32 @@
-https://www.anthropic.com/news/Introducing-code-with-claude
-The conference will showcase how developers are maximizing Claude's capabilities across our models, products, and API
-Code with Claude is a hands-on, one-day event focused on exploring real-world implementations and best practices using the Anthropic API, CLI tools, and Model Context Protocol (MCP)
-Applicants will be notified on a rolling basis and will receive information in the coming weeks
+https://www.anthropic.com/news/max-plan
+The new Max plan delivers exactly that
+With up to 20x higher usage limits, you can maintain momentum on your most demanding projects with little disruption.
+Often, there are moments where we want to reflect and really work through a topic
+Is the Max plan right for you?
+At work, it means you can build Projects around any work task—whether it be writing, software, or data analysis—and really collaborate with Claude until your outcomes are just right.
+Ideal for daily users who collaborate often with Claude for most tasks
+The Max plan is made for people who use Claude regularly and need higher usage limits
+Have deadlines that can’t wait for your current usage limits
+Terms of service - consumer
+Find yourself turning to Claude throughout your day for various tasks
+Explore our pricing page to see all plan options and select the one that matches the Claude experience that suits you.
+Picture describing Anthropic's Claude pricing plans page: Free ($0), Pro ($18 per month), and Max (from $100 per month).
+Work with substantial documents and complex data regularly
+The Max plan offers flexible usage levels that grow with you
+Maximum Flexibility: 20x more usage than Pro
+The top request from our most active users has been expanded Claude access
+Need extended conversations to refine and perfect your work
 Claude on Google Cloud's Vertex AI
-You'll learn about our product roadmap, Claude Code, MCP, development methodologies, AI agent implementation strategies, and tool use patterns from the technical teams building Claude-powered applications at leading companies.
-Today, we’re announcing Code with Claude—our first developer conference—taking place on May 22, 2025 in San Francisco
-You'll hear directly from Anthropic's executive and product teams, participate in interactive labs and sessions, meet our technical teams during office hours, and connect with a community of developers building with Claude.
-Registration opens today—apply now to secure your place at what promises to be an essential event for anyone building with AI.
-It is open to a select group of developers and founders.
-Introducing Anthropic's first developer conference: Code with Claude
-Code with Claude will offer interactive workshops centered on real-world applications, helping you make the most of frontier AI.
+The Max plan is available now in all regions where Claude is offered
+Today, you can select from two levels:
+More usage unlocks more possibilities to collaborate with Claude, whether for work or life
+Terms of service - commercial
+Ideal for frequent users who work with Claude on a variety of tasks
+Whether you’re organizing your day, navigating difficult questions and decisions, or preparing for a high-stakes moment, the Max plan ensures Claude is there with you at every step.
+Expanded Usage: 5x more usage than Pro
+You can read our Cookie Policy here.
+In addition to more usage, Max plan users will also have priority access to our newest features and models, ensuring you always get the best of Claude.
+You can sign up or upgrade at claude.ai/upgrade.
+Today we're introducing the Max plan—designed for those who collaborate with Claude extensively and need expanded access for their most important work.
+Simply select the usage level that fits your workflow, and adjust as your needs change
+We use cookies to deliver and improve our services, analyze site usage, and if you agree, to customize or personalize your experience and market our services to you
