@@ -1,9 +1,14 @@
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
-SERVICE_ACCOUNT_FILE = 'Google-Key.json'
+SERVICE_ACCOUNT_FILE = 'TheNexusModule/Google-Key.json'
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+
+load_dotenv()
+
 
 def get_emails():
     credentials = service_account.Credentials.from_service_account_file(
@@ -13,7 +18,7 @@ def get_emails():
     service = build('sheets', 'v4', credentials=credentials)
     sheet = service.spreadsheets()
 
-    SPREADSHEET_ID = '1KG3PyKvAvsdKJYFQFFc8r3IOA4aFOapzd2_0tBIUoCs'
+    SPREADSHEET_ID = os.getenv('EMAILS')
 
     result = sheet.values().get(spreadsheetId=SPREADSHEET_ID, range='A:ZZ').execute()
     values = result.get('values', [])
@@ -28,8 +33,8 @@ def delete_emails_by_ids():
             'Google-Key.json', scopes=SCOPES)
         service = build('sheets', 'v4', credentials=creds)
 
-        IDS_SPREADSHEET_ID = '1FPtRZQFTURjyEE-ht_4uwwcqCZdBmaOH5UkQphUN7QA'
-        EMAILS_SPREADSHEET_ID = '1KG3PyKvAvsdKJYFQFFc8r3IOA4aFOapzd2_0tBIUoCs'
+        IDS_SPREADSHEET_ID = os.getenv('IDS')
+        EMAILS_SPREADSHEET_ID = os.getenv('EMAILS')
 
         # Get IDs to delete
         result = service.spreadsheets().values().get(
@@ -108,4 +113,4 @@ def delete_emails_by_ids():
     except Exception as e:
         print(f"Error occurred: {str(e)}")
         return False
-print(get_emails())
+# print(get_emails())

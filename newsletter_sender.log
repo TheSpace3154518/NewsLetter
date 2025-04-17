@@ -1,0 +1,120 @@
+2025-04-14 18:55:16,692 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 18:55:16,693 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 18:55:16,693 - newsletter_api - INFO - Loaded template for english
+2025-04-14 18:55:16,693 - newsletter_api - INFO - Loaded template for french
+2025-04-14 18:55:16,696 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:55:26,193 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:55:27,800 - newsletter_api - INFO - Retrieved 5 email recipients
+2025-04-14 18:55:28,136 - newsletter_api - INFO - Email sent successfully to bouchanass32@gmail.com
+2025-04-14 18:55:28,803 - newsletter_api - INFO - Email sent successfully to bouchanass@gmail.com
+2025-04-14 18:55:28,956 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-04-14 18:55:28,957 - newsletter_api - ERROR - Invalid email address: 12/04/2025 13:08:31
+2025-04-14 18:55:29,160 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-04-14 18:55:29,161 - newsletter_api - INFO - Email sending complete. Success: 4, Failed: 1
+2025-04-14 18:57:47,080 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 18:57:47,081 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 18:57:47,081 - newsletter_api - INFO - Loaded template for english
+2025-04-14 18:57:47,081 - newsletter_api - INFO - Loaded template for french
+2025-04-14 18:57:47,084 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:57:52,326 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:57:53,847 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 18:57:54,142 - newsletter_api - INFO - Email sent successfully to bouchanass32@gmail.com
+2025-04-14 18:57:54,252 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-04-14 18:57:54,469 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-04-14 18:57:54,469 - newsletter_api - INFO - Email sending complete. Success: 3, Failed: 0
+2025-04-14 18:58:37,449 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 18:58:37,450 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 18:58:37,450 - newsletter_api - INFO - Loaded template for english
+2025-04-14 18:58:37,450 - newsletter_api - INFO - Loaded template for french
+2025-04-14 18:58:37,454 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:58:43,834 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 18:58:45,466 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 18:58:45,773 - newsletter_api - INFO - Email sent successfully to bouchanass32@gmail.com
+2025-04-14 18:58:45,913 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-04-14 18:58:46,045 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-04-14 18:58:46,045 - newsletter_api - INFO - Email sending complete. Success: 3, Failed: 0
+2025-04-14 19:02:06,132 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:02:06,136 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:02:06,136 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:02:06,138 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:02:06,146 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:02:13,702 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:02:15,190 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:02:15,560 - newsletter_api - INFO - Email sent successfully to bouchanass32@gmail.com
+2025-04-14 19:02:15,714 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-04-14 19:02:15,873 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-04-14 19:02:15,873 - newsletter_api - INFO - Email sending complete. Success: 3, Failed: 0
+2025-04-14 19:18:13,666 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:18:13,667 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:18:13,667 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:18:13,667 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:18:13,678 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:18:20,969 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:18:22,530 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:18:22,533 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:25:58,678 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:25:58,678 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:25:58,678 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:25:58,678 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:25:58,681 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:26:05,239 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:26:06,816 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:26:07,742 - newsletter_api - ERROR - Failed to send email to bouchanass3@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:26:08,424 - newsletter_api - ERROR - Failed to send email to anass.amchaar14@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:26:08,917 - newsletter_api - ERROR - Failed to send email to mohamedamine.kalai713@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:26:08,918 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:26:36,952 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:26:36,952 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:26:36,953 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:26:36,959 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:26:36,962 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:26:43,845 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:26:45,496 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:26:45,499 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:28:10,945 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:28:10,946 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:28:10,946 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:28:10,946 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:28:10,956 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:28:16,975 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:28:18,502 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:28:18,912 - newsletter_api - ERROR - Failed to send email to bouchanass3@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:28:19,526 - newsletter_api - ERROR - Failed to send email to anass.amchaar14@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:28:19,983 - newsletter_api - ERROR - Failed to send email to mohamedamine.kalai713@gmail.com: {"code":"bad_request","message":"Input must be a valid JSON object"}
+
+2025-04-14 19:28:19,984 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:29:58,169 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:29:58,176 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:29:58,176 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:29:58,177 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:29:58,182 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:30:03,569 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:30:05,102 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:30:05,409 - newsletter_api - ERROR - Failed to send email to bouchanass3@gmail.com: {"messageIds":["<202504141830.17212596945.1@smtp-relay.mailin.fr>"]}
+
+2025-04-14 19:30:05,908 - newsletter_api - ERROR - Failed to send email to anass.amchaar14@gmail.com: {"messageIds":["<202504141830.51553091675.1@smtp-relay.mailin.fr>"]}
+
+2025-04-14 19:30:06,166 - newsletter_api - ERROR - Failed to send email to mohamedamine.kalai713@gmail.com: {"messageIds":["<202504141830.80834575043.1@smtp-relay.mailin.fr>"]}
+
+2025-04-14 19:30:06,166 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:54:00,124 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:54:00,126 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:54:00,129 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:54:00,130 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:54:00,135 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:54:06,604 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:54:08,137 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:54:10,084 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0
+2025-04-14 19:54:41,611 - newsletter_api - INFO - Loaded template for arabic
+2025-04-14 19:54:41,612 - newsletter_api - INFO - Loaded template for darija
+2025-04-14 19:54:41,612 - newsletter_api - INFO - Loaded template for english
+2025-04-14 19:54:41,612 - newsletter_api - INFO - Loaded template for french
+2025-04-14 19:54:41,614 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:54:47,965 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-04-14 19:54:49,316 - newsletter_api - INFO - Retrieved 3 email recipients
+2025-04-14 19:54:50,225 - newsletter_api - INFO - Email sending complete. Success: 0, Failed: 0

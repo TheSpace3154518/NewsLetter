@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import jinja2
 from jinja2 import Template, Environment, FileSystemLoader
-from TheNexus import generate_title, summarize_news
+from TheNexusModule.TheNexus import generate_title, summarize_news
 import time
 import markdown
 
@@ -73,7 +73,7 @@ def formHTML(posts):
     current_directory = os.getcwd()
 
     # Specify your HTML file name or path
-    html_folder = "html"
+    html_folder = "TheNexusModule/html"
 
     # Combine the current directory with the HTML file path
     html_path = os.path.join(current_directory, html_folder)
