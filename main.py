@@ -8,12 +8,13 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import traceback
 
-from The_Great_Filter.logs_system import generate_logs
-
 import math
 
 from constants import *
 from The_Great_Filter.TheGreatFilter import filter_html
+from The_Great_Filter.logs_system import generate_logs
+# from TheNexus.formHtml import formHTML
+# from TheNexus.API import send_all_emails
 
 import json
 
@@ -108,8 +109,6 @@ def get_news_from_post(index, Source, driver, hist_index):
     # Save Found News to a file
     name = Source["source"] + " Post " + str(hist_index)
     url = driver.current_url
-    with open(f"./The_Great_Filter/ExtractedNews/{ name }.txt", "w") as f:
-        f.write(driver.current_url + "\n" + "\n".join(pure_news))
 
 
     # Close Tab if new one is created, go back if none is created
@@ -199,6 +198,12 @@ def main():
     # Iterate through the sources
     for Source in Sources:
         all_posts.extend(process_source(Source))
+
+    # formHTML(all_posts)
+    # send_all_emails()
+
+
+
 
 
 
