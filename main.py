@@ -13,8 +13,8 @@ import math
 from constants import *
 from The_Great_Filter.TheGreatFilter import filter_html
 from The_Great_Filter.logs_system import generate_logs
-# from TheNexus.formHtml import formHTML
-# from TheNexus.API import send_all_emails
+from TheNexusModule.formHtml import formHTML
+from TheNexusModule.API import send_all_emails
 
 import json
 
@@ -199,8 +199,8 @@ def main():
     for Source in Sources:
         all_posts.extend(process_source(Source))
 
-    # formHTML(all_posts)
-    # send_all_emails()
+    formHTML(all_posts)
+    send_all_emails()
 
 
 
