@@ -6,8 +6,22 @@ import jinja2
 from jinja2 import Template, Environment, FileSystemLoader
 from TheNexusModule.TheNexus import generate_title, summarize_news
 import time
+import re
+from bs4 import BeautifulSoup
 import markdown
 
+def convert_md_inside_html(raw_html):
+    raw_html = f"<div>{raw_html}</div>"
+    soup = BeautifulSoup(str(raw_html), "html.parser")
+
+    # Choose which tags to scan for embedded Markdown
+    for tag in soup.find_all(['p', 'section', 'div']):
+        # Convert the text content inside the tag
+        html_converted = markdown.markdown(tag.get_text().strip())
+        tag.clear()
+        tag.append(BeautifulSoup(html_converted, "html.parser"))
+
+    return str(soup)
 
 
 # temp debugger
@@ -39,7 +53,7 @@ def fill_email(template_path, template_data):
         env = Environment(loader=FileSystemLoader(os.path.dirname(template_path)))
 
         # Register Markdown filter
-        env.filters['markdown'] = lambda text: markdown.markdown(str(text))
+        env.filters['markdown'] = lambda text: convert_md_inside_html(text)
 
         # Load the template
         template = env.get_template(os.path.basename(template_path))

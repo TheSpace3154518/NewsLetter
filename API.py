@@ -128,14 +128,15 @@ class EmailSender:
 
     def personalize_template(self, template: str, user_data: Dict[str, str]) -> str:
         """Personalize template with user data"""
-        
+
         if not template:
             return ""
-            
+
         html_folder = "TheNexusModule/html"
-        template_path = os.path.join(html_path, f"generated_{code}.html")
+        current_directory = os.getcwd()
+        html_path = os.path.join(current_directory, html_folder)
         js_path = os.path.join(html_path, "script.js")
-        with open(js_path,"r") as f : 
+        with open(js_path,"r") as f :
             script = f.read()
         # Use single pass replacement for performance
         replacements = {

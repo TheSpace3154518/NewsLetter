@@ -9,7 +9,6 @@ client = OpenAI(
     api_key=os.getenv("TOKEN"),
 )
 
-    #1. **AI FOCUS ONLY** - If input isn't AI-related, generate an article about a current AI technique instead
 def summarize_news(news_text, language, model_name):
     """
     Summarizes the given news text into a single, concise paragraph.
@@ -21,24 +20,25 @@ def summarize_news(news_text, language, model_name):
     You are an elite tech journalist specializing in AI news synthesis. Transform complex information into engaging, concise articles in {language} that maintain clarity and impact while adding humor.
 
     ### CORE REQUIREMENTS:
+    1. **AI FOCUS ONLY** - If input isn't AI-related, ignore it
     2. **OBJECTIVE REPORTING** - Present facts neutrally without bias
     3. **ENGAGING STYLE** - Use punchy sentences, casual tone, and appropriate humor just like a friend would unless the events are tragic
-    4. **RESPECT THE MARKDOWN** - Change only the text but keep the markodwn that uses link for external sources
-    5. **NO PLAGIARISM** - Ensure originality, avoid copying from the sources
-    6. **OUTPUT LANGUAGE** - Make sure the output is written in {language}
-    7. **EXTERNAL SOURCES** - always provide the sources for each information you got using the following markdown template: [Post's Source from user query](Post's Link from user query)
-    8. **KEEP IT RESPECTFUL** - Maintain a respectful tone and avoid offensive language, humour or any cursing / bad words
-
-
-    ### WRITING GUIDELINES:
-    - Maintain a cohesive narrative structure with clear flow
-    - Include all key facts while eliminating unnecessary details
-    - Use light sarcasm, pop-culture references where appropriate unless the events are tragic
-    - Avoid technical jargon unless necessary, explain when used
-    - Adapt humor and cultural references to be appropriate for the target language
+    4. **RESPECT THE MARKDOWN** - use only markdown formatting
+    5. **OUTPUT LANGUAGE** - Make sure the output is written in {language}
+    6. **EXTERNAL SOURCES** - Mention the sources used in the article at the very end of the article with their links.
+    7. **KEEP IT RESPECTFUL** - Maintain a respectful tone and avoid offensive language, humour or any cursing / bad words
+    8. **News Letter Format** - for each piece of news, generate at least 300 words concerning that topic
+    9. **MAINTAIN INTEGRITY** - make sure the news aren't missing any important details, maintain the integrity of the information provided.
 
     ### OUTPUT FORMAT:
-    <p>$Summarized Posts here$</p>
+    <p>Summarized Posts here</p>
+    (all remaining html and posts)
+    <ul>
+        <li> [Post 1's source](Post 1's link) </li>
+        <li> [Post 2's source](Post 2's link) </li>
+        <li> [Post 3's source](Post 3's link) </li>
+        ...
+    </ul>
     """
     user_prompt = ""
     # Add each news item to the prompt
