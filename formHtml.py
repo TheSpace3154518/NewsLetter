@@ -34,7 +34,6 @@ def debugger(*args):
 
 def generate_logs(*args):
     print("\n".join(args))
-    pass
 
 def fill_email(template_path, template_data):
     """
@@ -93,18 +92,27 @@ def formHTML(posts):
     html_path = os.path.join(current_directory, html_folder)
 
     # Generate title and content
-    models = ["google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free"]
+    models = ["google/gemma-3-27b-it:free", "google/gemma-3-27b-it:free", "qwen/qwq-32b:free", "qwen/qwq-32b:free"]
     languages = [("Old Classical Arabic",os.path.join(html_path,"template_ar.html"), "ar"), ("Moroccan Dialect in Arabic",os.path.join(html_path,"template_dr.html"), "dr"), ("English",os.path.join(html_path,"template_en.html"), "en"), ("French",os.path.join(html_path,"template_fr.html"), "fr")]
 
     for i, (lang, path, code) in enumerate(languages):
         time.sleep(5)
-        title, content = get_content_safely(lang, posts, models[i])
+        content = ""
+        batch_size = 1
+        titles = []
+        for j in range(0, len(posts), batch_size):
+            title, content_part = get_content_safely(lang, posts[j:j + batch_size], models[i])
+            content += f"<br>\n<br>\n<br>\n<h1>{title if title.startswith("<strong>") else f"<strong>{title}</strong>"}</h1>\n<br>\n{content_part}"
+            titles.append(title)
 
-        debugger(title, content)
+        content +="<br><br><br><br><br><br><br>"
+        for _, source, link in posts:
+            content += f"[{source}]({link})"
+        debugger(titles, content)
         # Template data with Markdown support
         template_data = {
             'company_name': 'ikhbarIA',
-            'title': title,
+            'title': generate_title("\n".join(titles), lang, models[i]),
             'category': 'Technology',
             'content': content
         }
@@ -114,7 +122,7 @@ def formHTML(posts):
             template_data=template_data
         )
 
-        if html_page:
+        if html_page and "'NoneType' object is not subscriptable" not in html_page:
             with open(os.path.join(html_path, f"generated_{code}.html"), "w") as f:
                 f.write(html_page)
 
@@ -126,5 +134,7 @@ if __name__ == "__main__":
     posts = [(template_content, "Al Jazeera", "https://www.aljazeera.com/")]
     formHTML(posts)
 
-# Form HTML
-# Send Emails
+# title mrewn
+# conclusion
+# Arabic + latin letters = katrewen
+# background colour

@@ -27,25 +27,17 @@ def summarize_news(news_text, language, model_name):
     5. **OUTPUT LANGUAGE** - Make sure the output is written in {language}
     6. **EXTERNAL SOURCES** - Mention the sources used in the article at the very end of the article with their links.
     7. **KEEP IT RESPECTFUL** - Maintain a respectful tone and avoid offensive language, humour or any cursing / bad words
-    8. **News Letter Format** - for each piece of news, generate at least 300 words concerning that topic
+    8. **News Letter Format** - for each piece of news, generate detailed text explaining each part of the news while keeping its integrity
     9. **MAINTAIN INTEGRITY** - make sure the news aren't missing any important details, maintain the integrity of the information provided.
 
     ### OUTPUT FORMAT:
     <p>Summarized Posts here</p>
-    (all remaining html and posts)
-    <ul>
-        <li> [Post 1's source](Post 1's link) </li>
-        <li> [Post 2's source](Post 2's link) </li>
-        <li> [Post 3's source](Post 3's link) </li>
-        ...
-    </ul>
     """
     user_prompt = ""
     # Add each news item to the prompt
     for i, (post, source, link) in enumerate(news_text):
         user_prompt += f"""
         Post {i}:
-            Post's Link: {link}
             Post's Source: {source}
             Content: {post}
         """
@@ -73,7 +65,7 @@ def summarize_news(news_text, language, model_name):
 # Function to generate a title for the article
 def generate_title(Summary, language, model_name):
     prompt = f"""
-    - Generate one catchy title in {language} without adding any other content for the following article.
+    - Generate one catchy title in {language}
     - Make sure the title follows this template :
         <strong>(title here)</strong>
     """
