@@ -100,15 +100,19 @@ def formHTML(posts):
         content = ""
         batch_size = 1
         titles = []
+        failures = []
         for j in range(0, len(posts), batch_size):
             title, content_part = get_content_safely(lang, posts[j:j + batch_size], models[i])
-            content += f"<br>\n<br>\n<br>\n<h1>{title if title.startswith("<strong>") else f"<strong>{title}</strong>"}</h1>\n<br>\n{content_part}"
+            if "'NoneType' object is not subscriptable" not in content_part:
+                content += f"<br>\n<br>\n<br>\n<h1>{title if title.startswith("<strong>") else f"<strong>{title}</strong>"}</h1>\n<br>\n{content_part}"
+            else :
+                failures += posts[j][2]
             titles.append(title)
 
         content +="<br><br><br><br><br><br><br>"
         for _, source, link in posts:
             content += f"[{source}]({link})"
-        debugger(titles, content)
+        debugger(titles, content, failures)
         # Template data with Markdown support
         template_data = {
             'company_name': 'ikhbarIA',
@@ -122,7 +126,7 @@ def formHTML(posts):
             template_data=template_data
         )
 
-        if html_page and "'NoneType' object is not subscriptable" not in html_page:
+        if html_page :
             with open(os.path.join(html_path, f"generated_{code}.html"), "w") as f:
                 f.write(html_page)
 
