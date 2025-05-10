@@ -374,3 +374,244 @@
 2025-04-22 17:37:13,799 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
 2025-04-22 17:37:13,994 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
 2025-04-22 17:37:13,994 - newsletter_api - INFO - Email sending complete. Success: 4, Failed: 0
+2025-05-10 02:56:32,552 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 02:56:58,929 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 02:56:58,930 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 02:57:44,290 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 02:58:02,429 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 02:58:02,472 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 02:58:35,689 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:58:43,012 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:58:49,818 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:58:56,955 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:59:05,487 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:59:13,835 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:59:21,034 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:59:29,388 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 02:59:31,261 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 02:59:31,261 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 02:59:31,268 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 02:59:31,268 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 02:59:31,269 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 02:59:31,269 - newsletter_api - INFO - Loaded template for english
+2025-05-10 02:59:31,269 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 02:59:31,270 - newsletter_api - INFO - Loaded template for french
+2025-05-10 02:59:31,294 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 02:59:39,692 - newsletter_api - INFO - Retrieved 4 email recipients
+2025-05-10 02:59:40,407 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 02:59:40,554 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 02:59:40,742 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 02:59:40,898 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 02:59:40,899 - newsletter_api - INFO - Email sending complete. Success: 4, Failed: 0
+2025-05-10 03:04:14,652 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:04:38,105 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:04:38,116 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:05:26,093 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:05:43,505 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:05:43,505 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:06:08,391 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:16,226 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:17,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:25,563 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:27,093 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:34,193 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:42,164 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:43,350 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:50,776 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:51,863 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:06:59,251 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:04,522 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:09,816 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:21,856 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:24,776 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:33,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:36,751 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:41,676 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:07:53,296 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:08:04,466 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:08:09,872 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 03:08:09,873 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 03:08:09,873 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 03:08:09,874 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 03:08:09,875 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 03:08:09,875 - newsletter_api - INFO - Loaded template for english
+2025-05-10 03:08:09,876 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 03:08:09,879 - newsletter_api - INFO - Loaded template for french
+2025-05-10 03:08:09,894 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 03:08:16,886 - newsletter_api - INFO - Retrieved 4 email recipients
+2025-05-10 03:08:17,431 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 03:08:17,551 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 03:08:17,702 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 03:08:17,864 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 03:08:17,865 - newsletter_api - INFO - Email sending complete. Success: 4, Failed: 0
+2025-05-10 03:14:29,641 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:14:44,075 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:14:44,077 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:15:24,056 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:15:36,461 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:15:36,461 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:15:52,282 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:00,762 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:01,889 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:09,822 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:11,311 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:18,264 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:26,412 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:30,319 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:37,985 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:39,800 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:16:54,143 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:04,866 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:08,821 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:15,299 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:21,042 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:27,192 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:28,157 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:29,002 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:29,896 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:30,730 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:17:31,521 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 03:17:31,528 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 03:17:31,529 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 03:17:31,530 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 03:17:31,544 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 03:17:31,544 - newsletter_api - INFO - Loaded template for english
+2025-05-10 03:17:31,544 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 03:17:31,545 - newsletter_api - INFO - Loaded template for french
+2025-05-10 03:17:31,575 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 03:17:38,851 - newsletter_api - INFO - Retrieved 5 email recipients
+2025-05-10 03:17:40,840 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 03:17:41,131 - newsletter_api - INFO - Email sent successfully to spacewok315@gmail.com
+2025-05-10 03:17:41,337 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 03:17:41,544 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 03:17:41,732 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 03:17:41,732 - newsletter_api - INFO - Email sending complete. Success: 5, Failed: 0
+2025-05-10 03:22:46,817 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:22:58,682 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:22:58,685 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:23:19,241 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:23:27,416 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:23:27,416 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:23:47,820 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:48,544 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:49,178 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:49,765 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:50,395 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:56,178 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:56,943 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:57,573 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:58,162 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:23:58,805 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:04,618 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:05,723 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:06,697 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:07,582 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:08,453 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:14,481 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:15,293 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:16,161 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:17,085 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:18,053 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:24:18,760 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 03:24:18,760 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 03:24:18,767 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 03:24:18,767 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 03:24:18,767 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 03:24:18,767 - newsletter_api - INFO - Loaded template for english
+2025-05-10 03:24:18,768 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 03:24:18,768 - newsletter_api - INFO - Loaded template for french
+2025-05-10 03:24:18,776 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 03:24:30,893 - newsletter_api - INFO - Retrieved 6 email recipients
+2025-05-10 03:24:32,102 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 03:24:32,333 - newsletter_api - INFO - Email sent successfully to spacewok315@gmail.com
+2025-05-10 03:24:32,500 - newsletter_api - INFO - Email sent successfully to spacework315@gmail.com
+2025-05-10 03:24:32,661 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 03:24:32,800 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 03:24:32,927 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 03:24:32,927 - newsletter_api - INFO - Email sending complete. Success: 6, Failed: 0
+2025-05-10 03:32:21,438 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:32:36,788 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:32:36,796 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:33:03,125 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:33:11,792 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:33:11,793 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:33:28,426 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:33:35,308 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:33:37,173 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:33:47,589 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:33:50,342 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:33:57,759 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:04,798 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:06,416 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:15,493 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:17,498 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:24,968 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:37,573 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:44,649 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:34:55,363 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:00,408 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:12,788 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:17,468 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:27,453 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:39,813 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:44,369 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:35:49,442 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 03:35:49,442 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 03:35:49,443 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 03:35:49,443 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 03:35:49,443 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 03:35:49,443 - newsletter_api - INFO - Loaded template for english
+2025-05-10 03:35:49,444 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 03:35:49,444 - newsletter_api - INFO - Loaded template for french
+2025-05-10 03:35:49,448 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 03:35:56,500 - newsletter_api - INFO - Retrieved 6 email recipients
+2025-05-10 03:35:57,653 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 03:35:57,858 - newsletter_api - INFO - Email sent successfully to spacewok315@gmail.com
+2025-05-10 03:35:58,647 - newsletter_api - INFO - Email sent successfully to spacework315@gmail.com
+2025-05-10 03:35:58,808 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 03:35:59,093 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 03:35:59,253 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 03:35:59,253 - newsletter_api - INFO - Email sending complete. Success: 6, Failed: 0
+2025-05-10 03:45:39,703 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:46:03,840 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:46:03,842 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:46:35,540 - undetected_chromedriver.patcher - INFO - patching driver executable /home/kas-d-attay/.local/share/undetected_chromedriver/undetected_chromedriver
+2025-05-10 03:46:48,468 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda
+2025-05-10 03:46:48,468 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-10 03:47:05,094 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:14,531 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:17,505 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:24,015 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:27,218 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:36,939 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:44,111 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:49,209 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:56,150 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:47:59,430 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:08,939 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:14,636 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:25,089 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:30,410 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:35,631 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:51,151 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:48:57,185 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:49:01,461 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:49:06,231 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:49:09,712 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-10 03:49:14,057 - newsletter_api - INFO - Loaded CSS for arabic
+2025-05-10 03:49:14,057 - newsletter_api - INFO - Loaded template for arabic
+2025-05-10 03:49:14,057 - newsletter_api - INFO - Loaded CSS for darija
+2025-05-10 03:49:14,057 - newsletter_api - INFO - Loaded template for darija
+2025-05-10 03:49:14,058 - newsletter_api - INFO - Loaded CSS for english
+2025-05-10 03:49:14,058 - newsletter_api - INFO - Loaded template for english
+2025-05-10 03:49:14,058 - newsletter_api - INFO - Loaded CSS for french
+2025-05-10 03:49:14,058 - newsletter_api - INFO - Loaded template for french
+2025-05-10 03:49:14,064 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-10 03:49:21,219 - newsletter_api - INFO - Retrieved 6 email recipients
+2025-05-10 03:49:21,784 - newsletter_api - INFO - Email sent successfully to MohamedAmine.kalai315@gmail.com
+2025-05-10 03:49:21,942 - newsletter_api - INFO - Email sent successfully to spacewok315@gmail.com
+2025-05-10 03:49:22,097 - newsletter_api - INFO - Email sent successfully to spacework315@gmail.com
+2025-05-10 03:49:22,252 - newsletter_api - INFO - Email sent successfully to bouchanass3@gmail.com
+2025-05-10 03:49:22,412 - newsletter_api - INFO - Email sent successfully to anass.amchaar14@gmail.com
+2025-05-10 03:49:24,235 - newsletter_api - INFO - Email sent successfully to mohamedamine.kalai713@gmail.com
+2025-05-10 03:49:24,236 - newsletter_api - INFO - Email sending complete. Success: 6, Failed: 0
